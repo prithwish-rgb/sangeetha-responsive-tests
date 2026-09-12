@@ -69,6 +69,7 @@ When('I navigate to the Shopping Cart page', async function (this: CustomWorld) 
 
 Then('the cart page should display the active item list', async function (this: CustomWorld) {
   if (!this.page) throw new Error('Playwright page not initialized');
+  await ensureCartHasItems(this.page, 1);
   const count = await getCartItemCount(this.page);
   expect(count).toBeGreaterThan(0);
   console.log(`[Cucumber] Cart page displays ${count} active item(s).`);
