@@ -37,13 +37,13 @@ Feature: Production Customer Shopping Journey & Design Validation
   # --- STEP 5 & 6: PDP, VARIANTS & ADD TO CART ---
   @journey-05 @pdp @variants
   Scenario: Customer views product details and switches product variants
-    When I open the product details page "/product-details/oppo-find-x9s-5g-12gb-256gb-lavender-sky-findx9s5g12256gbls/20628"
+    When I open the product details page "/product-details/oppo-a6-5g-6gb-128gb-sakura-pink-in-smartphones-oppo-a6-6-128-spn/21036"
     Then the product details page should display the product title, image gallery, and selling price
     And the Add to Cart CTA button should be visible and clickable
 
   @journey-06 @cart @add-to-cart
   Scenario: Customer adds a product to the cart from PDP
-    When I open the product details page "/product-details/oppo-find-x9s-5g-12gb-256gb-lavender-sky-findx9s5g12256gbls/20628"
+    When I open the product details page "/product-details/oppo-a6-5g-6gb-128gb-sakura-pink-in-smartphones-oppo-a6-6-128-spn/21036"
     And I click the Add to Cart button
     Then the product should be added to the cart session
 
@@ -81,7 +81,7 @@ Feature: Production Customer Shopping Journey & Design Validation
   Scenario: Complete customer journey from Homepage through Search, PDP, Cart, Checkout, and Payment
     When I open the location selector modal
     And I enter and check the valid delivery pincode "560078"
-    When I open the product details page "/product-details/oppo-find-x9s-5g-12gb-256gb-lavender-sky-findx9s5g12256gbls/20628"
+    When I open the product details page "/product-details/oppo-a6-5g-6gb-128gb-sakura-pink-in-smartphones-oppo-a6-6-128-spn/21036"
     Then the product details page should display the product title, image gallery, and selling price
     When I click the Add to Cart button
     When I navigate to the Shopping Cart page

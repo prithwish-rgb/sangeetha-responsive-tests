@@ -173,6 +173,18 @@ Then('the product listing page should render product cards with images, titles, 
 
 When('I open the product details page {string}', async function (this: CustomWorld, route: string) {
   if (!this.page) throw new Error('Page not initialized');
+  await this.page.route('**/b/customer/api/placeholder/product/list', async (r: any) => {
+    const req = r.request();
+    let postData = req.postDataJSON() || {};
+    if (!postData.pinCode) postData.pinCode = '560078';
+    await r.continue({ postData: JSON.stringify(postData) });
+  }).catch(() => {});
+  await this.page.route('**/b/customer/api/v3/product-eta-details', async (r: any) => {
+    const req = r.request();
+    let postData = req.postDataJSON() || {};
+    if (!postData.pinCode) postData.pinCode = '560078';
+    await r.continue({ postData: JSON.stringify(postData) });
+  }).catch(() => {});
   await this.page.goto(`https://www.sangeetha.com${route}`, { waitUntil: 'domcontentloaded', timeout: 35000 });
   await this.page.waitForTimeout(3000);
   await dismissBlockingPopups(this.page);
