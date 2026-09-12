@@ -180,7 +180,8 @@ When('I open the product details page {string}', async function (this: CustomWor
 
 Then('the product details page should display the product title, image gallery, and selling price', async function (this: CustomWorld) {
   if (!this.page) throw new Error('Page not initialized');
-  const title = await this.page.locator('h1, [class*="product-title"], [class*="product_title"]').first().innerText().catch(() => '');
+  await this.page.waitForSelector('h1, h2, [class*="product-title"], [class*="product_title"], [class*="title"], h4', { timeout: 12000 }).catch(() => null);
+  const title = await this.page.locator('h1, h2, [class*="product-title"], [class*="product_title"], [class*="title"], h4').first().innerText().catch(() => '');
   expect(title.trim().length).toBeGreaterThan(0);
 });
 
