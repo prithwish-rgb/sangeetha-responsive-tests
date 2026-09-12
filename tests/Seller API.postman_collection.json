@@ -1,0 +1,3156 @@
+{
+  "info": {
+    "_postman_id": "ee548c53-3a8c-4e5f-98e6-93b243544082",
+    "name": "Seller API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "49968650",
+    "_collection_link": "https://go.postman.co/collection/49968650-ee548c53-3a8c-4e5f-98e6-93b243544082?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "All API's-stage",
+      "item": [
+        {
+          "name": "get_latlng_address",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "Pincode_eta_check",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "1@Nu35dfLVK2@Q7EYlvt*7Pi5tYk6q6Tu&5eXm7WyNml7n3DwoY9EUZEh&0(v@0Z"
+              },
+              {
+                "key": "number2",
+                "value": "1n@k0wCfjt(2u@sE5k&Fs3dd13iL&S8cs3ymk4O3Zb#62*ow2RCBL1zGrC^4@K2BcZ"
+              },
+              {
+                "key": "origin",
+                "value": "https://www.sangeethamobiles.com"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://www.sangeethamobiles.com/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "maketiina_user=b666e3c7-1c26-4ef0-8e05-8c1c22b2c710; page_refreshed=true; cookieAllowed=accepted; supersession=62017395; _clck=598t8z%5E2%5Eg8j%5E0%5E2403; superauserwritematrix=6092053d-9bc6-40f3-b483-a9396c790aa4; _gcl_aw=GCL.1787547824.CjwKCAjwtKrUBhAhEiwAr77ZotCSVYKJsH_owt19CDeTPY16qTVs5baRBmeUv_Kb3JMpApb8j9oMpRoC2VMQAvD_BwE; _gcl_gs=2.1.k1$i1787547820$u229805150; _gid=GA1.2.59424300.1787547824; _gac_UA-99031537-1=1.1787547824.CjwKCAjwtKrUBhAhEiwAr77ZotCSVYKJsH_owt19CDeTPY16qTVs5baRBmeUv_Kb3JMpApb8j9oMpRoC2VMQAvD_BwE; _ga_VHD3FT53LW=GS2.1.s1787547823$o2$g0$t1787547825$j58$l0$h0; sanUserCode=5622a4a6-34a5-4ace-9443-2f7fe52ece14-1787547839573; _gat_UA-99031537-1=1; _ga=GA1.1.1968312106.1785503054; _gcl_au=1.1.496493672.1785503036.-.-.1787721474.1026560244.1787721434.1787734795; ph_phc_5gTb5cKyB4bpGngoJtohVMdhYYJ9lyNEm8vJFXCkaH7_posthog=%7B%22distinct_id%22%3A%2201a03d4c-1b44-7665-999f-a13038b3c12e%22%2C%22%24sesid%22%3A%5B1787734795736%2C%2201a03d4c-1b9f-7b00-b96d-0ac8ae3abf4c%22%2C1787734793119%5D%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fwww.sangeethamobiles.com%2Faccount%22%7D%7D; _ga_CQXE8JQC0V=GS2.1.s1787734779$o65$g1$t1787734796$j43$l0$h0; AWSALBTG=wSbwlIIfPnyP6Y8t9p3Yqhps4W/IUL2RVxmFhDmfchOTmKVckg1UfEAIxVKtApGUnlQtD/X8YWWEwqhvib5SEwGdIGv+v39ML3EqRNs+BTWwVJIky7JnsYJ/PHMYNlMipd0Ed4hZQGTUNuHSF9PQc3hVBOds1AfeYU6ec+iKMo+U; AWSALBTGCORS=wSbwlIIfPnyP6Y8t9p3Yqhps4W/IUL2RVxmFhDmfchOTmKVckg1UfEAIxVKtApGUnlQtD/X8YWWEwqhvib5SEwGdIGv+v39ML3EqRNs+BTWwVJIky7JnsYJ/PHMYNlMipd0Ed4hZQGTUNuHSF9PQc3hVBOds1AfeYU6ec+iKMo+U; AWSALB=mTkAhKQhb95+7e7/T2y55pFe2A1rDg57JKM4CMDfZGhUrjE6g4cFVUCBNSqBP8k5cZsKBZFk/IZxQTlw9IAJuLYgyYlOm0xnNmPQj4NKbOzBE72VS1KMxGwzz/27; AWSALBCORS=mTkAhKQhb95+7e7/T2y55pFe2A1rDg57JKM4CMDfZGhUrjE6g4cFVUCBNSqBP8k5cZsKBZFk/IZxQTlw9IAJuLYgyYlOm0xnNmPQj4NKbOzBE72VS1KMxGwzz/27"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"pinCode\":\"560078\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://www.sangeethamobiles.com/b/pims/data-model/pincode-eta-check",
+              "protocol": "https",
+              "host": [
+                "www",
+                "sangeethamobiles",
+                "com"
+              ],
+              "path": [
+                "b",
+                "pims",
+                "data-model",
+                "pincode-eta-check"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Home page 5",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "2BU2o8Hdhpr9)8z5L^zYQV0DMd^2WZ2N(4ErOovjG7Hxo(N6Fwqa3RkpvO&1JmUGDs0flh"
+              },
+              {
+                "key": "number2",
+                "value": "5SQs*9RTq1b#P&cMg(9(aVPcnt7iAe0JqM14(FT3v#9JsH3Erp3bFPy3uJUCh0()s8l7xHe((r"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735003534%5E1%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735011988%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"user_location\":\"Bengaluru\",\"user_id\":\"65074214\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"126115\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/position/new/home/5",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "position",
+                "new",
+                "home",
+                "5"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Eta-home",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "1jYBmeop8XD2YyIQD6XyE6$6Oe0b&7Zlnb1gp4*o9AGVy8Wi#7I29bGH7U*D"
+              },
+              {
+                "key": "number2",
+                "value": "6gm5BF03Trzsns1H4E6Q1!MCX9GHrFg46nl^8U*tkl4S9KBz3mOO5L^W"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_0hkq}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735003534%5E1%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735011988%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"user_location\":\"Bengaluru\",\"user_id\":\"65074214\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"126115\",\"block\":\"block_5\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/position/new/home/5/eta",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "position",
+                "new",
+                "home",
+                "5",
+                "eta"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "custo info",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "1nD4eKJM7hM#oy2f7PKQah3*mfXQ4HK5a5DTV4&ybqx3BGHEH2HBg6RYc7fb5efj"
+              },
+              {
+                "key": "number2",
+                "value": "2SOxy9^7FVQQ3g^i5nH)1rtE*7Zq@pD5YV!!qF9&zK9$I(GTp8sUy8w!Q9&h0fVy5hsr5Um"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_0hkq}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735011988%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D; _clsk=1h7arf5%5E1787735013293%5E2%5E1%5Ez.clarity.ms%2Fcollect"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/api/customer-care-info",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "api",
+                "customer-care-info"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "category",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "6&a3Iydw4uV1P^x(1S6hxxd2G!0RCvM1u1kO4gPdNNy4VJjoXF71xCc5)c"
+              },
+              {
+                "key": "number2",
+                "value": "1irK8IPoV@3$y3GR1LDIMQs#4UU!bfkA0#gW5vYSP5^BeF9hHfzEQ9JTAe9(mCY97sqk1W4"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/product-list/category-smartphones-308"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_0hkq}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735452574%5E5%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735453040%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"placeholder_id\":\"\",\"category_id\":\"308\",\"brand_id\":\"\",\"bank_offer_id\":\"\",\"position_id\":\"\",\"group_ids\":[],\"keyword\":\"\",\"flag\":\"\",\"menu_id\":\"\",\"menu_type\":\"\",\"menu_type_value\":\"\",\"offset\":\"0\",\"limit\":\"30\",\"pinCode\":\"126115\",\"user_id\":\"65074214\",\"selected_attributes\":{},\"sort_by\":\"\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/placeholder/product/list",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "placeholder",
+                "product",
+                "list"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Wishlist",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "1SySQz6D@5nTY86UH5*4TjyuywM3KP9L(Tx86F1dD9Me#4f3qhwyw6UNHL"
+              },
+              {
+                "key": "number2",
+                "value": "6PRS2GQ$1MT#7CazSx8OGcRD2v7Ildj9hKAxA7#GN6*6)z@1s&8@nduc2kd9GDBfC4ki"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/product-list/category-smartphones-308"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735452574%5E5%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735454079%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"product_id\":[],\"user_id\":\"65074214\",\"jwt_token\":\"\",\"client_id\":\"SangeethaMobilesSA\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/oms/is-wishlisted",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "oms",
+                "is-wishlisted"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "gen-auth",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "1Nwv8nnnp1r1GL&9O22#PN3v9cAA4EGRGPj#5OW0dVBVU6Z$mnm2aw$Ql(7!id&qS&B6Rp"
+              },
+              {
+                "key": "number2",
+                "value": "6ar*3qL&1mn*&u*2SNj1#WOxg5S5b7q7GVY3xhMfdC05oHH7l0g@qWot$7lmqCJ&"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/product-list/category-smartphones-308"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_0hkq}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735452574%5E5%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735453040%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"client_id\":\"SangeethaMobilesSA\",\"secret_key\":\"68ddc5c0741b040954e49bcfee7e4cfbf550073b980b89dc4b72172c590656a3\",\"user_id\":\"65074214\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://stage-web.sangeethamobiles.in/b/api/generate-auth",
+              "protocol": "https",
+              "host": [
+                "stage-web",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "b",
+                "api",
+                "generate-auth"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "product_details",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "15iSls6RAHz8CfiM3^#f4B3G5GpP^(G1c1CW)6B2Y)*eet3yDJl@8(o10U#xjXGcak"
+              },
+              {
+                "key": "number2",
+                "value": "2PHa21Z7XI&9^xsG2V)A5crG7Y&m9BnQjMq&5eXhdJ3V)gdFEqq3wl7^5BM3nK2Z)it"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/product-details/google-pixel-10-12gb-256gb-indigo-glsp500052/19531"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_0hkq}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735454581%5E6%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735559349%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"product_id\":\"19531\",\"pinCode\":\"126115\",\"user_id\":\"65074214\",\"user_location\":\"Bengaluru\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/v3/product-details",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "v3",
+                "product-details"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Product_eta detail",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "2eor0s@Oe8a(1@Wc7kV8plEK!7FR(i31!zQ8wG&7lgf4Ca5WXC0X5F0Gpq"
+              },
+              {
+                "key": "number2",
+                "value": "4pm$&k8(hgAZ9VF^us9g^Ji0hZ0OoGdq1(Eqa0vGvTI8kJq^q1*dyI6V54Oe2&&4nfLi2@Equ"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/product-details/google-pixel-10-12gb-256gb-indigo-glsp500052/19531"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_0hkq}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735454581%5E6%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735559349%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"product_id\":\"19531\",\"pinCode\":\"126115\",\"user_id\":\"65074214\",\"user_location\":\"Bengaluru\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/v3/product-eta-details",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "v3",
+                "product-eta-details"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Price list",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "1eN7C9lKulQxCg5YM65hbt2o63KJr8d4nGFe0qlj4#zZNw8xVwz&jK0Aiw$*T1umtP"
+              },
+              {
+                "key": "number2",
+                "value": "1x$gXMY0tF&sjq6phvY&3n^5Dlz&I2j75^k6kWe4Ide&W8efCmbxFE#0h3i)Dv3T9nYvzS5)"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/product-details/google-pixel-10-12gb-256gb-indigo-glsp500052/19531"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_0hkq}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735454581%5E6%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735559349%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"product_id\":\"19531\",\"pinCode\":\"126115\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/v1/product/price-list",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "v1",
+                "product",
+                "price-list"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get_cust_address",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "key": "number1",
+                "value": "76srzl!rbb7cpS6Mtug8goMi$0jcG32TQd0tYuJN597K1RZe7NV#tJ#0L"
+              },
+              {
+                "key": "number2",
+                "value": "1WQ1#oin!l1HPx9PWKe)894nRMXr5(JA*2tx5B48FZTP(0Lbog*Q1AbF2pr8*KsF6CwZn"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/product-details/google-pixel-10-12gb-256gb-indigo-glsp500052/19531"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735454581%5E6%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735559750%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "method",
+                  "type": "text",
+                  "value": "getCustomerAddress"
+                },
+                {
+                  "key": "data",
+                  "type": "text",
+                  "value": "{\"customerMobile\":\"9966668295\",\"customerId\":\"65074214\",\"jwToken\":\"{{json_web_token_0l8l}}\"}"
+                }
+              ]
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/api/crm/getCustomerAddress",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "api",
+                "crm",
+                "getCustomerAddress"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "offers API",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "origin",
+                "value": "https://smpl-new.bangalore2.com"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://smpl-new.bangalore2.com/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "cross-site"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"products\":[{\"product_id\":17871,\"amount\":70999}],\"user_id\":\"65074214\",\"type\":\"pwa\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/offers/allV4",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "offers",
+                "allV4"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Customer_question_list",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "1Pg2TayT(L46!kd!x4efFQ8&W7*A2GdZ08Ow*@X6oy0UCYIB98lp@ka1Ol2"
+              },
+              {
+                "key": "number2",
+                "value": "7SAfem0(4gW46nUD5g4)FBaC3S(U6zhflHA8@(0#EGV5p1rJ2FMpt7UkS6lHHoK"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/product-details/google-pixel-10-12gb-256gb-indigo-glsp500052/19531"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_0hkq}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735560315%5E7%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735563088%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"product_id\":19531,\"user_id\":\"65074214\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/v3/get-customer-question-list",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "v3",
+                "get-customer-question-list"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Rating",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "1Ck0FX*l8si8Zd9bNtn4ZEo)g52IxsMn8W&qG4Pf9Z7xK1iZ30C2Q*g"
+              },
+              {
+                "key": "number2",
+                "value": "6g2^Ek&0Zl$37X@0o4x33cLcvmlp2(W*9N3rhIjR3^oYe4Tz1q3j"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/product-details/google-pixel-10-12gb-256gb-indigo-glsp500052/19531"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_0hkq}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735560315%5E7%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735563088%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"product_id\":19531,\"user_id\":\"65074214\",\"type\":\"pwa\",\"sort_by\":\"latest\",\"category\":\"\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/v3/get-product-rating",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "v3",
+                "get-product-rating"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "cart Update",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "2cs$0XJ5nG0S8Y3cOF2@3Bw7n^3Z!7GSn5m@p32nFjs7zXk*0"
+              },
+              {
+                "key": "number2",
+                "value": "1F5!Si#g0S@N(U)48lA#hf0L&xN79MkB71d!*&I0NsV7!z1YJc7xMsh7vMI5jd"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/product-details/google-pixel-10-12gb-256gb-indigo-glsp500052/17866"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787736173395%5E9%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787736202162%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"user_id\":\"65074214\",\"device_id\":\"\",\"pinCode\":\"500085\",\"pay_later\":\"0\",\"cart_products\":[{\"product_id\":17866,\"vas_ids\":[],\"exchange_product_id\":\"\",\"buyback_token\":\"\",\"buyback_amount\":\"\",\"bonus_amount\":\"\",\"quantity\":1}],\"jwt_token\":\"\",\"client_id\":\"SangeethaMobilesSA\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/cart/update",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "cart",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Cart list",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "5*tH(3v3P$5HVzl1bztE&5PiLO9lKFMd6btkw7B^zd0L1EVH4I7sueXzeuXV4i@GJe3dnNm!V"
+              },
+              {
+                "key": "number2",
+                "value": "4P)N5A8)6&&VQ6EFIi2Uu@sfR5#DFq3@jE4!DlUsF$l5aAvu8D7^k)Xda0wxi@2mCp4@LG"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/cart"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787736253372%5E10%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787736259123%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"user_id\":\"65074214\",\"pinCode\":\"500085\",\"user_phone\":\"9966668295\",\"jwt_token\":\"{{json_web_token_0l8l}}\",\"utm_details\":{},\"is_anniversary\":0,\"latitude\":\"17.4880859\",\"longitude\":\"78.3820674\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/cart/list",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "cart",
+                "list"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "List save later",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "8R3Oefuaq8zgGo7jz@7De!1wzF^E4V21jQdz4)PRc5*Z^)Nx7YT9h7Ejzn6MT"
+              },
+              {
+                "key": "number2",
+                "value": "3c@Tjzs5vw9cN$76Da9i7&GS#le3DizIGM0@mjO!TB2kcFi8FE6WR92tvAfm3xK8Wk^H"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/cart"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787736259123%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D; _clsk=1h7arf5%5E1787736260330%5E11%5E1%5Ez.clarity.ms%2Fcollect"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"user_id\":\"65074214\",\"pinCode\":\"500085\",\"user_phone\":\"9966668295\",\"jwt_token\":\"\",\"utm_details\":{},\"is_anniversary\":0,\"latitude\":\"17.4880859\",\"longitude\":\"78.3820674\",\"payment_slug\":\"\",\"parent_payment_slug\":\"\",\"bin_no\":\"\",\"page_type\":\"cart\",\"client_id\":\"SangeethaMobilesSA\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/oms/list_savelateritem",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "oms",
+                "list_savelateritem"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "cart summary",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "8w66*86)P0G7M3PVyF0ut3oVg2(v4X!Sg2V7Xl!ds9bl"
+              },
+              {
+                "key": "number2",
+                "value": "7B2ixu1aK^hk33sqYH7m(&zZhH7jyx^4r7j*ILWj57Wi6nJd8N4llgk8C6WB"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/cart"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787736259123%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D; _clsk=1h7arf5%5E1787736260330%5E11%5E1%5Ez.clarity.ms%2Fcollect"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"user_id\":\"65074214\",\"pinCode\":\"500085\",\"user_phone\":\"9966668295\",\"jwt_token\":\"{{json_web_token_0l8l}}\",\"utm_details\":{},\"is_anniversary\":0,\"latitude\":\"17.4880859\",\"longitude\":\"78.3820674\",\"payment_slug\":\"\",\"parent_payment_slug\":\"\",\"bin_no\":\"\",\"page_type\":\"cart\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/cart-summary",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "cart-summary"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Payment page",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "Authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "Referer",
+                "value": "https://stage-web.sangeethamobiles.in/checkout-payment"
+              },
+              {
+                "key": "number1",
+                "value": "2CB$F1kFmY5!5Be1JIM@6Usy9QUNY6SX#6Rd7E7B@J0$1EHgm$6pRl89LB^t"
+              },
+              {
+                "key": "number2",
+                "value": "7#Ma9vvD1VWfFZ9h3cU6cbD7FIF@5fc(onR3)aj!p6$i^EmV8dm2*b1A6TecY4FN7NxYp"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "clientId",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "User-Agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "SourceId",
+                "value": "1"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"user_id\":\"65074214\",\"pinCode\":\"500085\",\"latitude\":\"17.4880859\",\"longitude\":\"78.3820674\",\"utm_details\":{},\"address_id\":\"17342\",\"type\":\"pwa\",\"user_agent\":{\"browser\":\"Mobile Safari\",\"deviceType\":\"mobile\",\"os\":\"iOS\",\"engine\":\"WebKit\",\"isMobile\":true,\"isTablet\":false,\"isIos\":true,\"source\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\",\"deviceVendor\":\"Apple\",\"osVersion\":18,\"browserVersion\":18.5,\"engineVersion\":605.1,\"isIphone\":true,\"isIpad\":false,\"isDesktop\":false,\"isChrome\":false,\"isFirefox\":false,\"isSafari\":false,\"isIE\":false,\"isEdge\":false,\"isOpera\":false,\"isMac\":false,\"isChromeOS\":false,\"isWindows\":false,\"isAndroid\":false,\"isBot\":false},\"detected_ip\":\"14.195.139.254\",\"is_anniversary\":0,\"is_exchange\":0}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/api/payment-page-details-v4",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "api",
+                "payment-page-details-v4"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "whislist count",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "1)m(jZ9a8J8Fj1p9mt(GRJC8MvF8lk8y0T1(Pdu5Rsk0ny5YU!Xoo@6!B4Xi$Ur"
+              },
+              {
+                "key": "number2",
+                "value": "3NR4i!m1LHz56PBn)@98gbdf8M4x#R!eEF8$t*fU3sjb^00c$2^D7Vp9noHW"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/checkout-payment"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787736450168%5E13%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787736522765%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"user_id\":\"65074214\",\"type\":\"pwa\",\"jwt_token\":\"\",\"client_id\":\"SangeethaMobilesSA\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/customer/api/get-cart-wishlist-count",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "customer",
+                "api",
+                "get-cart-wishlist-count"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "get cust offers",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json, text/plain, */*"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "key": "number1",
+                "value": "1c6DA4F(O8#F4YHN5skn0X^ep8Rn3zJeHh6aMX*8Dxfa0e)(2hZ9(f0&W7w@xbZY"
+              },
+              {
+                "key": "number2",
+                "value": "4rj!B4laJ9(mE!4QBhk8P(o)HurT5grF9l^5fR0iNVU!RF3k!0&iJ!69@dHdN3e0S)2ASLrbX"
+              },
+              {
+                "key": "origin",
+                "value": "https://stage-web.sangeethamobiles.in"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://stage-web.sangeethamobiles.in/cart"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "same-origin"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              },
+              {
+                "key": "Cookie",
+                "value": "cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787736523759%5E14%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787736945772%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "method",
+                  "type": "text",
+                  "value": "getCustomerAddress"
+                },
+                {
+                  "key": "data",
+                  "type": "text",
+                  "value": "{\"customerMobile\":\"9966668295\",\"customerId\":\"65074214\",\"jwToken\":\"{{json_web_token_0l8l}}\"}"
+                }
+              ]
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/api/crm/getCustomerAddress",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "api",
+                "crm",
+                "getCustomerAddress"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Card details",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "4qy$#4ep5b4cwE5X*4NU4MZ$GZ8mZzrx9LUeGG0bTy0bRMAA7Sa$7SbpqP1X@f2ycOLW"
+              },
+              {
+                "key": "number2",
+                "value": "6VBI(f9FQ@n9Q7cW0xw*K7kl^4GwX2)1(s5AAyB(Y2uN8r6&D^5$ye3AT4yB$&tcdIm"
+              },
+              {
+                "key": "origin",
+                "value": "https://smpl-new.bangalore2.com"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://smpl-new.bangalore2.com/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "cross-site"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_1ajj}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"user_id\":\"65074214\",\"card_no\":\"4375467100366475\",\"amount\":70999,\"jwt_token\":\"\",\"client_id\":\"SangeethaMobilesSA\",\"type\":\"pwa\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/v4/pinelabs-custom/card-details",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "v4",
+                "pinelabs-custom",
+                "card-details"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Order",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "4sVK5v@3$ci@T^1QBT(X5kNxyRQ5Vu8)ZQnk0hdP3v$4U8!ESn^m0wGJ6u4xm#rj1VIONUm"
+              },
+              {
+                "key": "number2",
+                "value": "3xjYp2L9oj6!AsfK$1!rIA0q9KaU5uYas6gS^5qw9XGWGV3KvqR5lE*dIBOZl0w5sZGr2wR"
+              },
+              {
+                "key": "origin",
+                "value": "https://smpl-new.bangalore2.com"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://smpl-new.bangalore2.com/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "cross-site"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_1ajj}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"user_id\":\"65074214\",\"type\":\"pwa\",\"user_selected_address\":\"17342\",\"is_gst_invoice\":\"0\",\"gst_company_name\":\"\",\"gst_number\":\"\",\"is_send_gift\":\"0\",\"gift_description\":\"\",\"gift_amount\":\"0.00\",\"delivery_charge\":\"0.00\",\"grand_total\":\"70999.00\",\"transaction_mode\":\"creditdebit-card\",\"parent_payment_slug\":\"pay_with_card_emi\",\"user_login_mobile_no\":\"9966668295\",\"user_phone\":\"9966668295\",\"jwt_token\":\"{{json_web_token_1cdz}}\",\"is_cod\":\"0\",\"is_emi\":\"0\",\"emi_tenure\":\"0\",\"emi_bank_code\":\"0\",\"is_exchange\":\"0\",\"is_nbfc\":\"0\",\"nbfc_name\":\"\",\"is_prebooking\":\"0\",\"sa_payment_callback_url\":\"https://smpl-new.bangalore2.com/order-status/\",\"captcha\":\"\",\"bajaj_request_id\":\"\",\"product_details\":[{\"product_id\":17871,\"item_fullname\":\"Apple iPhone 16 128GB Teal\",\"mrp\":\"79900.00\",\"mop\":\"74899.00\",\"sale_price\":\"70999.00\",\"is_pincode_pricing\":0,\"item_code\":\"MYED3HN/A\",\"color\":\"Teal\",\"subcategory1_id\":308,\"subcategory2_id\":310,\"channel_discount\":0,\"cgst\":\"9\",\"igst\":\"18\",\"sgst\":\"9\",\"category_id\":1,\"category_name\":\"Mobiles\",\"item_weight\":null,\"teaser_price\":null,\"teaser_start_date\":null,\"is_exchange\":1,\"exchange_value\":\"10000.00\",\"cod_limit\":1,\"applied_teaser\":\"teaser_1\",\"product_ship_flag\":1,\"product_ship_amount\":100,\"effective_mop_start_date\":null,\"effective_mop_end_date\":null,\"effective_mop\":null,\"effective_text\":null,\"brand_name\":\"Apple\",\"brand_id\":6,\"is_service_sku\":1,\"is_vas\":null,\"is_not_serviceable\":\"0\",\"category_shipping_amount\":null,\"pay_later\":null,\"flow_bundle\":0,\"parent_product_product_id\":null,\"parent_product_item_code\":null,\"drop_shipment\":0,\"in_stock\":1,\"is_pims_product\":1,\"h_price\":\"0.00\",\"c_price\":\"0.00\",\"prebook_eta\":null,\"sub_title\":\"Teal, 128GB\",\"image_url\":\"https://smpl-stage-web.gumlet.io/product_thumb/68c149733b5b1.png\",\"action_url\":\"https://stage-web.sangeethamobiles.in/products/Apple-iPhone-16-128GB-Teal/17871\",\"action_text\":null,\"discounts\":null,\"is_wishlist\":true,\"is_compare\":false,\"exchange\":{\"icon\":\"https://smpl-stage-web.gumlet.io/general_settings/exchange_icon/1654502655.jpg\",\"text\":\"Upto 10000.00 Off on exchange\"},\"default_icon\":\"https://sangeetha-test.gumlet.io/default/default_icon.png\",\"currency\":\"₹\",\"category_offer\":[],\"flags\":[],\"cart_list_trust_makers\":[],\"bundle_offer_products\":[],\"exchange_product\":[],\"vas_product\":null,\"nfm_details\":[],\"product_eta\":{\"pincode\":\"\",\"item_code\":\"\",\"stock_status\":\"Instock\",\"eta\":\"6 hrs\",\"level\":\"\",\"is_drop_shipment\":\"\",\"store_code\":\"\",\"eta_date\":null,\"eta_title\":\"Delivery in 6 Hrs\",\"eta_title_2\":\"\",\"eta_time_msg\":\"Delivery in 6 Hrs\",\"out_of_stock_msg\":\"\",\"quantity\":0},\"delivery_details\":{\"image\":\"https://sangeetha-test.gumlet.io/default/default_icon.png\",\"text\":\"24 hrs\",\"level\":\"blue_dart\",\"sub_text_color\":\"#4CAF50\",\"sub_text\":\"Delivery in 6 Hrs\"},\"prebooking\":\"1\",\"booking_description\":null,\"show_stock_message\":false,\"stock_message\":\"\",\"stock_message_color_code\":\"#000000\",\"category_discount\":null,\"prebook_details\":[],\"is_samsung_category\":false,\"pincode_sale_price\":\"70999.00\",\"flow_bundle_list\":null,\"is_category_offer_applied\":false,\"cart_id\":6497,\"quantity\":1,\"product_type\":\"exchange\",\"response_message\":\"1 items removed from cart and added to save for later\",\"applied_exchange_product\":null,\"rate\":\"74899.00\",\"gst\":\"11425.27\",\"deal_price\":66999}],\"utm_details\":{},\"user_agent\":{\"browser\":\"Mobile Safari\",\"deviceType\":\"mobile\",\"os\":\"iOS\",\"engine\":\"WebKit\",\"isMobile\":true,\"isTablet\":false,\"isIos\":true,\"source\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1\",\"deviceVendor\":\"Apple\",\"osVersion\":18,\"browserVersion\":18.5,\"engineVersion\":605.1,\"isIphone\":true,\"isIpad\":false,\"isDesktop\":false,\"isChrome\":false,\"isFirefox\":false,\"isSafari\":false,\"isIE\":false,\"isEdge\":false,\"isOpera\":false,\"isMac\":false,\"isChromeOS\":false,\"isWindows\":false,\"isAndroid\":false,\"isBot\":false},\"detected_ip\":\"::ffff:127.0.0.1\",\"down_payment\":\"0\",\"processing_fee_flag\":\"0\",\"processing_fee\":\"\",\"hdb_trackingId\":\"\",\"hdb_referenceId\":\"\",\"idfc_transactionId\":\"\",\"idfc_sfdcId\":\"\",\"total_before_discount\":\"70999.00\",\"shipping_value\":\"0\",\"scheme_id\":\"\",\"client_id\":\"\",\"bluedart_serviceability\":\"No\",\"anniversary_applicable\":\"0\",\"damage_protection\":\"0\",\"is_anniversary\":0,\"vpa_id\":\"\",\"card_token\":\"\",\"item_info\":\"Mwa4Xm43zvwpqJ8e9L+rEqNY4fvQrgO+Mo6sI2Zxg9cZ/Gh0k2NmwjJCXc02GL9nGDuj8oxyNyKT4T85WJZV496cwwDY6b8enuApOW9IKStN7+j7yy2RXe5T5meuE9TUQqPulC00siXZP2AbfIsqbZtFF+bazwF/9h0shUYA2tX8jVag/p58lYct5vRlCchIprMRgnm91rouS8m3I/VORg==\",\"verification_value\":\"713\",\"selected_emi_tenure\":\"\",\"pay_with_emi\":0,\"polybag_charge\":\"0.00\",\"gyfter_otp\":\"\",\"gyfter_amount\":\"\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/oms/create-orderV2",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "oms",
+                "create-orderV2"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "order list",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "6ol0t0AiPPq9I*xn8^ow3bKoszx3pn4Yj1O7U*I3jTRc6wS#wS0c5dH4jmSY"
+              },
+              {
+                "key": "number2",
+                "value": "8jTt4IhHC6G*&N1TG^P2@96l7Q&X2C2W9SWzAO4(kr1hrZ56jAe3sYt&D"
+              },
+              {
+                "key": "origin",
+                "value": "https://smpl-new.bangalore2.com"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://smpl-new.bangalore2.com/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "cross-site"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_1ajj}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"type\":\"pwa\",\"user_location\":\"Bengaluru\",\"user_id\":\"65074214\",\"pinCode\":\"560070\",\"offset\":\"0\",\"limit\":\"10\",\"jwt_token\":\"\",\"client_id\":\"SangeethaMobilesSA\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/oms/myorder_list",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "oms",
+                "myorder_list"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "order_detail",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/json"
+              },
+              {
+                "key": "number1",
+                "value": "73j7oqEWb2owrF1pax2HlHv2Q9pc9vbEkg7nDDdTD2OSn2*GzpV3Fj2H9vJNP"
+              },
+              {
+                "key": "number2",
+                "value": "1OI@0jvn6lxk8!LL2FOH&fK6dD2jS8J(99H5rgI3U!l8Ut9yQu0u6W^e4JP"
+              },
+              {
+                "key": "origin",
+                "value": "https://smpl-new.bangalore2.com"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://smpl-new.bangalore2.com/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "cross-site"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_1ajj}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"user_id\":\"65074214\",\"sale_id\":\"35675\",\"type\":\"pwa\",\"jwt_token\":\"\",\"client_id\":\"SangeethaMobilesSA\"}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://stage-web.sangeethamobiles.in/b/oms/myorder/details",
+              "protocol": "https",
+              "host": [
+                "stage-web",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "b",
+                "oms",
+                "myorder",
+                "details"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "send otp",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "key": "number1",
+                "value": "3xp7GIW3wd62xS3S8bMyjSVs3w9L1eRBVx7UqQ2JXSw8LY7K^R"
+              },
+              {
+                "key": "number2",
+                "value": "1UEod1E)89$Q5Gd1kzFa7dAkI13z3#$9@Rj2KZ5RViJDvm9p5Vz*hW3SyHti2GlV"
+              },
+              {
+                "key": "origin",
+                "value": "https://smpl-new.bangalore2.com"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://smpl-new.bangalore2.com/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "cross-site"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_03yl}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "method",
+                  "type": "text",
+                  "value": "sendOtp"
+                },
+                {
+                  "key": "data",
+                  "type": "text",
+                  "value": "{\"customerMobile\":\"9966668295\"}"
+                }
+              ]
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/api/crm/sendOtp",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "api",
+                "crm",
+                "sendOtp"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Auth otp API",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "key": "number1",
+                "value": "5Ka9!tU)4snluq8^dk2X2U2!3zpV4*0y1&^Q(7kS2Qyi!6Ac9rTM^qb"
+              },
+              {
+                "key": "number2",
+                "value": "1TS0x0YbfV2UTDlwk8bvdfXr984m$b)Cg9B9@Y9Ddbzx26jaroU70s^Qt2LT)C0kXv"
+              },
+              {
+                "key": "origin",
+                "value": "https://smpl-new.bangalore2.com"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://smpl-new.bangalore2.com/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "cross-site"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_03yl}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "method",
+                  "type": "text",
+                  "value": "authenticateOTP"
+                },
+                {
+                  "key": "data",
+                  "type": "text",
+                  "value": "{\"customerMobile\":\"9966668295\",\"otp\":\"684853\"}"
+                }
+              ]
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/api/crm/authenticateOTP",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "api",
+                "crm",
+                "authenticateOTP"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "https://apigateway-stage.sangeethamobiles.in/api/crm/checkLogin",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "accept",
+                "value": "application/json"
+              },
+              {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.9"
+              },
+              {
+                "key": "authorization",
+                "value": "UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl"
+              },
+              {
+                "key": "clientid",
+                "value": "sangeethamobiles"
+              },
+              {
+                "key": "content-type",
+                "value": "application/x-www-form-urlencoded"
+              },
+              {
+                "key": "number1",
+                "value": "1qc7xATG7p5&p96x**zqYNw#2B*edYW0$A#2RVt*y7QXXY3YL#M6QWp(4Bs7CB2h*gt4H"
+              },
+              {
+                "key": "number2",
+                "value": "3SgbId3nC#G8eay)8(dO7Ej5)KO9(ceZS14oDX2sZJV4I6qnH0t06QmtZ"
+              },
+              {
+                "key": "origin",
+                "value": "https://smpl-new.bangalore2.com"
+              },
+              {
+                "key": "priority",
+                "value": "u=1, i"
+              },
+              {
+                "key": "referer",
+                "value": "https://smpl-new.bangalore2.com/"
+              },
+              {
+                "key": "sec-ch-ua",
+                "value": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\""
+              },
+              {
+                "key": "sec-ch-ua-mobile",
+                "value": "?1"
+              },
+              {
+                "key": "sec-ch-ua-platform",
+                "value": "\"iOS\""
+              },
+              {
+                "key": "sec-fetch-dest",
+                "value": "empty"
+              },
+              {
+                "key": "sec-fetch-mode",
+                "value": "cors"
+              },
+              {
+                "key": "sec-fetch-site",
+                "value": "cross-site"
+              },
+              {
+                "key": "sourceid",
+                "value": "1"
+              },
+              {
+                "key": "token",
+                "value": "{{json_web_token_03yl}}"
+              },
+              {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "type": "text",
+                  "key": "method",
+                  "value": "checkLogin"
+                },
+                {
+                  "type": "text",
+                  "key": "data",
+                  "value": "{\"customerMobile\":\"9966668295\",\"jwToken\":\"{{json_web_token_11vh}}\"}"
+                }
+              ]
+            },
+            "url": {
+              "raw": "https://apigateway-stage.sangeethamobiles.in/api/crm/checkLogin",
+              "protocol": "https",
+              "host": [
+                "apigateway-stage",
+                "sangeethamobiles",
+                "in"
+              ],
+              "path": [
+                "api",
+                "crm",
+                "checkLogin"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "json_web_token_0fyu",
+      "secret": true,
+      "source": {
+        "provider": "postman",
+        "postman": {
+          "type": "cloud",
+          "secretId": "ff29a5ab-8ca3-407d-83bc-33b9184578a9",
+          "vaultId": "117f9569-2614-45af-9924-a94b53143af2"
+        }
+      }
+    },
+    {
+      "key": "json_web_token_0hkq",
+      "secret": true,
+      "source": {
+        "provider": "postman",
+        "postman": {
+          "type": "cloud",
+          "secretId": "7fac3950-f8dc-403e-ac09-368d78d36785",
+          "vaultId": "117f9569-2614-45af-9924-a94b53143af2"
+        }
+      }
+    },
+    {
+      "key": "json_web_token_0l8l",
+      "secret": true,
+      "source": {
+        "provider": "postman",
+        "postman": {
+          "type": "cloud",
+          "secretId": "e711881d-6441-4429-bec8-bb87c5061e97",
+          "vaultId": "117f9569-2614-45af-9924-a94b53143af2"
+        }
+      }
+    },
+    {
+      "key": "json_web_token_1ajj",
+      "secret": true,
+      "source": {
+        "provider": "postman",
+        "postman": {
+          "type": "cloud",
+          "secretId": "3f0a09dc-9ea9-47b5-afcc-9bcb3ac661ff",
+          "vaultId": "117f9569-2614-45af-9924-a94b53143af2"
+        }
+      }
+    },
+    {
+      "key": "json_web_token_1cdz",
+      "secret": true,
+      "source": {
+        "provider": "postman",
+        "postman": {
+          "type": "cloud",
+          "secretId": "0dca9c80-733b-4ae8-a6b1-6ecd7c20cf05",
+          "vaultId": "117f9569-2614-45af-9924-a94b53143af2"
+        }
+      }
+    },
+    {
+      "key": "json_web_token_03yl",
+      "secret": true,
+      "source": {
+        "provider": "postman",
+        "postman": {
+          "type": "cloud",
+          "secretId": "9e168b04-34d7-4fc7-bacc-4fc7fa2a633a",
+          "vaultId": "117f9569-2614-45af-9924-a94b53143af2"
+        }
+      }
+    },
+    {
+      "key": "json_web_token_11vh",
+      "secret": true,
+      "source": {
+        "provider": "postman",
+        "postman": {
+          "type": "cloud",
+          "secretId": "aca967a8-7f0c-4004-b79b-4adddc7ea1cc",
+          "vaultId": "117f9569-2614-45af-9924-a94b53143af2"
+        }
+      }
+    }
+  ]
+}

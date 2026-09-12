@@ -1,0 +1,49 @@
+$kind: http-request
+url: https://www.sangeethamobiles.com/b/pims/data-model/pincode-eta-check
+method: POST
+headers:
+  accept: application/json, text/plain, */*
+  accept-language: en-US,en;q=0.9
+  content-type: application/json
+  number1: 1@Nu35dfLVK2@Q7EYlvt*7Pi5tYk6q6Tu&5eXm7WyNml7n3DwoY9EUZEh&0(v@0Z
+  number2: 1n@k0wCfjt(2u@sE5k&Fs3dd13iL&S8cs3ymk4O3Zb#62*ow2RCBL1zGrC^4@K2BcZ
+  origin: https://www.sangeethamobiles.com
+  priority: u=1, i
+  referer: https://www.sangeethamobiles.com/
+  sec-ch-ua: '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"'
+  sec-ch-ua-mobile: ?1
+  sec-ch-ua-platform: '"iOS"'
+  sec-fetch-dest: empty
+  sec-fetch-mode: cors
+  sec-fetch-site: same-origin
+  user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+  Cookie: maketiina_user=b666e3c7-1c26-4ef0-8e05-8c1c22b2c710; page_refreshed=true; cookieAllowed=accepted; supersession=62017395; _clck=598t8z%5E2%5Eg8j%5E0%5E2403; superauserwritematrix=6092053d-9bc6-40f3-b483-a9396c790aa4; _gcl_aw=GCL.1787547824.CjwKCAjwtKrUBhAhEiwAr77ZotCSVYKJsH_owt19CDeTPY16qTVs5baRBmeUv_Kb3JMpApb8j9oMpRoC2VMQAvD_BwE; _gcl_gs=2.1.k1$i1787547820$u229805150; _gid=GA1.2.59424300.1787547824; _gac_UA-99031537-1=1.1787547824.CjwKCAjwtKrUBhAhEiwAr77ZotCSVYKJsH_owt19CDeTPY16qTVs5baRBmeUv_Kb3JMpApb8j9oMpRoC2VMQAvD_BwE; _ga_VHD3FT53LW=GS2.1.s1787547823$o2$g0$t1787547825$j58$l0$h0; sanUserCode=5622a4a6-34a5-4ace-9443-2f7fe52ece14-1787547839573; _gat_UA-99031537-1=1; _ga=GA1.1.1968312106.1785503054; _gcl_au=1.1.496493672.1785503036.-.-.1787721474.1026560244.1787721434.1787734795; ph_phc_5gTb5cKyB4bpGngoJtohVMdhYYJ9lyNEm8vJFXCkaH7_posthog=%7B%22distinct_id%22%3A%2201a03d4c-1b44-7665-999f-a13038b3c12e%22%2C%22%24sesid%22%3A%5B1787734795736%2C%2201a03d4c-1b9f-7b00-b96d-0ac8ae3abf4c%22%2C1787734793119%5D%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fwww.sangeethamobiles.com%2Faccount%22%7D%7D; _ga_CQXE8JQC0V=GS2.1.s1787734779$o65$g1$t1787734796$j43$l0$h0; AWSALBTG=wSbwlIIfPnyP6Y8t9p3Yqhps4W/IUL2RVxmFhDmfchOTmKVckg1UfEAIxVKtApGUnlQtD/X8YWWEwqhvib5SEwGdIGv+v39ML3EqRNs+BTWwVJIky7JnsYJ/PHMYNlMipd0Ed4hZQGTUNuHSF9PQc3hVBOds1AfeYU6ec+iKMo+U; AWSALBTGCORS=wSbwlIIfPnyP6Y8t9p3Yqhps4W/IUL2RVxmFhDmfchOTmKVckg1UfEAIxVKtApGUnlQtD/X8YWWEwqhvib5SEwGdIGv+v39ML3EqRNs+BTWwVJIky7JnsYJ/PHMYNlMipd0Ed4hZQGTUNuHSF9PQc3hVBOds1AfeYU6ec+iKMo+U; AWSALB=mTkAhKQhb95+7e7/T2y55pFe2A1rDg57JKM4CMDfZGhUrjE6g4cFVUCBNSqBP8k5cZsKBZFk/IZxQTlw9IAJuLYgyYlOm0xnNmPQj4NKbOzBE72VS1KMxGwzz/27; AWSALBCORS=mTkAhKQhb95+7e7/T2y55pFe2A1rDg57JKM4CMDfZGhUrjE6g4cFVUCBNSqBP8k5cZsKBZFk/IZxQTlw9IAJuLYgyYlOm0xnNmPQj4NKbOzBE72VS1KMxGwzz/27
+body:
+  type: json
+  content: '{"pinCode":"560078"}'
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test("Status code is 200", function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test("Response is valid JSON with successful status and message", function () {
+          const jsonData = pm.response.json();
+          pm.expect(jsonData).to.be.an("object");
+          pm.expect(jsonData.http_code).to.eql(200);
+          pm.expect(jsonData.message).to.eql("Pincode ETA Retrieved Successfully");
+          pm.expect(jsonData.data).to.be.an("object");
+      });
+
+      pm.test("Response contains data.header_eta property", function () {
+          const jsonData = pm.response.json();
+          pm.expect(jsonData.data).to.have.property("header_eta");
+      });
+
+      pm.test("Response data.header_eta equals 30 Minutes", function () {
+          const jsonData = pm.response.json();
+          pm.expect(jsonData.data.header_eta).to.eql("30 Minutes");
+      });
+    language: text/javascript
+order: 2000

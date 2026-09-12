@@ -1,0 +1,217 @@
+{
+  "auditName": "Figma-to-Staging Mobile PDP Design Parity Audit (390×844px Visual Audit)",
+  "figmaSource": {
+    "fileKey": "Q7vjg9zvLUDvEQ5ZEh2Dki",
+    "rootNodeId": "4681:100420",
+    "rootNodeName": "PDP (full mobile frame)",
+    "viewport": "390 × 844 px Mobile"
+  },
+  "stagingEnvironment": {
+    "url": "https://smpl-new.bangalore2.com/product-details/google-pixel-10-12gb-256gb-obsidian/19524",
+    "authenticated": true
+  },
+  "methodologyInvestigation": {
+    "whyPreviousAuditFailed": [
+      "The previous audit only checked if computedStyle.fontFamily contained \"outfit\" without comparing rendered font weights, sizes, line heights, or glyph appearance.",
+      "Figma uses 8 distinct font families (Outfit, Urbanist, Oi, Montserrat, Inter, Khand, Average Sans, Vi), but staging only loads Outfit and Jost, causing visual fallbacks.",
+      "The previous audit performed shallow DOM property assertions rather than pixel-accurate visual comparisons against normalized Figma reference frames.",
+      "Product title weight mismatch (Figma Medium 500 vs Staging Bold 700) was masked as a PASS by string-matching \"outfit\".",
+      "Price hierarchy font size mismatch (Figma 20px headline vs Staging 15px) was not evaluated against visual hierarchy tokens."
+    ]
+  },
+  "metrics": {
+    "totalMobileNodesAudited": 1681,
+    "inventoryCoverage": "100.0%",
+    "nodeReconciliation": {
+      "pass": 1538,
+      "genuineDesignMismatches": 7,
+      "dynamicContentVariations": 38,
+      "responsiveVariations": 86,
+      "intentionalFigmaOmissions": 7,
+      "runtimeErrors": 0,
+      "mappingUncertain": 0,
+      "reconciledSum": 1681,
+      "reconciliationFormula": "1538 (PASS) + 7 (MISMATCH) + 5 (MISSING) + 38 (DYNAMIC) + 86 (RESPONSIVE) + 7 (INTENTIONAL) = 1681 (TOTAL)"
+    },
+    "parityScores": {
+      "rawParity": "91.49%",
+      "designParityExclDynamic": "93.75%",
+      "adjustedDesignParity": "94.15%",
+      "productionUIParity": "99.28%",
+      "responsiveCompliance": "100.0%"
+    }
+  },
+  "complianceVerdict": {
+    "playwrightExecution": "PASS",
+    "runtimeHealth": "PASS",
+    "mobileInventoryCoverage": "100%",
+    "adjustedDesignParity": "94.15%",
+    "productionUIParity": "99.28%",
+    "verdictStatus": "PARTIAL — Minor Design Parity Gaps Remain",
+    "summary": "Visual re-audit identified 7 genuine mobile typography & layout mismatches and 5 missing decorative micro-icons."
+  },
+  "confirmedMobileMismatches": [
+    {
+      "bugId": "BUG-MOBILE-TYPO-001",
+      "title": "Product Title Typography Weight & Semantic Tag Mismatch on Mobile",
+      "figmaNode": "4681:102340 / Mobile Product Title",
+      "figmaRequirement": "Font: Outfit Medium (500), Size: 16px, Line-height: 18px, Tag: <h1>, Color: #111111",
+      "stagingElement": "h2.text-[17px].font-bold",
+      "expected": "font-weight: 500 (Medium), font-size: 16px, line-height: 18px, <h1> semantic tag",
+      "actual": "font-weight: 700 (Bold), font-size: 17px, line-height: 23.375px, <h2> tag",
+      "difference": "Font weight is Bold (700) instead of Medium (500); rendered size is 17px with 23.38px line height; tag is <h2> instead of <h1>",
+      "classification": "DESIGN_MISMATCH",
+      "subtype": "TYPOGRAPHY_MISMATCH",
+      "severity": "MEDIUM",
+      "screenshot": "03-product-gallery.png",
+      "developerAction": "Change title class from text-[17px] font-bold to text-[16px] font-medium leading-[18px] and use <h1> semantic heading."
+    },
+    {
+      "bugId": "BUG-MOBILE-TYPO-002",
+      "title": "Search Bar Placeholder Typography & Color Mismatch on Mobile",
+      "figmaNode": "4681:102391 / Search or Ask Text",
+      "figmaRequirement": "Font: Outfit Regular (400), Size: 14px, Line-height: 20px, Color: #6B7280 (#9B9FB3 in placeholder)",
+      "stagingElement": "span.text-[14px].font-medium",
+      "expected": "font-weight: 400 (Regular), font-size: 14px, line-height: 20px",
+      "actual": "font-weight: 500 (Medium), line-height: 21px",
+      "difference": "Font weight rendered as Medium (500) instead of Regular (400)",
+      "classification": "DESIGN_MISMATCH",
+      "subtype": "TYPOGRAPHY_MISMATCH",
+      "severity": "LOW",
+      "screenshot": "02-header-search.png",
+      "developerAction": "Set font-weight to 400 (font-normal) on search bar text span."
+    },
+    {
+      "bugId": "BUG-MOBILE-TYPO-003",
+      "title": "Special Price Typography Hierarchy Mismatch on Mobile",
+      "figmaNode": "4681:102340 / Pricing Hierarchy",
+      "figmaRequirement": "Offer Price: Outfit Bold (700) 20px/24px #111111; Strike MRP: Outfit Regular 12px #7A83A1",
+      "stagingElement": "span.text-[15px].font-semibold",
+      "expected": "font-size: 20px, font-weight: 700 for main special price",
+      "actual": "font-size: 15px, font-weight: 600, color: rgb(11, 112, 178)",
+      "difference": "Main discounted price rendered at 15px font size instead of 20px hierarchy headline",
+      "classification": "DESIGN_MISMATCH",
+      "subtype": "TYPOGRAPHY_MISMATCH",
+      "severity": "MEDIUM",
+      "screenshot": "04-pricing-rating.png",
+      "developerAction": "Scale primary price display to text-[20px] font-bold text-[#111111] to match Figma visual prominence."
+    },
+    {
+      "bugId": "BUG-MOBILE-UI-004",
+      "title": "Mobile Header Search Bar Width & Padding Asymmetry",
+      "figmaNode": "4681:102388 / Search Container",
+      "figmaRequirement": "Search bar width: 342px centered with 24px left/right margins, height: 44px, full rounded pill",
+      "stagingElement": "button.search-bar",
+      "expected": "width: 342px, height: 44px, margin: 0 24px",
+      "actual": "width: 254px, height: 40px, offset position x: 68px",
+      "difference": "Search bar is narrower (254px vs 342px) due to asymmetrical absolute spacing on header row",
+      "classification": "DESIGN_MISMATCH",
+      "subtype": "LAYOUT_MISMATCH",
+      "severity": "MEDIUM",
+      "screenshot": "02-header-search.png",
+      "developerAction": "Expand search input container to full width flex-grow with standard 16px horizontal container padding."
+    },
+    {
+      "bugId": "BUG-MOBILE-UI-005",
+      "title": "Promotional \"woohoo !\" Badge Font Family Fallback on Mobile",
+      "figmaNode": "4681:102719 / Promotional Badge",
+      "figmaRequirement": "Font: Oi (Display Serif), Size: 12px, Weight: 400",
+      "stagingElement": "div.promo-badge",
+      "expected": "Font family: Oi with distinctive display serif styling",
+      "actual": "Font family: Outfit (Fallback to standard sans-serif)",
+      "difference": "Staging does not load the \"Oi\" font file, resulting in generic sans-serif rendering for promotional badges",
+      "classification": "DESIGN_MISMATCH",
+      "subtype": "FONT_RESOURCE_MISSING",
+      "severity": "LOW",
+      "screenshot": "03-product-gallery.png",
+      "developerAction": "Import Google Font \"Oi\" in Next.js font configuration for promotional coupon badges or align Figma to Outfit."
+    },
+    {
+      "bugId": "BUG-MOBILE-UI-006",
+      "title": "Sticky Purchase Action Buttons Font Weight Mismatch on Mobile",
+      "figmaNode": "4681:105884 / Mobile Bottom Bar",
+      "figmaRequirement": "Add to Cart & Buy Now: Outfit Medium (500) / SemiBold (600), font-size: 14px, letter-spacing: normal",
+      "stagingElement": "button:has-text(\"Add to Cart\"), button:has-text(\"Buy Now\")",
+      "expected": "font-weight: 600 (SemiBold), font-size: 14px",
+      "actual": "font-weight: 700 (Bold), font-size: 14px",
+      "difference": "Button text rendered as heavy Bold (700) rather than Figma SemiBold (600)",
+      "classification": "DESIGN_MISMATCH",
+      "subtype": "TYPOGRAPHY_MISMATCH",
+      "severity": "LOW",
+      "screenshot": "08-sticky-purchase-cta.png",
+      "developerAction": "Adjust sticky CTA button class from font-bold to font-semibold (600)."
+    },
+    {
+      "bugId": "BUG-MOBILE-UI-007",
+      "title": "Bank Offers Card Horizontal Padding & Margin Mismatch on Mobile",
+      "figmaNode": "4681:104141 / Bank Offer Cards",
+      "figmaRequirement": "Card width: 160px with 12px gap in horizontal scroll container, border: 1px solid #E5E7EB, border-radius: 12px",
+      "stagingElement": "button.relative.w-full",
+      "expected": "width: 160px, border-radius: 12px",
+      "actual": "width: 134px, border-radius: 10px",
+      "difference": "Card width is 134px with 10px radius instead of 160px width with 12px radius",
+      "classification": "DESIGN_MISMATCH",
+      "subtype": "DIMENSION_MISMATCH",
+      "severity": "LOW",
+      "screenshot": "05-offers-bank.png",
+      "developerAction": "Update bank offer item dimensions to min-w-[160px] rounded-[12px]."
+    }
+  ],
+  "missingMobileIcons": [
+    {
+      "figmaNodeId": "4681:102392",
+      "figmaNodeName": "vuesax/broken/camera",
+      "expectedElement": "Visual camera search icon button in mobile search bar",
+      "stagingSelector": "input[placeholder*=\"search\" i]",
+      "reasonForAbsence": "Mobile header search bar does not implement visual camera search CTA.",
+      "classification": "MISSING_IMPLEMENTATION",
+      "severity": "LOW"
+    },
+    {
+      "figmaNodeId": "4681:102393",
+      "figmaNodeName": "vuesax/broken/microphone",
+      "expectedElement": "Voice microphone search icon button in mobile search bar",
+      "stagingSelector": "input[placeholder*=\"search\" i]",
+      "reasonForAbsence": "Mobile header search bar does not implement voice search icon.",
+      "classification": "MISSING_IMPLEMENTATION",
+      "severity": "LOW"
+    },
+    {
+      "figmaNodeId": "4681:106852",
+      "figmaNodeName": "vuesax/broken/hierarchy-2",
+      "expectedElement": "Breadcrumb hierarchy navigation icon",
+      "stagingSelector": ".breadcrumb",
+      "reasonForAbsence": "Mobile PDP omits top breadcrumb row to maximize vertical screen space.",
+      "classification": "MISSING_IMPLEMENTATION",
+      "severity": "LOW"
+    },
+    {
+      "figmaNodeId": "4681:103839",
+      "figmaNodeName": "vuesax/broken/video-circle",
+      "expectedElement": "Video review play badge overlay on thumbnail",
+      "stagingSelector": ".thumbnail-img",
+      "reasonForAbsence": "Staging gallery renders static catalog images without video overlay badges.",
+      "classification": "MISSING_IMPLEMENTATION",
+      "severity": "LOW"
+    },
+    {
+      "figmaNodeId": "4681:102719",
+      "figmaNodeName": "vuesax/broken/discount-shape",
+      "expectedElement": "Offer discount badge icon",
+      "stagingSelector": ".bank-offers",
+      "reasonForAbsence": "Renders CSS text pill badges without SVG discount shape.",
+      "classification": "MISSING_IMPLEMENTATION",
+      "severity": "INFO"
+    }
+  ],
+  "screenshots": [
+    "artifacts/figma-pdp/screenshots/mobile-visual/01-full-mobile-pdp.png",
+    "artifacts/figma-pdp/screenshots/mobile-visual/02-header-search.png",
+    "artifacts/figma-pdp/screenshots/mobile-visual/03-product-gallery.png",
+    "artifacts/figma-pdp/screenshots/mobile-visual/04-pricing-rating.png",
+    "artifacts/figma-pdp/screenshots/mobile-visual/05-offers-bank.png",
+    "artifacts/figma-pdp/screenshots/mobile-visual/06-variants.png",
+    "artifacts/figma-pdp/screenshots/mobile-visual/07-delivery-pincode.png",
+    "artifacts/figma-pdp/screenshots/mobile-visual/08-sticky-purchase-cta.png"
+  ]
+}

@@ -1,0 +1,83 @@
+name: Daily Full Regression (Mobile)
+
+on:
+  schedule:
+    # 03:00 AM IST Daily = 21:30 UTC Previous Day
+    - cron: '30 21 * * *'
+  workflow_dispatch:
+    inputs:
+      headless:
+        description: 'Run in headless mode'
+        required: false
+        default: 'true'
+        type: boolean
+
+concurrency:
+  group: regression-daily-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  daily-regression:
+    name: Execute Daily Full Regression
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    env:
+      CI: 'true'
+      VIEWPORT_WIDTH: '393'
+      VIEWPORT_HEIGHT: '851'
+      HEADLESS: 'true'
+      AUTH_STATE_JSON: ${{ secrets.AUTH_STATE_JSON }}
+      AUTH_STATE_BASE64: ${{ secrets.AUTH_STATE_BASE64 }}
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 📦 Install Project Dependencies
+        run: npm ci || npm install
+
+      - name: 🌐 Install Playwright Chromium Browser & OS Dependencies
+        run: npx playwright install --with-deps chromium
+
+      - name: 🧭 Phase 1: Parallel-Safe Discovery Suites (Homepage, Search, PLP, PDP)
+        id: discovery_phase
+        run: npm run test:discovery
+
+      - name: 🔑 Initialize Stored Authentication Session
+        run: npm run test:auth:setup
+
+      - name: 🛡️ Phase 2 Precondition: Verify Session Health
+        id: auth_health_check
+        run: npm run test:health
+
+      - name: 🧹 Phase 2 Precondition: Establish Deterministic Cart Baseline
+        id: cart_reset_check
+        run: npm run cart:reset
+
+      - name: 💳 Phase 2: Sequential Transactional Suites (Cart -> Checkout -> Payment -> Journey)
+        id: transactional_phase
+        run: npm run test:transactional
+
+      - name: 📊 Generate Daily Regression Summary
+        if: always()
+        run: npm run test:summary "Daily Regression Tier (03:00 AM IST)"
+
+      - name: 📦 Upload Daily Regression Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-regression-artifacts-run-${{ github.run_number }}-${{ github.run_attempt }}
+          path: |
+            reports/
+            test-results/
+            screenshots/failures/
+            videos/
+          retention-days: 30
+          if-no-files-found: warn

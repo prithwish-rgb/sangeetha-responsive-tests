@@ -1,0 +1,27 @@
+
+# Playwright & Tests
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+reports/
+pm-results/
+screenshots/
+videos/
+scratch/
+scratch_*
+find-*
+run_pwa_*
+save-login-*
+test-figma-*
+*.docx
+*.png
+
+# Environment and Authentication secrets
+.env
+auth-state*.json
+auth-staging*.json
+auth.json
+*.pem

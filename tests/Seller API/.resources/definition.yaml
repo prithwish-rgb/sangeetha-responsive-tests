@@ -1,0 +1,59 @@
+$kind: collection
+id: ee548c53-3a8c-4e5f-98e6-93b243544082
+variables:
+  - key: json_web_token_0fyu
+    secret: true
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: ff29a5ab-8ca3-407d-83bc-33b9184578a9
+        vaultId: 117f9569-2614-45af-9924-a94b53143af2
+  - key: json_web_token_0hkq
+    secret: true
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: 7fac3950-f8dc-403e-ac09-368d78d36785
+        vaultId: 117f9569-2614-45af-9924-a94b53143af2
+  - key: json_web_token_0l8l
+    secret: true
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: e711881d-6441-4429-bec8-bb87c5061e97
+        vaultId: 117f9569-2614-45af-9924-a94b53143af2
+  - key: json_web_token_1ajj
+    secret: true
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: 3f0a09dc-9ea9-47b5-afcc-9bcb3ac661ff
+        vaultId: 117f9569-2614-45af-9924-a94b53143af2
+  - key: json_web_token_1cdz
+    secret: true
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: 0dca9c80-733b-4ae8-a6b1-6ecd7c20cf05
+        vaultId: 117f9569-2614-45af-9924-a94b53143af2
+  - key: json_web_token_03yl
+    secret: true
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: 9e168b04-34d7-4fc7-bacc-4fc7fa2a633a
+        vaultId: 117f9569-2614-45af-9924-a94b53143af2
+  - key: json_web_token_11vh
+    secret: true
+    source:
+      provider: postman
+      postman:
+        type: cloud
+        secretId: aca967a8-7f0c-4004-b79b-4adddc7ea1cc
+        vaultId: 117f9569-2614-45af-9924-a94b53143af2

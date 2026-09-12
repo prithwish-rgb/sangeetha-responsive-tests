@@ -1,0 +1,79 @@
+name: Smoke Regression (Mobile)
+
+on:
+  schedule:
+    # Every 2 hours
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+    inputs:
+      headless:
+        description: 'Run in headless mode'
+        required: false
+        default: 'true'
+        type: boolean
+
+concurrency:
+  group: regression-smoke-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  smoke-regression:
+    name: Execute Smoke Regression Tier
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    env:
+      CI: 'true'
+      VIEWPORT_WIDTH: '393'
+      VIEWPORT_HEIGHT: '851'
+      HEADLESS: 'true'
+      AUTH_STATE_JSON: ${{ secrets.AUTH_STATE_JSON }}
+      AUTH_STATE_BASE64: ${{ secrets.AUTH_STATE_BASE64 }}
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 📦 Install Project Dependencies
+        run: npm ci || npm install
+
+      - name: 🌐 Install Playwright Chromium Browser & OS Dependencies
+        run: npx playwright install --with-deps chromium
+
+      - name: 🔑 Initialize Stored Authentication Session
+        run: npm run test:auth:setup
+
+      - name: 🛡️ Verify Session Health Precondition
+        id: auth_health
+        run: npm run test:health
+
+      - name: 🧹 Establish Deterministic Cart Baseline
+        id: cart_reset
+        run: npm run cart:reset
+
+      - name: 🚀 Run Smoke Regression Suite (Pixel 5 — 393x851)
+        id: smoke_run
+        run: npm run test:smoke
+
+      - name: 📊 Generate CI Summary & Job Summary
+        if: always()
+        run: npm run test:summary "Smoke Tier (Every 2h)"
+
+      - name: 📦 Upload Smoke Test Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: smoke-artifacts-run-${{ github.run_number }}-${{ github.run_attempt }}
+          path: |
+            reports/
+            test-results/
+            screenshots/failures/
+            videos/
+          retention-days: 14
+          if-no-files-found: warn

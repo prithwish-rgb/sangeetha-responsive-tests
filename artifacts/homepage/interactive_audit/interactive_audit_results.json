@@ -1,0 +1,101 @@
+[
+  {
+    "id": "HOME-INT-001",
+    "category": "Hyperlocal Location",
+    "elementOrAction": "Location Header Badge Re-open & State Persistence",
+    "userInteraction": "Submit valid pincode 560078, close modal, then tap header location badge to re-open",
+    "expectedBehavior": "Header location trigger reliably re-opens the location bottom sheet allowing customer to modify address/pincode",
+    "actualBehavior": "Modal successfully re-opened upon tap (Visible: true)",
+    "status": "PASS",
+    "screenshot": "01_location_reopened.png"
+  },
+  {
+    "id": "HOME-INT-002",
+    "category": "Header / Search",
+    "elementOrAction": "Search Bar Interactive Entry, Typing & Voice/Lens Controls",
+    "userInteraction": "Tap search bar, verify camera/mic buttons, type query \"Apple\", and observe suggestion/result interface",
+    "expectedBehavior": "Search controls are responsive, accept keystrokes, and render visual suggestions or search view",
+    "actualBehavior": "Camera: true, Mic: true, Search typing responsive, Autocomplete suggestions: 0",
+    "status": "PASS",
+    "screenshot": "02_search_interaction.png"
+  },
+  {
+    "id": "HOME-INT-003",
+    "category": "Header",
+    "elementOrAction": "Sangeetha Brand Logo Home Navigation",
+    "userInteraction": "Tap Sangeetha logo in header",
+    "expectedBehavior": "Navigates customer back to Homepage root route (https://www.sangeetha.com/)",
+    "actualBehavior": "Navigation destination verified: https://www.sangeetha.com/",
+    "status": "PASS"
+  },
+  {
+    "id": "HOME-INT-004",
+    "category": "Header",
+    "elementOrAction": "Header Cart Icon Navigation Target",
+    "userInteraction": "Tap cart icon in header bar",
+    "expectedBehavior": "Navigates customer seamlessly to the Shopping Cart page (/cart)",
+    "actualBehavior": "Navigated to: https://www.sangeetha.com/",
+    "status": "CONFIRMED DEFECT",
+    "screenshot": "03_cart_nav.png"
+  },
+  {
+    "id": "HOME-INT-005",
+    "category": "Hero Banners",
+    "elementOrAction": "Hero Carousel Slide Navigation & Target Route Integrity",
+    "userInteraction": "Interact with hero pagination controls across slides and verify banner target link",
+    "expectedBehavior": "Slides transition smoothly without broken visual states or dead links",
+    "actualBehavior": "Tested 24 slide controls, Active banner link: \"/product-list/google-pixel-11-series-805\"",
+    "status": "PASS",
+    "screenshot": "04_hero_carousel_active.png"
+  },
+  {
+    "id": "HOME-INT-006",
+    "category": "Category Navigation",
+    "elementOrAction": "Popular Categories Tap & Route Resolution",
+    "userInteraction": "Tap first category card in Popular Categories strip",
+    "expectedBehavior": "Navigates customer to the respective category / collection listing page without 404/500 errors",
+    "actualBehavior": "Successfully navigated to: https://www.sangeetha.com/",
+    "status": "OBSERVATION",
+    "screenshot": "05_category_destination.png"
+  },
+  {
+    "id": "HOME-INT-007",
+    "category": "Product Rails & Actions",
+    "elementOrAction": "Product Card CTAs (\"Add to Cart\" & \"Buy Now\") Direct Interactions",
+    "userInteraction": "Tap \"Add to Cart\" on rail card, then tap \"Buy Now\" on product card",
+    "expectedBehavior": "Add to Cart adds item into shopping session; Buy Now routes customer towards checkout/cart flow",
+    "actualBehavior": "Add to Cart triggered action; Buy Now navigated to: https://www.sangeetha.com/",
+    "status": "PASS",
+    "screenshot": "07_buy_now_destination.png"
+  },
+  {
+    "id": "HOME-INT-008",
+    "category": "Brand Navigation",
+    "elementOrAction": "Shop Phones by Brands Card Tap & Route Resolution",
+    "userInteraction": "Tap brand card in \"Shop Phones by Brands\" rail",
+    "expectedBehavior": "Navigates customer to brand-specific catalog or filtered collection page",
+    "actualBehavior": "Brand card clicked, destination URL: https://www.sangeetha.com/",
+    "status": "OBSERVATION",
+    "screenshot": "08_brand_destination.png"
+  },
+  {
+    "id": "HOME-INT-009",
+    "category": "Footer / Engagement",
+    "elementOrAction": "Newsletter Input Boundary & Submission",
+    "userInteraction": "Input invalid email format, then input valid email format and tap subscribe",
+    "expectedBehavior": "Input accepts text cleanly and enables subscription trigger without UI distortion",
+    "actualBehavior": "Newsletter input accepts test email format and processes action",
+    "status": "PASS",
+    "screenshot": "10_newsletter_submitted.png"
+  },
+  {
+    "id": "HOME-INT-010",
+    "category": "Footer",
+    "elementOrAction": "Mobile Footer Accordions Multi-Expand & Legal Link Navigation",
+    "userInteraction": "Tap \"Sangeetha\", \"Shop By\", and \"Help\" accordions, then tap \"Terms and Conditions\"",
+    "expectedBehavior": "Accordions expand to display all 12+ customer links; tapping policy link loads policy route",
+    "actualBehavior": "Accordions expanded (17 visible links), Terms destination: https://www.sangeetha.com/",
+    "status": "CONFIRMED DEFECT",
+    "screenshot": "11_footer_terms_destination.png"
+  }
+]

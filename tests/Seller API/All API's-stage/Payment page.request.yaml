@@ -1,0 +1,21 @@
+$kind: http-request
+url: https://apigateway-stage.sangeethamobiles.in/api/payment-page-details-v4
+method: POST
+headers:
+  sec-ch-ua-platform: '"iOS"'
+  Authorization: UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl
+  Referer: https://stage-web.sangeethamobiles.in/checkout-payment
+  number1: 2CB$F1kFmY5!5Be1JIM@6Usy9QUNY6SX#6Rd7E7B@J0$1EHgm$6pRl89LB^t
+  number2: 7#Ma9vvD1VWfFZ9h3cU6cbD7FIF@5fc(onR3)aj!p6$i^EmV8dm2*b1A6TecY4FN7NxYp
+  sec-ch-ua: '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"'
+  clientId: sangeethamobiles
+  sec-ch-ua-mobile: ?1
+  User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+  Accept: application/json, text/plain, */*
+  SourceId: "1"
+  Content-Type: application/json
+  Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M
+body:
+  type: json
+  content: '{"user_id":"65074214","pinCode":"500085","latitude":"17.4880859","longitude":"78.3820674","utm_details":{},"address_id":"17342","type":"pwa","user_agent":{"browser":"Mobile Safari","deviceType":"mobile","os":"iOS","engine":"WebKit","isMobile":true,"isTablet":false,"isIos":true,"source":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1","deviceVendor":"Apple","osVersion":18,"browserVersion":18.5,"engineVersion":605.1,"isIphone":true,"isIpad":false,"isDesktop":false,"isChrome":false,"isFirefox":false,"isSafari":false,"isIE":false,"isEdge":false,"isOpera":false,"isMac":false,"isChromeOS":false,"isWindows":false,"isAndroid":false,"isBot":false},"detected_ip":"14.195.139.254","is_anniversary":0,"is_exchange":0}'
+order: 20000

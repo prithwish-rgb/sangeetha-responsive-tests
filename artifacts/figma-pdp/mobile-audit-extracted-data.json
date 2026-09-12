@@ -1,0 +1,97 @@
+{
+  "header": {
+    "searchInput": null,
+    "hasCameraIcon": false,
+    "hasMicIcon": false,
+    "hasCartIcon": false,
+    "hasBackButton": true
+  },
+  "title": null,
+  "rating": null,
+  "pricing": {
+    "specialPrice": {
+      "tag": "HTML",
+      "text": "Buy Mobile Phones & Accessories Online | Sangeetha MobilesSearch or AskGoogle Pixel 10 12GB 256GB Ob",
+      "fontFamily": "Outfit, \"Outfit Fallback\", sans-serif",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "margin": "0px",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      }
+    },
+    "mrp": null,
+    "discount": {
+      "tag": "HTML",
+      "text": "Buy Mobile Phones & Accessories Online | Sangeetha MobilesSearch or AskGoogle Pixel 10 12GB 256GB Ob",
+      "fontFamily": "Outfit, \"Outfit Fallback\", sans-serif",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "borderRadius": "0px",
+      "padding": "0px",
+      "margin": "0px",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 844
+      }
+    }
+  },
+  "ctas": {
+    "atc": {
+      "tag": "BUTTON",
+      "text": "Add to Cart",
+      "fontFamily": "Outfit",
+      "fontWeight": "700",
+      "fontSize": "14px",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "color": "rgb(17, 17, 17)",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "borderRadius": "3.35544e+07px",
+      "padding": "0px 16px",
+      "margin": "0px",
+      "box": {
+        "x": 17,
+        "y": 785,
+        "width": 172,
+        "height": 46
+      }
+    },
+    "buyNow": {
+      "tag": "BUTTON",
+      "text": "Buy Now",
+      "fontFamily": "Outfit",
+      "fontWeight": "700",
+      "fontSize": "14px",
+      "lineHeight": "21px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "backgroundColor": "rgb(242, 138, 36)",
+      "borderRadius": "3.35544e+07px",
+      "padding": "0px 16px",
+      "margin": "0px",
+      "box": {
+        "x": 201,
+        "y": 785,
+        "width": 172,
+        "height": 46
+      }
+    }
+  },
+  "breadcrumb": null
+}

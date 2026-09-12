@@ -1,0 +1,27 @@
+$kind: http-request
+url: https://apigateway-stage.sangeethamobiles.in/oms/myorder_list
+method: POST
+headers:
+  accept: application/json
+  accept-language: en-US,en;q=0.9
+  authorization: UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl
+  clientid: sangeethamobiles
+  content-type: application/json
+  number1: 6ol0t0AiPPq9I*xn8^ow3bKoszx3pn4Yj1O7U*I3jTRc6wS#wS0c5dH4jmSY
+  number2: 8jTt4IhHC6G*&N1TG^P2@96l7Q&X2C2W9SWzAO4(kr1hrZ56jAe3sYt&D
+  origin: https://smpl-new.bangalore2.com
+  priority: u=1, i
+  referer: https://smpl-new.bangalore2.com/
+  sec-ch-ua: '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"'
+  sec-ch-ua-mobile: ?1
+  sec-ch-ua-platform: '"iOS"'
+  sec-fetch-dest: empty
+  sec-fetch-mode: cors
+  sec-fetch-site: cross-site
+  sourceid: "1"
+  token: "{{json_web_token_1ajj}}"
+  user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+body:
+  type: json
+  content: '{"type":"pwa","user_location":"Bengaluru","user_id":"65074214","pinCode":"560070","offset":"0","limit":"10","jwt_token":"","client_id":"SangeethaMobilesSA"}'
+order: 25000

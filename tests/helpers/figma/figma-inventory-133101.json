@@ -1,0 +1,7521 @@
+{
+  "rootNodeId": "4681:133101",
+  "rootNodeName": "Sangeetha Mobile Home Screen",
+  "viewport": {
+    "width": 390,
+    "height": 5132
+  },
+  "discoveredCount": 405,
+  "breakdown": {
+    "SECTION": 33,
+    "IMAGE": 74,
+    "BUTTON": 5,
+    "TEXT": 275,
+    "CARD": 18
+  },
+  "inventory": [
+    {
+      "nodeId": "4681:133101",
+      "name": "Home Screen",
+      "category": "SECTION",
+      "parent": "Home Screen (4681:133101)",
+      "borderRadius": 0,
+      "backgroundColor": "#FFFFFF",
+      "dimensions": {
+        "width": 390,
+        "height": 5132,
+        "x": 44005,
+        "y": 61334
+      }
+    },
+    {
+      "nodeId": "4681:133102",
+      "name": "Frame 1597882752",
+      "category": "SECTION",
+      "parent": "Home Screen",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 4828,
+        "x": 44005,
+        "y": 61334
+      }
+    },
+    {
+      "nodeId": "4681:133103",
+      "name": "Frame 1597882823",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 301,
+        "x": 44005,
+        "y": 61334
+      }
+    },
+    {
+      "nodeId": "4681:133104",
+      "name": "image 637",
+      "category": "IMAGE",
+      "parent": "Frame 1597882823",
+      "dimensions": {
+        "width": 390,
+        "height": 97,
+        "x": 44005,
+        "y": 61334
+      },
+      "aspectRatio": "4.02"
+    },
+    {
+      "nodeId": "4681:133105",
+      "name": "header",
+      "category": "IMAGE",
+      "parent": "Frame 1597882823",
+      "dimensions": {
+        "width": 390,
+        "height": 723,
+        "x": 44005,
+        "y": 61431
+      },
+      "aspectRatio": "0.54"
+    },
+    {
+      "nodeId": "4681:133106",
+      "name": "image 673",
+      "category": "IMAGE",
+      "parent": "header",
+      "dimensions": {
+        "width": 106,
+        "height": 92,
+        "x": 44005,
+        "y": 61431
+      },
+      "aspectRatio": "1.15"
+    },
+    {
+      "nodeId": "4681:133107",
+      "name": "image 674",
+      "category": "IMAGE",
+      "parent": "header",
+      "dimensions": {
+        "width": 120,
+        "height": 44,
+        "x": 44275,
+        "y": 61431
+      },
+      "aspectRatio": "2.73"
+    },
+    {
+      "nodeId": "4681:133108",
+      "name": "image 675",
+      "category": "IMAGE",
+      "parent": "header",
+      "dimensions": {
+        "width": 93,
+        "height": 32,
+        "x": 44302,
+        "y": 61475
+      },
+      "aspectRatio": "2.91"
+    },
+    {
+      "nodeId": "4681:133109",
+      "name": "image 676",
+      "category": "IMAGE",
+      "parent": "header",
+      "dimensions": {
+        "width": 74,
+        "height": 43,
+        "x": 44321,
+        "y": 61475
+      },
+      "aspectRatio": "1.72"
+    },
+    {
+      "nodeId": "4681:133110",
+      "name": "image 677",
+      "category": "IMAGE",
+      "parent": "header",
+      "dimensions": {
+        "width": 34,
+        "height": 43,
+        "x": 44361,
+        "y": 61635
+      },
+      "aspectRatio": "0.79"
+    },
+    {
+      "nodeId": "4681:133111",
+      "name": "image 678",
+      "category": "IMAGE",
+      "parent": "header",
+      "dimensions": {
+        "width": 34,
+        "height": 43,
+        "x": 44005,
+        "y": 61942
+      },
+      "aspectRatio": "0.79"
+    },
+    {
+      "nodeId": "4681:133112",
+      "name": "image 679",
+      "category": "IMAGE",
+      "parent": "header",
+      "dimensions": {
+        "width": 63,
+        "height": 60,
+        "x": 44227,
+        "y": 61488
+      },
+      "aspectRatio": "1.05"
+    },
+    {
+      "nodeId": "4681:133115",
+      "name": "Frame 36904",
+      "category": "BUTTON",
+      "parent": "Frame 1597882822",
+      "borderRadius": 12,
+      "backgroundColor": "#F99F1C",
+      "dimensions": {
+        "width": 40,
+        "height": 40,
+        "x": 44029,
+        "y": 61455
+      }
+    },
+    {
+      "nodeId": "4681:133134",
+      "name": "Frame 1597882751",
+      "category": "BUTTON",
+      "parent": "Frame 36900",
+      "borderRadius": 12,
+      "backgroundColor": "#F99F1C",
+      "dimensions": {
+        "width": 40,
+        "height": 40,
+        "x": 44331,
+        "y": 61455
+      }
+    },
+    {
+      "nodeId": "4681:133135",
+      "name": "vuesax/broken/shopping-cart",
+      "category": "BUTTON",
+      "parent": "Frame 1597882751",
+      "borderRadius": 0,
+      "backgroundColor": "#FFFFFF",
+      "dimensions": {
+        "width": 20,
+        "height": 20,
+        "x": 44341,
+        "y": 61465
+      }
+    },
+    {
+      "nodeId": "4681:133147",
+      "name": "Phosfluorescently en",
+      "category": "TEXT",
+      "parent": "Frame 1597882749",
+      "characters": "Select Delivery Location",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 13,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#121415",
+      "dimensions": {
+        "width": 139,
+        "height": 20,
+        "x": 44053,
+        "y": 61511
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133165",
+      "name": "Search or Ask for “Smartphones”",
+      "category": "TEXT",
+      "parent": "Frame 36905",
+      "characters": "Search or Ask for “Smartphones”",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#9AA0B4",
+      "dimensions": {
+        "width": 207,
+        "height": 20,
+        "x": 44079,
+        "y": 61561
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133175",
+      "name": "I am looking for iphones under 45k",
+      "category": "TEXT",
+      "parent": "Frame 1321316694",
+      "characters": "I am looking for iphones under 45k",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "width": 182,
+        "height": 16,
+        "x": 44071,
+        "y": 61611
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133178",
+      "name": "Give me top selleing TWS",
+      "category": "TEXT",
+      "parent": "Frame 1321316697",
+      "characters": "Give me top selleing TWS",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "width": 134,
+        "height": 16,
+        "x": 44319,
+        "y": 61611
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133180",
+      "name": "Display",
+      "category": "TEXT",
+      "parent": "Frame 1321316695",
+      "characters": "Display",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "width": 40,
+        "height": 16,
+        "x": 44493,
+        "y": 61611
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133182",
+      "name": "Camera",
+      "category": "TEXT",
+      "parent": "Frame 1321316696",
+      "characters": "Camera",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "width": 44,
+        "height": 16,
+        "x": 44573,
+        "y": 61611
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133183",
+      "name": "Frame 1597882933",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 211,
+        "x": 44005,
+        "y": 61659
+      }
+    },
+    {
+      "nodeId": "4681:133184",
+      "name": "Frame 1321316540",
+      "category": "SECTION",
+      "parent": "Frame 1597882933",
+      "borderRadius": 12,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 342,
+        "height": 195,
+        "x": 44029,
+        "y": 61659
+      }
+    },
+    {
+      "nodeId": "4681:133185",
+      "name": "image 710",
+      "category": "IMAGE",
+      "parent": "Frame 1321316540",
+      "dimensions": {
+        "width": 346,
+        "height": 195,
+        "x": 44027,
+        "y": 61659
+      },
+      "aspectRatio": "1.77"
+    },
+    {
+      "nodeId": "4681:133190",
+      "name": "Frame 1597882825",
+      "category": "IMAGE",
+      "parent": "Frame 1597882752",
+      "dimensions": {
+        "width": 390,
+        "height": 50,
+        "x": 44005,
+        "y": 61894
+      },
+      "aspectRatio": "7.80"
+    },
+    {
+      "nodeId": "4681:133191",
+      "name": "image 672",
+      "category": "IMAGE",
+      "parent": "Frame 1597882825",
+      "dimensions": {
+        "width": 108,
+        "height": 105,
+        "x": 43995,
+        "y": 61856
+      },
+      "aspectRatio": "1.03"
+    },
+    {
+      "nodeId": "4681:133192",
+      "name": "image 673",
+      "category": "IMAGE",
+      "parent": "Frame 1597882825",
+      "dimensions": {
+        "width": 108,
+        "height": 105,
+        "x": 44287,
+        "y": 61856
+      },
+      "aspectRatio": "1.03"
+    },
+    {
+      "nodeId": "4681:133193",
+      "name": "Happy Womens Day",
+      "category": "TEXT",
+      "parent": "Frame 1597882825",
+      "characters": "Happy Womens Day",
+      "fontFamily": "Montserrat",
+      "fontWeight": "700",
+      "fontSize": 16,
+      "lineHeightPx": 20.799999237060547,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#121415",
+      "dimensions": {
+        "width": 342,
+        "height": 21,
+        "x": 44029,
+        "y": 61909
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133194",
+      "name": "Frame 1597882934",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 176,
+        "x": 44005,
+        "y": 61968
+      }
+    },
+    {
+      "nodeId": "4681:133195",
+      "name": "Frame 1597882913",
+      "category": "SECTION",
+      "parent": "Frame 1597882934",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 848,
+        "height": 80,
+        "x": 44029,
+        "y": 61968
+      }
+    },
+    {
+      "nodeId": "4681:133198",
+      "name": "Smart Phones",
+      "category": "TEXT",
+      "parent": "Frame 1597882907",
+      "characters": "Smart\nPhones",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44037,
+        "y": 62008
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133201",
+      "name": "Headphones",
+      "category": "TEXT",
+      "parent": "Frame 1597882908",
+      "characters": "Headphones",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44133,
+        "y": 62008
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133204",
+      "name": "Smart Watches",
+      "category": "TEXT",
+      "parent": "Frame 1597882909",
+      "characters": "Smart Watches",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44229,
+        "y": 62008
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133207",
+      "name": "Accessories",
+      "category": "TEXT",
+      "parent": "Frame 1597882910",
+      "characters": "Accessories",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44325,
+        "y": 62008
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133210",
+      "name": "Gift Cards",
+      "category": "TEXT",
+      "parent": "Frame 1597882911",
+      "characters": "Gift Cards",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44421,
+        "y": 62008
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133213",
+      "name": "Smart Phones",
+      "category": "TEXT",
+      "parent": "Frame 1597882912",
+      "characters": "Smart\nPhones",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44517,
+        "y": 62008
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133216",
+      "name": "Headphones",
+      "category": "TEXT",
+      "parent": "Frame 1597882913",
+      "characters": "Headphones",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44613,
+        "y": 62008
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133219",
+      "name": "Smart Watches",
+      "category": "TEXT",
+      "parent": "Frame 1597882914",
+      "characters": "Smart Watches",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44709,
+        "y": 62008
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133222",
+      "name": "Accessories",
+      "category": "TEXT",
+      "parent": "Frame 1597882915",
+      "characters": "Accessories",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44805,
+        "y": 62008
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133223",
+      "name": "Frame 1597882914",
+      "category": "SECTION",
+      "parent": "Frame 1597882934",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 848,
+        "height": 80,
+        "x": 44029,
+        "y": 62064
+      }
+    },
+    {
+      "nodeId": "4681:133226",
+      "name": "Smart Phones",
+      "category": "TEXT",
+      "parent": "Frame 1597882907",
+      "characters": "Smart\nPhones",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44037,
+        "y": 62104
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133229",
+      "name": "Headphones",
+      "category": "TEXT",
+      "parent": "Frame 1597882908",
+      "characters": "Headphones",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44133,
+        "y": 62104
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133232",
+      "name": "Smart Watches",
+      "category": "TEXT",
+      "parent": "Frame 1597882909",
+      "characters": "Smart Watches",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44229,
+        "y": 62104
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133235",
+      "name": "Accessories",
+      "category": "TEXT",
+      "parent": "Frame 1597882910",
+      "characters": "Accessories",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44325,
+        "y": 62104
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133238",
+      "name": "Gift Cards",
+      "category": "TEXT",
+      "parent": "Frame 1597882911",
+      "characters": "Gift Cards",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44421,
+        "y": 62104
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133241",
+      "name": "Smart Phones",
+      "category": "TEXT",
+      "parent": "Frame 1597882912",
+      "characters": "Smart\nPhones",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44517,
+        "y": 62104
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133244",
+      "name": "Headphones",
+      "category": "TEXT",
+      "parent": "Frame 1597882913",
+      "characters": "Headphones",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44613,
+        "y": 62104
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133247",
+      "name": "Smart Watches",
+      "category": "TEXT",
+      "parent": "Frame 1597882914",
+      "characters": "Smart Watches",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44709,
+        "y": 62104
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133250",
+      "name": "Accessories",
+      "category": "TEXT",
+      "parent": "Frame 1597882915",
+      "characters": "Accessories",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 64,
+        "height": 28,
+        "x": 44805,
+        "y": 62104
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133251",
+      "name": "Home Screen",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": "#FFFFFF",
+      "dimensions": {
+        "width": 390,
+        "height": 4828,
+        "x": 44005,
+        "y": 62168
+      }
+    },
+    {
+      "nodeId": "4681:133252",
+      "name": "Frame 1597882752",
+      "category": "SECTION",
+      "parent": "Home Screen",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 4828,
+        "x": 44005,
+        "y": 62168
+      }
+    },
+    {
+      "nodeId": "4681:133327",
+      "name": "image 570",
+      "category": "IMAGE",
+      "parent": "Frame 1321316540",
+      "dimensions": {
+        "width": 342,
+        "height": 192,
+        "x": 44029,
+        "y": 62169
+      },
+      "aspectRatio": "1.78"
+    },
+    {
+      "nodeId": "4681:133396",
+      "name": "image 621",
+      "category": "IMAGE",
+      "parent": "Frame 1597882803",
+      "dimensions": {
+        "width": 200,
+        "height": 32,
+        "x": 44005,
+        "y": 62412
+      },
+      "aspectRatio": "6.25"
+    },
+    {
+      "nodeId": "4681:133397",
+      "name": "image 622",
+      "category": "IMAGE",
+      "parent": "Frame 1597882803",
+      "dimensions": {
+        "width": 183,
+        "height": 50,
+        "x": 44224,
+        "y": 62403
+      },
+      "aspectRatio": "3.66"
+    },
+    {
+      "nodeId": "4681:133400",
+      "name": "image 560",
+      "category": "IMAGE",
+      "parent": "Frame 1321316549",
+      "dimensions": {
+        "width": 342,
+        "height": 279,
+        "x": 44029,
+        "y": 62477
+      },
+      "aspectRatio": "1.23"
+    },
+    {
+      "nodeId": "4681:133402",
+      "name": "Continue Browsing",
+      "category": "TEXT",
+      "parent": "Frame 1321316549",
+      "characters": "Continue Browsing",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 20,
+      "lineHeightPx": 26,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 166,
+        "height": 26,
+        "x": 44053,
+        "y": 62509
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133406",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316565",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 249,
+        "x": 44053,
+        "y": 62559
+      }
+    },
+    {
+      "nodeId": "4681:133408",
+      "name": "image-removebg-preview (9) 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 120,
+        "height": 120,
+        "x": 44076,
+        "y": 62581
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:133412",
+      "name": "Samsung S24 Ultra",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "Samsung S24 Ultra",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 114,
+        "height": 18,
+        "x": 44070,
+        "y": 62723
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133417",
+      "name": "₹84,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹84,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 65,
+        "height": 19,
+        "x": 44070,
+        "y": 62747
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133418",
+      "name": "96,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "96,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 54,
+        "height": 16,
+        "x": 44137,
+        "y": 62749
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133421",
+      "name": "Save ₹12,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹12,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 73,
+        "height": 20,
+        "x": 44076,
+        "y": 62775
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133424",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44190,
+        "y": 62777
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133432",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316565",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 249,
+        "x": 44230,
+        "y": 62559
+      }
+    },
+    {
+      "nodeId": "4681:133434",
+      "name": "81fxjeu8fdL 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 151,
+        "height": 151,
+        "x": 44237,
+        "y": 62566
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:133438",
+      "name": "iPhone 15 pro max",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "iPhone 15 pro max",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 109,
+        "height": 18,
+        "x": 44247,
+        "y": 62723
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133443",
+      "name": "₹1,10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,10,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 69,
+        "height": 19,
+        "x": 44247,
+        "y": 62747
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133444",
+      "name": "1,16,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "1,16,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 61,
+        "height": 16,
+        "x": 44318,
+        "y": 62749
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133447",
+      "name": "Save ₹6,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹6,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 69,
+        "height": 20,
+        "x": 44253,
+        "y": 62775
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133450",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44367,
+        "y": 62777
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133458",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316565",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 249,
+        "x": 44407,
+        "y": 62559
+      }
+    },
+    {
+      "nodeId": "4681:133460",
+      "name": "image-removebg-preview (9) 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 120,
+        "height": 120,
+        "x": 44430,
+        "y": 62581
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:133464",
+      "name": "Samsung S24 Ultra",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "Samsung S24 Ultra",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 114,
+        "height": 18,
+        "x": 44424,
+        "y": 62723
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133469",
+      "name": "₹84,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹84,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 65,
+        "height": 19,
+        "x": 44424,
+        "y": 62747
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133470",
+      "name": "96,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "96,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 54,
+        "height": 16,
+        "x": 44491,
+        "y": 62749
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133473",
+      "name": "Save ₹12,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹12,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 73,
+        "height": 20,
+        "x": 44430,
+        "y": 62775
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133476",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44544,
+        "y": 62777
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133497",
+      "name": "Banner",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 32,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 479,
+        "x": 44005,
+        "y": 62870
+      }
+    },
+    {
+      "nodeId": "4681:133501",
+      "name": "Title",
+      "category": "TEXT",
+      "parent": "Title",
+      "characters": "Super Deals",
+      "fontFamily": "Outfit",
+      "fontWeight": "600",
+      "fontSize": 34,
+      "lineHeightPx": 38,
+      "letterSpacing": -0.6000000238418579,
+      "textAlign": "LEFT",
+      "color": "#121212",
+      "dimensions": {
+        "width": 311,
+        "height": 38,
+        "x": 44029,
+        "y": 62910
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133506",
+      "name": "image 551",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 141,
+        "height": 155,
+        "x": 44041,
+        "y": 62968
+      },
+      "aspectRatio": "0.91"
+    },
+    {
+      "nodeId": "4681:133508",
+      "name": "Save ₹6,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹6,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 58,
+        "height": 52,
+        "x": 44029,
+        "y": 62963
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133512",
+      "name": "Redmi Note 12",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Redmi Note 12",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 97,
+        "height": 20,
+        "x": 44041,
+        "y": 63089
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133513",
+      "name": "Lunar Black 64GB",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Lunar Black 64GB",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 85,
+        "height": 14,
+        "x": 44041,
+        "y": 63113
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133516",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44170,
+        "y": 63111
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133518",
+      "name": "*best prize starts from",
+      "category": "TEXT",
+      "parent": "Frame 1321316544",
+      "characters": "*best prize starts from",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 100,
+        "height": 14,
+        "x": 44041,
+        "y": 63135
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133520",
+      "name": "₹10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹10,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "600",
+      "fontSize": 14,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 53,
+        "height": 24,
+        "x": 44041,
+        "y": 63151
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133522",
+      "name": "₹16,500",
+      "category": "TEXT",
+      "parent": "Group 1321316543",
+      "characters": "₹16,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 44,
+        "height": 26,
+        "x": 44096,
+        "y": 63150
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133527",
+      "name": "Add to Cart",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Add to Cart",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 47,
+        "height": 14,
+        "x": 44052,
+        "y": 63192
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133530",
+      "name": "Buy Now",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Buy Now",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 35,
+        "height": 14,
+        "x": 44130,
+        "y": 63192
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133533",
+      "name": "image 551",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 141,
+        "height": 155,
+        "x": 44215,
+        "y": 62968
+      },
+      "aspectRatio": "0.91"
+    },
+    {
+      "nodeId": "4681:133535",
+      "name": "Save ₹6,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹6,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 58,
+        "height": 52,
+        "x": 44203,
+        "y": 62963
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133539",
+      "name": "Redmi Note 12",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Redmi Note 12",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 97,
+        "height": 20,
+        "x": 44215,
+        "y": 63089
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133540",
+      "name": "Lunar Black 64GB",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Lunar Black 64GB",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 85,
+        "height": 14,
+        "x": 44215,
+        "y": 63113
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133543",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44344,
+        "y": 63111
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133545",
+      "name": "*best prize starts from",
+      "category": "TEXT",
+      "parent": "Frame 1321316544",
+      "characters": "*best prize starts from",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 100,
+        "height": 14,
+        "x": 44215,
+        "y": 63135
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133547",
+      "name": "₹10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹10,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "600",
+      "fontSize": 14,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 53,
+        "height": 24,
+        "x": 44215,
+        "y": 63151
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133549",
+      "name": "₹16,500",
+      "category": "TEXT",
+      "parent": "Group 1321316543",
+      "characters": "₹16,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 44,
+        "height": 26,
+        "x": 44270,
+        "y": 63150
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133554",
+      "name": "Add to Cart",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Add to Cart",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 47,
+        "height": 14,
+        "x": 44226,
+        "y": 63192
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133557",
+      "name": "Buy Now",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Buy Now",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 35,
+        "height": 14,
+        "x": 44304,
+        "y": 63192
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133560",
+      "name": "image 551",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 141,
+        "height": 155,
+        "x": 44389,
+        "y": 62968
+      },
+      "aspectRatio": "0.91"
+    },
+    {
+      "nodeId": "4681:133562",
+      "name": "Save ₹6,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹6,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 58,
+        "height": 52,
+        "x": 44377,
+        "y": 62963
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133566",
+      "name": "Redmi Note 12",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Redmi Note 12",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 97,
+        "height": 20,
+        "x": 44389,
+        "y": 63089
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133567",
+      "name": "Lunar Black 64GB",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Lunar Black 64GB",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 85,
+        "height": 14,
+        "x": 44389,
+        "y": 63113
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133570",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44518,
+        "y": 63111
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133572",
+      "name": "*best prize starts from",
+      "category": "TEXT",
+      "parent": "Frame 1321316544",
+      "characters": "*best prize starts from",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 100,
+        "height": 14,
+        "x": 44389,
+        "y": 63135
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133574",
+      "name": "₹10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹10,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "600",
+      "fontSize": 14,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 53,
+        "height": 24,
+        "x": 44389,
+        "y": 63151
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133576",
+      "name": "₹16,500",
+      "category": "TEXT",
+      "parent": "Group 1321316543",
+      "characters": "₹16,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 44,
+        "height": 26,
+        "x": 44444,
+        "y": 63150
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133581",
+      "name": "Add to Cart",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Add to Cart",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 47,
+        "height": 14,
+        "x": 44400,
+        "y": 63192
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133584",
+      "name": "Buy Now",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Buy Now",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 35,
+        "height": 14,
+        "x": 44478,
+        "y": 63192
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133590",
+      "name": "Phosfluorescently en",
+      "category": "TEXT",
+      "parent": "Frame 1321316535",
+      "characters": "See all deals",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 14,
+      "lineHeightPx": 22,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#301C07",
+      "dimensions": {
+        "width": 76,
+        "height": 22,
+        "x": 44159,
+        "y": 63275
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133594",
+      "name": "Explore top Audio brands",
+      "category": "TEXT",
+      "parent": "Frame 427322379",
+      "characters": "Explore top Audio brands",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 24,
+      "lineHeightPx": 31.19999885559082,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "width": 269,
+        "height": 31,
+        "x": 44029,
+        "y": 63413
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133601",
+      "name": "Apple",
+      "category": "TEXT",
+      "parent": "Frame 1321316522",
+      "characters": "Apple",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 32,
+        "height": 12,
+        "x": 44049,
+        "y": 63548
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133605",
+      "name": "image 562",
+      "category": "IMAGE",
+      "parent": "Group 110417",
+      "dimensions": {
+        "width": 40,
+        "height": 10,
+        "x": 44141,
+        "y": 63500
+      },
+      "aspectRatio": "4.00"
+    },
+    {
+      "nodeId": "4681:133607",
+      "name": "Oppo",
+      "category": "TEXT",
+      "parent": "Frame 1321316526",
+      "characters": "Oppo",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 31,
+        "height": 12,
+        "x": 44146,
+        "y": 63548
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133612",
+      "name": "Realme",
+      "category": "TEXT",
+      "parent": "Frame 1321316527",
+      "characters": "Realme",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 40,
+        "height": 12,
+        "x": 44237,
+        "y": 63548
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133617",
+      "name": "Samsung",
+      "category": "TEXT",
+      "parent": "Frame 1321316529",
+      "characters": "Samsung",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 49,
+        "height": 12,
+        "x": 44329,
+        "y": 63548
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133620",
+      "name": "Frame 1321316547",
+      "category": "BUTTON",
+      "parent": "Frame 1321316517",
+      "borderRadius": 0,
+      "backgroundColor": "#FFFFFF",
+      "dimensions": {
+        "width": 40,
+        "height": 40,
+        "x": 44429,
+        "y": 63484
+      }
+    },
+    {
+      "nodeId": "4681:133623",
+      "name": "Vivo",
+      "category": "TEXT",
+      "parent": "Frame 1321316530",
+      "characters": "Vivo",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 24,
+        "height": 12,
+        "x": 44437,
+        "y": 63548
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133625",
+      "name": "image 564",
+      "category": "IMAGE",
+      "parent": "Frame 1321316549",
+      "dimensions": {
+        "width": 342,
+        "height": 538,
+        "x": 44029,
+        "y": 63438
+      },
+      "aspectRatio": "0.64"
+    },
+    {
+      "nodeId": "4681:133627",
+      "name": "Newly launched & trending",
+      "category": "TEXT",
+      "parent": "Frame 1321316549",
+      "characters": "Newly launched & trending",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 20,
+      "lineHeightPx": 26,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 237,
+        "height": 26,
+        "x": 44053,
+        "y": 63624
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133630",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316530",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 228,
+        "x": 44053,
+        "y": 63674
+      }
+    },
+    {
+      "nodeId": "4681:133632",
+      "name": "image-removebg-preview (11) 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 127,
+        "height": 127,
+        "x": 44071,
+        "y": 63672
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:133635",
+      "name": "Oneplus buds 3",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "Oneplus buds 3",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 104,
+        "height": 20,
+        "x": 44065,
+        "y": 63799
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133637",
+      "name": "48h playtime",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "48h playtime",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 67,
+        "height": 14,
+        "x": 44065,
+        "y": 63827
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133638",
+      "name": "50 db ANC",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "50 db ANC",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 57,
+        "height": 14,
+        "x": 44065,
+        "y": 63845
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133643",
+      "name": "₹2,399",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹2,399",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 52,
+        "height": 19,
+        "x": 44065,
+        "y": 63871
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133644",
+      "name": "3,399",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "3,399",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 45,
+        "height": 16,
+        "x": 44119,
+        "y": 63873
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133653",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316530",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 228,
+        "x": 44230,
+        "y": 63674
+      }
+    },
+    {
+      "nodeId": "4681:133655",
+      "name": "image-removebg-preview (7) 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 104,
+        "height": 104,
+        "x": 44260,
+        "y": 63684
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:133658",
+      "name": "boAt Airdopes",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "boAt Airdopes",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 100,
+        "height": 20,
+        "x": 44242,
+        "y": 63799
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133660",
+      "name": "48h playtime",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "48h playtime",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 67,
+        "height": 14,
+        "x": 44242,
+        "y": 63827
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133661",
+      "name": "13mm drivers",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "13mm drivers",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 68,
+        "height": 14,
+        "x": 44242,
+        "y": 63845
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133666",
+      "name": "₹1,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 50,
+        "height": 19,
+        "x": 44242,
+        "y": 63871
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133667",
+      "name": "3,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "3,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 44,
+        "height": 16,
+        "x": 44294,
+        "y": 63873
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133676",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316530",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 228,
+        "x": 44407,
+        "y": 63674
+      }
+    },
+    {
+      "nodeId": "4681:133678",
+      "name": "image-removebg-preview (7) 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 104,
+        "height": 104,
+        "x": 44437,
+        "y": 63684
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:133681",
+      "name": "boAt Airdopes",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "boAt Airdopes",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 100,
+        "height": 20,
+        "x": 44419,
+        "y": 63799
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133683",
+      "name": "48h playtime",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "48h playtime",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 67,
+        "height": 14,
+        "x": 44419,
+        "y": 63827
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133684",
+      "name": "13mm drivers",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "13mm drivers",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 68,
+        "height": 14,
+        "x": 44419,
+        "y": 63845
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133689",
+      "name": "₹1,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 50,
+        "height": 19,
+        "x": 44419,
+        "y": 63871
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133690",
+      "name": "3,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "3,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 44,
+        "height": 16,
+        "x": 44471,
+        "y": 63873
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133705",
+      "name": "DOWNLOAD APP",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "DOWNLOAD APP",
+      "fontFamily": "Inter",
+      "fontWeight": "600",
+      "fontSize": 10,
+      "lineHeightPx": 12.102272033691406,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "width": 83,
+        "height": 12,
+        "x": 44159,
+        "y": 64496
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133706",
+      "name": "Rectangle 4",
+      "category": "IMAGE",
+      "parent": "Frame 1597882806",
+      "dimensions": {
+        "width": 390,
+        "height": 471,
+        "x": 44005,
+        "y": 63913
+      },
+      "aspectRatio": "0.83"
+    },
+    {
+      "nodeId": "4681:133712",
+      "name": "Why Fit In When You Were Born to Stand Out?",
+      "category": "TEXT",
+      "parent": "Frame 17",
+      "characters": "Why Fit In When You Were Born to Stand Out?",
+      "fontFamily": "Khand",
+      "fontWeight": "700",
+      "fontSize": 24,
+      "lineHeightPx": 26.496002197265625,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 302,
+        "height": 52,
+        "x": 44049,
+        "y": 64110
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133713",
+      "name": "Dare to be different and embrace your individuality with our one-of-a-kind offering",
+      "category": "TEXT",
+      "parent": "Frame 17",
+      "characters": "Dare to be different and embrace your individuality with our one-of-a-kind offering",
+      "fontFamily": "Average Sans",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 18.354001998901367,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 302,
+        "height": 36,
+        "x": 44049,
+        "y": 64170
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133719",
+      "name": "image 567",
+      "category": "IMAGE",
+      "parent": "Frame 1321316529",
+      "dimensions": {
+        "width": 343,
+        "height": 135,
+        "x": 44028,
+        "y": 64286
+      },
+      "aspectRatio": "2.54"
+    },
+    {
+      "nodeId": "4681:133723",
+      "name": "image 559",
+      "category": "IMAGE",
+      "parent": "Frame 1321316529",
+      "dimensions": {
+        "width": 342,
+        "height": 171,
+        "x": 44387,
+        "y": 64268
+      },
+      "aspectRatio": "2.00"
+    },
+    {
+      "nodeId": "4681:133728",
+      "name": "SPEC",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": "#FFFFFF",
+      "dimensions": {
+        "width": 390,
+        "height": 507,
+        "x": 44005,
+        "y": 64523
+      }
+    },
+    {
+      "nodeId": "4681:133730",
+      "name": "Top Compared Products",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Top Compared Products",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 20,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 342,
+        "height": 17,
+        "x": 44029,
+        "y": 64523
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133740",
+      "name": "image 2",
+      "category": "IMAGE",
+      "parent": "Group 104",
+      "dimensions": {
+        "width": 55,
+        "height": 107,
+        "x": 44041,
+        "y": 64564
+      },
+      "aspectRatio": "0.51"
+    },
+    {
+      "nodeId": "4681:133741",
+      "name": "image 3",
+      "category": "IMAGE",
+      "parent": "Group 106",
+      "dimensions": {
+        "width": 59,
+        "height": 107,
+        "x": 44079,
+        "y": 64564
+      },
+      "aspectRatio": "0.55"
+    },
+    {
+      "nodeId": "4681:133742",
+      "name": "iPhone 15 Pro Max",
+      "category": "TEXT",
+      "parent": "Frame 1321316585",
+      "characters": "iPhone 15 Pro Max",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 12,
+      "lineHeightPx": 18,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 104,
+        "height": 18,
+        "x": 44041,
+        "y": 64681
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133751",
+      "name": "(1,600 reviews)",
+      "category": "TEXT",
+      "parent": "Frame 1321316616",
+      "characters": "(1,600 reviews)",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 67,
+        "height": 16,
+        "x": 44047,
+        "y": 64735
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133754",
+      "name": "Display",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Display",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44041,
+        "y": 64762
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133755",
+      "name": "6.1 inch",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "6.1 inch",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44041,
+        "y": 64783
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133758",
+      "name": "Chip",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Chip",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44041,
+        "y": 64805
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133759",
+      "name": "A17",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "A17",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44041,
+        "y": 64826
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133762",
+      "name": "Finish",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Finish",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44041,
+        "y": 64848
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133763",
+      "name": "Aluminum",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Aluminum",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44041,
+        "y": 64869
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133766",
+      "name": "Dynamic Island",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Dynamic Island",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44041,
+        "y": 64891
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133770",
+      "name": "Camera",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Camera",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44041,
+        "y": 64932
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133771",
+      "name": "48MP",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "48MP",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44041,
+        "y": 64953
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133776",
+      "name": "image 2",
+      "category": "IMAGE",
+      "parent": "Group 104",
+      "dimensions": {
+        "width": 55,
+        "height": 107,
+        "x": 44169,
+        "y": 64564
+      },
+      "aspectRatio": "0.51"
+    },
+    {
+      "nodeId": "4681:133777",
+      "name": "image 3",
+      "category": "IMAGE",
+      "parent": "Group 106",
+      "dimensions": {
+        "width": 59,
+        "height": 107,
+        "x": 44207,
+        "y": 64564
+      },
+      "aspectRatio": "0.55"
+    },
+    {
+      "nodeId": "4681:133778",
+      "name": "iPhone 16 Pro Max",
+      "category": "TEXT",
+      "parent": "Frame 1321316585",
+      "characters": "iPhone 16 Pro Max",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 12,
+      "lineHeightPx": 18,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 104,
+        "height": 18,
+        "x": 44169,
+        "y": 64681
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133787",
+      "name": "(1,600 reviews)",
+      "category": "TEXT",
+      "parent": "Frame 1321316616",
+      "characters": "(1,600 reviews)",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 67,
+        "height": 16,
+        "x": 44175,
+        "y": 64735
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133790",
+      "name": "Display",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Display",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44169,
+        "y": 64762
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133791",
+      "name": "6.1 inch",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "6.1 inch",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44169,
+        "y": 64783
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133794",
+      "name": "Chip",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Chip",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44169,
+        "y": 64805
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133795",
+      "name": "A18",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "A18",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44169,
+        "y": 64826
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133798",
+      "name": "Finish",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Finish",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44169,
+        "y": 64848
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133799",
+      "name": "Aluminum",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Aluminum",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44169,
+        "y": 64869
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133802",
+      "name": "Dynamic Island",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Dynamic Island",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44169,
+        "y": 64891
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133806",
+      "name": "Camera",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Camera",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44169,
+        "y": 64932
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133807",
+      "name": "48MP",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "48MP",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44169,
+        "y": 64953
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133812",
+      "name": "image 2",
+      "category": "IMAGE",
+      "parent": "Group 104",
+      "dimensions": {
+        "width": 55,
+        "height": 107,
+        "x": 44297,
+        "y": 64564
+      },
+      "aspectRatio": "0.51"
+    },
+    {
+      "nodeId": "4681:133813",
+      "name": "image 3",
+      "category": "IMAGE",
+      "parent": "Group 106",
+      "dimensions": {
+        "width": 59,
+        "height": 107,
+        "x": 44335,
+        "y": 64564
+      },
+      "aspectRatio": "0.55"
+    },
+    {
+      "nodeId": "4681:133814",
+      "name": "iPhone 17 Pro Max",
+      "category": "TEXT",
+      "parent": "Frame 1321316585",
+      "characters": "iPhone 17 Pro Max",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 12,
+      "lineHeightPx": 18,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 104,
+        "height": 18,
+        "x": 44297,
+        "y": 64681
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133823",
+      "name": "(1,600 reviews)",
+      "category": "TEXT",
+      "parent": "Frame 1321316616",
+      "characters": "(1,600 reviews)",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 67,
+        "height": 16,
+        "x": 44303,
+        "y": 64735
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133826",
+      "name": "Display",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Display",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44297,
+        "y": 64762
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133827",
+      "name": "6.1 inch",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "6.1 inch",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44297,
+        "y": 64783
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133830",
+      "name": "Chip",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Chip",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44297,
+        "y": 64805
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133831",
+      "name": "A18",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "A18",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44297,
+        "y": 64826
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133834",
+      "name": "Finish",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Finish",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44297,
+        "y": 64848
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133835",
+      "name": "Aluminum",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Aluminum",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44297,
+        "y": 64869
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133838",
+      "name": "Dynamic Island",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Dynamic Island",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44297,
+        "y": 64891
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133842",
+      "name": "Camera",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Camera",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44297,
+        "y": 64932
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133843",
+      "name": "48MP",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "48MP",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44297,
+        "y": 64953
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133844",
+      "name": "View more",
+      "category": "TEXT",
+      "parent": "Frame 1597882729",
+      "characters": "View more",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 67,
+        "height": 11,
+        "x": 44167,
+        "y": 64995
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133845",
+      "name": "Banner",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 32,
+      "backgroundColor": "#000000",
+      "dimensions": {
+        "width": 390,
+        "height": 544,
+        "x": 44005,
+        "y": 65054
+      }
+    },
+    {
+      "nodeId": "4681:133847",
+      "name": "Title",
+      "category": "TEXT",
+      "parent": "Content",
+      "characters": "Deal of the day",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 32,
+      "lineHeightPx": 38,
+      "letterSpacing": -0.6000000238418579,
+      "textAlign": "LEFT",
+      "color": null,
+      "dimensions": {
+        "width": 209,
+        "height": 38,
+        "x": 44096,
+        "y": 65094
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133852",
+      "name": "Frame 1321316561",
+      "category": "CARD",
+      "parent": "Apple Watch",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 159,
+        "height": 197,
+        "x": 43892,
+        "y": 65220
+      }
+    },
+    {
+      "nodeId": "4681:133853",
+      "name": "image-removebg-preview (8) 1",
+      "category": "IMAGE",
+      "parent": "Frame 1321316561",
+      "dimensions": {
+        "width": 159,
+        "height": 197,
+        "x": 43892,
+        "y": 65220
+      },
+      "aspectRatio": "0.81"
+    },
+    {
+      "nodeId": "4681:133856",
+      "name": "iPhone 15 pro max",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "iPhone 15 pro max",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 16.4095516204834,
+      "letterSpacing": -0.19535182416439056,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 102,
+        "height": 16,
+        "x": 43892,
+        "y": 65430
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133861",
+      "name": "₹1,10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,10,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 15.465353965759277,
+      "letterSpacing": -0.19535182416439056,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 57,
+        "height": 16,
+        "x": 43892,
+        "y": 65456
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133862",
+      "name": "1,16,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "1,16,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 13.023453712463379,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 50,
+        "height": 13,
+        "x": 43954,
+        "y": 65457
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133871",
+      "name": "image-removebg-preview (10) 1",
+      "category": "IMAGE",
+      "parent": "Apple Watch",
+      "dimensions": {
+        "width": 200,
+        "height": 250,
+        "x": 44100,
+        "y": 65172
+      },
+      "aspectRatio": "0.80"
+    },
+    {
+      "nodeId": "4681:133873",
+      "name": "Oneplus 11R",
+      "category": "TEXT",
+      "parent": "Frame 6",
+      "characters": "Oneplus 11R",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 18,
+      "lineHeightPx": 22.68000030517578,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 91,
+        "height": 23,
+        "x": 44100,
+        "y": 65438
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133877",
+      "name": "Starting from",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "Starting from",
+      "fontFamily": "Poppins",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 103,
+        "height": 24,
+        "x": 44100,
+        "y": 65469
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133878",
+      "name": "₹1,10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,10,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 69,
+        "height": 24,
+        "x": 44209,
+        "y": 65469
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133882",
+      "name": "Inclusive of offers",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "Inclusive of offers",
+      "fontFamily": "Poppins",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 18,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 100,
+        "height": 18,
+        "x": 44100,
+        "y": 65501
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133891",
+      "name": "Frame 1321316561",
+      "category": "CARD",
+      "parent": "Apple Watch",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 159,
+        "height": 197,
+        "x": 44349,
+        "y": 65220
+      }
+    },
+    {
+      "nodeId": "4681:133892",
+      "name": "image-removebg-preview (8) 1",
+      "category": "IMAGE",
+      "parent": "Frame 1321316561",
+      "dimensions": {
+        "width": 159,
+        "height": 197,
+        "x": 44349,
+        "y": 65220
+      },
+      "aspectRatio": "0.81"
+    },
+    {
+      "nodeId": "4681:133895",
+      "name": "iPhone 15 pro max",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "iPhone 15 pro max",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 16.4095516204834,
+      "letterSpacing": -0.19535182416439056,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 102,
+        "height": 16,
+        "x": 44349,
+        "y": 65430
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133900",
+      "name": "₹1,10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,10,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 15.465353965759277,
+      "letterSpacing": -0.19535182416439056,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 57,
+        "height": 16,
+        "x": 44349,
+        "y": 65456
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133901",
+      "name": "1,16,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "1,16,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 13.023453712463379,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 50,
+        "height": 13,
+        "x": 44411,
+        "y": 65457
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:133917",
+      "name": "DOWNLOAD APP",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "DOWNLOAD APP",
+      "fontFamily": "Inter",
+      "fontWeight": "600",
+      "fontSize": 10,
+      "lineHeightPx": 12.102272033691406,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "width": 83,
+        "height": 12,
+        "x": 44159,
+        "y": 66132
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133918",
+      "name": "Rectangle 4",
+      "category": "IMAGE",
+      "parent": "Frame 1597882805",
+      "dimensions": {
+        "width": 390,
+        "height": 471,
+        "x": 44005,
+        "y": 65549
+      },
+      "aspectRatio": "0.83"
+    },
+    {
+      "nodeId": "4681:133924",
+      "name": "Why Fit In When You Were Born to Stand Out?",
+      "category": "TEXT",
+      "parent": "Frame 17",
+      "characters": "Why Fit In When You Were Born to Stand Out?",
+      "fontFamily": "Khand",
+      "fontWeight": "700",
+      "fontSize": 24,
+      "lineHeightPx": 26.496002197265625,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 302,
+        "height": 52,
+        "x": 44049,
+        "y": 65747
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133925",
+      "name": "Dare to be different and embrace your individuality with our one-of-a-kind offering",
+      "category": "TEXT",
+      "parent": "Frame 17",
+      "characters": "Dare to be different and embrace your individuality with our one-of-a-kind offering",
+      "fontFamily": "Average Sans",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 18.354001998901367,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 302,
+        "height": 36,
+        "x": 44049,
+        "y": 65807
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133928",
+      "name": "Download the Sangeetha App",
+      "category": "TEXT",
+      "parent": "Frame 1321316570",
+      "characters": "Download the Sangeetha App",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.799999237060547,
+      "letterSpacing": -0.16,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "width": 209,
+        "height": 21,
+        "x": 44029,
+        "y": 65963
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133929",
+      "name": "Find our on exclusive launches & amazing deals",
+      "category": "TEXT",
+      "parent": "Frame 1321316570",
+      "characters": "Find our on exclusive launches & amazing deals",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 18.19999885559082,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "width": 233,
+        "height": 36,
+        "x": 44029,
+        "y": 65988
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133931",
+      "name": "pngegg 3",
+      "category": "IMAGE",
+      "parent": "Frame 1321316571",
+      "dimensions": {
+        "width": 80,
+        "height": 24,
+        "x": 44029,
+        "y": 66040
+      },
+      "aspectRatio": "3.33"
+    },
+    {
+      "nodeId": "4681:133932",
+      "name": "pngegg 1",
+      "category": "IMAGE",
+      "parent": "Frame 1321316571",
+      "dimensions": {
+        "width": 80,
+        "height": 24,
+        "x": 44113,
+        "y": 66040
+      },
+      "aspectRatio": "3.33"
+    },
+    {
+      "nodeId": "4681:133950",
+      "name": "16",
+      "category": "CARD",
+      "parent": "Group 33",
+      "borderRadius": 8.930133819580078,
+      "dimensions": {
+        "width": 109,
+        "height": 236,
+        "x": 44259,
+        "y": 65931
+      }
+    },
+    {
+      "nodeId": "4681:133951",
+      "name": "iPhone 15 - Blue - Portrait",
+      "category": "IMAGE",
+      "parent": "Group 33",
+      "dimensions": {
+        "width": 130,
+        "height": 256,
+        "x": 44249,
+        "y": 65920
+      },
+      "aspectRatio": "0.51"
+    },
+    {
+      "nodeId": "4681:133954",
+      "name": "Get updates from us",
+      "category": "TEXT",
+      "parent": "Frame 1321316473",
+      "characters": "Get updates from us",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 24,
+      "lineHeightPx": 31.19999885559082,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 225,
+        "height": 31,
+        "x": 44029,
+        "y": 66152
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133958",
+      "name": "Enter your mail id",
+      "category": "TEXT",
+      "parent": "Frame 36905",
+      "characters": "Enter your mail id",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 109,
+        "height": 20,
+        "x": 44073,
+        "y": 66215
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:133998",
+      "name": "Useful Links",
+      "category": "TEXT",
+      "parent": "Frame 1321316474",
+      "characters": "Useful Links",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 19.600000381469727,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 225,
+        "height": 20,
+        "x": 44029,
+        "y": 66344
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134002",
+      "name": "Product Categories",
+      "category": "TEXT",
+      "parent": "Frame 1321316475",
+      "characters": "Product Categories",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 19.600000381469727,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 225,
+        "height": 20,
+        "x": 44029,
+        "y": 66400
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134004",
+      "name": "Frame 1597882803",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": "#000000",
+      "dimensions": {
+        "width": 390,
+        "height": 50,
+        "x": 44005,
+        "y": 67020
+      }
+    },
+    {
+      "nodeId": "4681:134005",
+      "name": "image 621",
+      "category": "IMAGE",
+      "parent": "Frame 1597882803",
+      "dimensions": {
+        "width": 200,
+        "height": 32,
+        "x": 44005,
+        "y": 67029
+      },
+      "aspectRatio": "6.25"
+    },
+    {
+      "nodeId": "4681:134006",
+      "name": "image 622",
+      "category": "IMAGE",
+      "parent": "Frame 1597882803",
+      "dimensions": {
+        "width": 183,
+        "height": 50,
+        "x": 44224,
+        "y": 67020
+      },
+      "aspectRatio": "3.66"
+    },
+    {
+      "nodeId": "4681:134007",
+      "name": "Frame 1597882771",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 369,
+        "x": 44005,
+        "y": 67094
+      }
+    },
+    {
+      "nodeId": "4681:134008",
+      "name": "Frame 1321316549",
+      "category": "SECTION",
+      "parent": "Frame 1597882771",
+      "borderRadius": 24,
+      "backgroundColor": "#000000",
+      "dimensions": {
+        "width": 342,
+        "height": 369,
+        "x": 44029,
+        "y": 67094
+      }
+    },
+    {
+      "nodeId": "4681:134009",
+      "name": "image 560",
+      "category": "IMAGE",
+      "parent": "Frame 1321316549",
+      "dimensions": {
+        "width": 342,
+        "height": 279,
+        "x": 44029,
+        "y": 67094
+      },
+      "aspectRatio": "1.23"
+    },
+    {
+      "nodeId": "4681:134011",
+      "name": "Continue Browsing",
+      "category": "TEXT",
+      "parent": "Frame 1321316549",
+      "characters": "Continue Browsing",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 20,
+      "lineHeightPx": 26,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 166,
+        "height": 26,
+        "x": 44053,
+        "y": 67126
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134015",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316565",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 249,
+        "x": 44053,
+        "y": 67176
+      }
+    },
+    {
+      "nodeId": "4681:134017",
+      "name": "image-removebg-preview (9) 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 120,
+        "height": 120,
+        "x": 44076,
+        "y": 67198
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:134021",
+      "name": "Samsung S24 Ultra",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "Samsung S24 Ultra",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 114,
+        "height": 18,
+        "x": 44070,
+        "y": 67340
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134026",
+      "name": "₹84,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹84,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 65,
+        "height": 19,
+        "x": 44070,
+        "y": 67364
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134027",
+      "name": "96,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "96,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 54,
+        "height": 16,
+        "x": 44137,
+        "y": 67366
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134030",
+      "name": "Save ₹12,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹12,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 73,
+        "height": 20,
+        "x": 44076,
+        "y": 67392
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134033",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44190,
+        "y": 67394
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134041",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316565",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 249,
+        "x": 44230,
+        "y": 67176
+      }
+    },
+    {
+      "nodeId": "4681:134043",
+      "name": "81fxjeu8fdL 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 151,
+        "height": 151,
+        "x": 44237,
+        "y": 67183
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:134047",
+      "name": "iPhone 15 pro max",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "iPhone 15 pro max",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 109,
+        "height": 18,
+        "x": 44247,
+        "y": 67340
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134052",
+      "name": "₹1,10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,10,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 69,
+        "height": 19,
+        "x": 44247,
+        "y": 67364
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134053",
+      "name": "1,16,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "1,16,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 61,
+        "height": 16,
+        "x": 44318,
+        "y": 67366
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134056",
+      "name": "Save ₹6,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹6,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 69,
+        "height": 20,
+        "x": 44253,
+        "y": 67392
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134059",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44367,
+        "y": 67394
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134067",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316565",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 249,
+        "x": 44407,
+        "y": 67176
+      }
+    },
+    {
+      "nodeId": "4681:134069",
+      "name": "image-removebg-preview (9) 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 120,
+        "height": 120,
+        "x": 44430,
+        "y": 67198
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:134073",
+      "name": "Samsung S24 Ultra",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "Samsung S24 Ultra",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 114,
+        "height": 18,
+        "x": 44424,
+        "y": 67340
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134078",
+      "name": "₹84,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹84,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 65,
+        "height": 19,
+        "x": 44424,
+        "y": 67364
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134079",
+      "name": "96,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "96,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 54,
+        "height": 16,
+        "x": 44491,
+        "y": 67366
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134082",
+      "name": "Save ₹12,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹12,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 73,
+        "height": 20,
+        "x": 44430,
+        "y": 67392
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134085",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44544,
+        "y": 67394
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134106",
+      "name": "Banner",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 32,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 479,
+        "x": 44005,
+        "y": 67487
+      }
+    },
+    {
+      "nodeId": "4681:134107",
+      "name": "Content",
+      "category": "SECTION",
+      "parent": "Banner",
+      "borderRadius": 0,
+      "backgroundColor": "#FEF3E9",
+      "dimensions": {
+        "width": 390,
+        "height": 479,
+        "x": 44005,
+        "y": 67487
+      }
+    },
+    {
+      "nodeId": "4681:134110",
+      "name": "Title",
+      "category": "TEXT",
+      "parent": "Title",
+      "characters": "Super Deals",
+      "fontFamily": "Outfit",
+      "fontWeight": "600",
+      "fontSize": 34,
+      "lineHeightPx": 38,
+      "letterSpacing": -0.6000000238418579,
+      "textAlign": "LEFT",
+      "color": "#121212",
+      "dimensions": {
+        "width": 311,
+        "height": 38,
+        "x": 44029,
+        "y": 67527
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134115",
+      "name": "image 551",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 141,
+        "height": 155,
+        "x": 44041,
+        "y": 67585
+      },
+      "aspectRatio": "0.91"
+    },
+    {
+      "nodeId": "4681:134117",
+      "name": "Save ₹6,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹6,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 58,
+        "height": 52,
+        "x": 44029,
+        "y": 67580
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134121",
+      "name": "Redmi Note 12",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Redmi Note 12",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 97,
+        "height": 20,
+        "x": 44041,
+        "y": 67706
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134122",
+      "name": "Lunar Black 64GB",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Lunar Black 64GB",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 85,
+        "height": 14,
+        "x": 44041,
+        "y": 67730
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134125",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44170,
+        "y": 67728
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134127",
+      "name": "*best prize starts from",
+      "category": "TEXT",
+      "parent": "Frame 1321316544",
+      "characters": "*best prize starts from",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 100,
+        "height": 14,
+        "x": 44041,
+        "y": 67752
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134129",
+      "name": "₹10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹10,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "600",
+      "fontSize": 14,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 53,
+        "height": 24,
+        "x": 44041,
+        "y": 67768
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134131",
+      "name": "₹16,500",
+      "category": "TEXT",
+      "parent": "Group 1321316543",
+      "characters": "₹16,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 44,
+        "height": 26,
+        "x": 44096,
+        "y": 67767
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134136",
+      "name": "Add to Cart",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Add to Cart",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 47,
+        "height": 14,
+        "x": 44052,
+        "y": 67809
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134139",
+      "name": "Buy Now",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Buy Now",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 35,
+        "height": 14,
+        "x": 44130,
+        "y": 67809
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134142",
+      "name": "image 551",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 141,
+        "height": 155,
+        "x": 44215,
+        "y": 67585
+      },
+      "aspectRatio": "0.91"
+    },
+    {
+      "nodeId": "4681:134144",
+      "name": "Save ₹6,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹6,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 58,
+        "height": 52,
+        "x": 44203,
+        "y": 67580
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134148",
+      "name": "Redmi Note 12",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Redmi Note 12",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 97,
+        "height": 20,
+        "x": 44215,
+        "y": 67706
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134149",
+      "name": "Lunar Black 64GB",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Lunar Black 64GB",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 85,
+        "height": 14,
+        "x": 44215,
+        "y": 67730
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134152",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44344,
+        "y": 67728
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134154",
+      "name": "*best prize starts from",
+      "category": "TEXT",
+      "parent": "Frame 1321316544",
+      "characters": "*best prize starts from",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 100,
+        "height": 14,
+        "x": 44215,
+        "y": 67752
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134156",
+      "name": "₹10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹10,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "600",
+      "fontSize": 14,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 53,
+        "height": 24,
+        "x": 44215,
+        "y": 67768
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134158",
+      "name": "₹16,500",
+      "category": "TEXT",
+      "parent": "Group 1321316543",
+      "characters": "₹16,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 44,
+        "height": 26,
+        "x": 44270,
+        "y": 67767
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134163",
+      "name": "Add to Cart",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Add to Cart",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 47,
+        "height": 14,
+        "x": 44226,
+        "y": 67809
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134166",
+      "name": "Buy Now",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Buy Now",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 35,
+        "height": 14,
+        "x": 44304,
+        "y": 67809
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134169",
+      "name": "image 551",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 141,
+        "height": 155,
+        "x": 44389,
+        "y": 67585
+      },
+      "aspectRatio": "0.91"
+    },
+    {
+      "nodeId": "4681:134171",
+      "name": "Save ₹6,000",
+      "category": "TEXT",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹6,000",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 58,
+        "height": 52,
+        "x": 44377,
+        "y": 67580
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134175",
+      "name": "Redmi Note 12",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Redmi Note 12",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 97,
+        "height": 20,
+        "x": 44389,
+        "y": 67706
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134176",
+      "name": "Lunar Black 64GB",
+      "category": "TEXT",
+      "parent": "Frame 1597882773",
+      "characters": "Lunar Black 64GB",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 85,
+        "height": 14,
+        "x": 44389,
+        "y": 67730
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134179",
+      "name": "4.1",
+      "category": "TEXT",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 12,
+        "height": 16,
+        "x": 44518,
+        "y": 67728
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134181",
+      "name": "*best prize starts from",
+      "category": "TEXT",
+      "parent": "Frame 1321316544",
+      "characters": "*best prize starts from",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 100,
+        "height": 14,
+        "x": 44389,
+        "y": 67752
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134183",
+      "name": "₹10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹10,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "600",
+      "fontSize": 14,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 53,
+        "height": 24,
+        "x": 44389,
+        "y": 67768
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134185",
+      "name": "₹16,500",
+      "category": "TEXT",
+      "parent": "Group 1321316543",
+      "characters": "₹16,500",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 44,
+        "height": 26,
+        "x": 44444,
+        "y": 67767
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134190",
+      "name": "Add to Cart",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Add to Cart",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 47,
+        "height": 14,
+        "x": 44400,
+        "y": 67809
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134193",
+      "name": "Buy Now",
+      "category": "TEXT",
+      "parent": "Frame 1321316534",
+      "characters": "Buy Now",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 9,
+      "lineHeightPx": 13.5,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 35,
+        "height": 14,
+        "x": 44478,
+        "y": 67809
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134199",
+      "name": "Phosfluorescently en",
+      "category": "TEXT",
+      "parent": "Frame 1321316535",
+      "characters": "See all deals",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 14,
+      "lineHeightPx": 22,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#301C07",
+      "dimensions": {
+        "width": 76,
+        "height": 22,
+        "x": 44159,
+        "y": 67892
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134200",
+      "name": "Frame 1597882804",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": "#FAFAFA",
+      "dimensions": {
+        "width": 390,
+        "height": 1126,
+        "x": 44005,
+        "y": 67990
+      }
+    },
+    {
+      "nodeId": "4681:134201",
+      "name": "Frame 1321316560",
+      "category": "SECTION",
+      "parent": "Frame 1597882804",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 147,
+        "x": 44005,
+        "y": 68030
+      }
+    },
+    {
+      "nodeId": "4681:134203",
+      "name": "Explore top Audio brands",
+      "category": "TEXT",
+      "parent": "Frame 427322379",
+      "characters": "Explore top Audio brands",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 24,
+      "lineHeightPx": 31.19999885559082,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "width": 269,
+        "height": 31,
+        "x": 44029,
+        "y": 68030
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134210",
+      "name": "Apple",
+      "category": "TEXT",
+      "parent": "Frame 1321316522",
+      "characters": "Apple",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 32,
+        "height": 12,
+        "x": 44049,
+        "y": 68165
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134214",
+      "name": "image 562",
+      "category": "IMAGE",
+      "parent": "Group 110417",
+      "dimensions": {
+        "width": 40,
+        "height": 10,
+        "x": 44141,
+        "y": 68117
+      },
+      "aspectRatio": "4.00"
+    },
+    {
+      "nodeId": "4681:134216",
+      "name": "Oppo",
+      "category": "TEXT",
+      "parent": "Frame 1321316526",
+      "characters": "Oppo",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 31,
+        "height": 12,
+        "x": 44146,
+        "y": 68165
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134221",
+      "name": "Realme",
+      "category": "TEXT",
+      "parent": "Frame 1321316527",
+      "characters": "Realme",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 40,
+        "height": 12,
+        "x": 44237,
+        "y": 68165
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134226",
+      "name": "Samsung",
+      "category": "TEXT",
+      "parent": "Frame 1321316529",
+      "characters": "Samsung",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 49,
+        "height": 12,
+        "x": 44329,
+        "y": 68165
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134229",
+      "name": "Frame 1321316547",
+      "category": "BUTTON",
+      "parent": "Frame 1321316517",
+      "borderRadius": 0,
+      "backgroundColor": "#FFFFFF",
+      "dimensions": {
+        "width": 40,
+        "height": 40,
+        "x": 44429,
+        "y": 68101
+      }
+    },
+    {
+      "nodeId": "4681:134232",
+      "name": "Vivo",
+      "category": "TEXT",
+      "parent": "Frame 1321316530",
+      "characters": "Vivo",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 24,
+        "height": 12,
+        "x": 44437,
+        "y": 68165
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134233",
+      "name": "Frame 1321316549",
+      "category": "SECTION",
+      "parent": "Frame 1597882804",
+      "borderRadius": 24,
+      "backgroundColor": "#000000",
+      "dimensions": {
+        "width": 342,
+        "height": 362,
+        "x": 44029,
+        "y": 68209
+      }
+    },
+    {
+      "nodeId": "4681:134234",
+      "name": "image 564",
+      "category": "IMAGE",
+      "parent": "Frame 1321316549",
+      "dimensions": {
+        "width": 342,
+        "height": 538,
+        "x": 44029,
+        "y": 68055
+      },
+      "aspectRatio": "0.64"
+    },
+    {
+      "nodeId": "4681:134236",
+      "name": "Newly launched & trending",
+      "category": "TEXT",
+      "parent": "Frame 1321316549",
+      "characters": "Newly launched & trending",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 20,
+      "lineHeightPx": 26,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 237,
+        "height": 26,
+        "x": 44053,
+        "y": 68241
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134239",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316530",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 228,
+        "x": 44053,
+        "y": 68291
+      }
+    },
+    {
+      "nodeId": "4681:134241",
+      "name": "image-removebg-preview (11) 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 127,
+        "height": 127,
+        "x": 44071,
+        "y": 68289
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:134244",
+      "name": "Oneplus buds 3",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "Oneplus buds 3",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 104,
+        "height": 20,
+        "x": 44065,
+        "y": 68416
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134246",
+      "name": "48h playtime",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "48h playtime",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 67,
+        "height": 14,
+        "x": 44065,
+        "y": 68444
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134247",
+      "name": "50 db ANC",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "50 db ANC",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 57,
+        "height": 14,
+        "x": 44065,
+        "y": 68462
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134252",
+      "name": "₹2,399",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹2,399",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 52,
+        "height": 19,
+        "x": 44065,
+        "y": 68488
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134253",
+      "name": "3,399",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "3,399",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 45,
+        "height": 16,
+        "x": 44119,
+        "y": 68490
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134262",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316530",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 228,
+        "x": 44230,
+        "y": 68291
+      }
+    },
+    {
+      "nodeId": "4681:134264",
+      "name": "image-removebg-preview (7) 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 104,
+        "height": 104,
+        "x": 44260,
+        "y": 68301
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:134267",
+      "name": "boAt Airdopes",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "boAt Airdopes",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 100,
+        "height": 20,
+        "x": 44242,
+        "y": 68416
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134269",
+      "name": "48h playtime",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "48h playtime",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 67,
+        "height": 14,
+        "x": 44242,
+        "y": 68444
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134270",
+      "name": "13mm drivers",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "13mm drivers",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 68,
+        "height": 14,
+        "x": 44242,
+        "y": 68462
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134275",
+      "name": "₹1,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 50,
+        "height": 19,
+        "x": 44242,
+        "y": 68488
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134276",
+      "name": "3,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "3,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 44,
+        "height": 16,
+        "x": 44294,
+        "y": 68490
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134285",
+      "name": "Apple Watch",
+      "category": "CARD",
+      "parent": "Frame 1321316530",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 165,
+        "height": 228,
+        "x": 44407,
+        "y": 68291
+      }
+    },
+    {
+      "nodeId": "4681:134287",
+      "name": "image-removebg-preview (7) 1",
+      "category": "IMAGE",
+      "parent": "Frame 4",
+      "dimensions": {
+        "width": 104,
+        "height": 104,
+        "x": 44437,
+        "y": 68301
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "nodeId": "4681:134290",
+      "name": "boAt Airdopes",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "boAt Airdopes",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.15999984741211,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "width": 100,
+        "height": 20,
+        "x": 44419,
+        "y": 68416
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134292",
+      "name": "48h playtime",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "48h playtime",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 67,
+        "height": 14,
+        "x": 44419,
+        "y": 68444
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134293",
+      "name": "13mm drivers",
+      "category": "TEXT",
+      "parent": "Frame 110766",
+      "characters": "13mm drivers",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 14,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#9095A6",
+      "dimensions": {
+        "width": 68,
+        "height": 14,
+        "x": 44419,
+        "y": 68462
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134298",
+      "name": "₹1,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 50,
+        "height": 19,
+        "x": 44419,
+        "y": 68488
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134299",
+      "name": "3,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "3,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "width": 44,
+        "height": 16,
+        "x": 44471,
+        "y": 68490
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134312",
+      "name": "Frame 1597882806",
+      "category": "SECTION",
+      "parent": "Frame 1597882804",
+      "borderRadius": 0,
+      "backgroundColor": "#FF4E00",
+      "dimensions": {
+        "width": 390,
+        "height": 250,
+        "x": 44005,
+        "y": 68603
+      }
+    },
+    {
+      "nodeId": "4681:134314",
+      "name": "DOWNLOAD APP",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "DOWNLOAD APP",
+      "fontFamily": "Inter",
+      "fontWeight": "600",
+      "fontSize": 10,
+      "lineHeightPx": 12.102272033691406,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "width": 83,
+        "height": 12,
+        "x": 44159,
+        "y": 69113
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134315",
+      "name": "Rectangle 4",
+      "category": "IMAGE",
+      "parent": "Frame 1597882806",
+      "dimensions": {
+        "width": 390,
+        "height": 471,
+        "x": 44005,
+        "y": 68530
+      },
+      "aspectRatio": "0.83"
+    },
+    {
+      "nodeId": "4681:134321",
+      "name": "Why Fit In When You Were Born to Stand Out?",
+      "category": "TEXT",
+      "parent": "Frame 17",
+      "characters": "Why Fit In When You Were Born to Stand Out?",
+      "fontFamily": "Khand",
+      "fontWeight": "700",
+      "fontSize": 24,
+      "lineHeightPx": 26.496002197265625,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 302,
+        "height": 52,
+        "x": 44049,
+        "y": 68727
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134322",
+      "name": "Dare to be different and embrace your individuality with our one-of-a-kind offering",
+      "category": "TEXT",
+      "parent": "Frame 17",
+      "characters": "Dare to be different and embrace your individuality with our one-of-a-kind offering",
+      "fontFamily": "Average Sans",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 18.354001998901367,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 302,
+        "height": 36,
+        "x": 44049,
+        "y": 68787
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134323",
+      "name": "Frame 1321316572",
+      "category": "SECTION",
+      "parent": "Frame 1597882804",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 342,
+        "height": 191,
+        "x": 44029,
+        "y": 68885
+      }
+    },
+    {
+      "nodeId": "4681:134328",
+      "name": "image 567",
+      "category": "IMAGE",
+      "parent": "Frame 1321316529",
+      "dimensions": {
+        "width": 343,
+        "height": 135,
+        "x": 44028,
+        "y": 68903
+      },
+      "aspectRatio": "2.54"
+    },
+    {
+      "nodeId": "4681:134332",
+      "name": "image 559",
+      "category": "IMAGE",
+      "parent": "Frame 1321316529",
+      "dimensions": {
+        "width": 342,
+        "height": 171,
+        "x": 44387,
+        "y": 68885
+      },
+      "aspectRatio": "2.00"
+    },
+    {
+      "nodeId": "4681:134337",
+      "name": "SPEC",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": "#FFFFFF",
+      "dimensions": {
+        "width": 390,
+        "height": 507,
+        "x": 44005,
+        "y": 69140
+      }
+    },
+    {
+      "nodeId": "4681:134339",
+      "name": "Top Compared Products",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Top Compared Products",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 20,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 342,
+        "height": 17,
+        "x": 44029,
+        "y": 69140
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134343",
+      "name": "Frame 1597882729",
+      "category": "SECTION",
+      "parent": "SPEC",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 342,
+        "height": 454,
+        "x": 44029,
+        "y": 69169
+      }
+    },
+    {
+      "nodeId": "4681:134349",
+      "name": "image 2",
+      "category": "IMAGE",
+      "parent": "Group 104",
+      "dimensions": {
+        "width": 55,
+        "height": 107,
+        "x": 44041,
+        "y": 69181
+      },
+      "aspectRatio": "0.51"
+    },
+    {
+      "nodeId": "4681:134350",
+      "name": "image 3",
+      "category": "IMAGE",
+      "parent": "Group 106",
+      "dimensions": {
+        "width": 59,
+        "height": 107,
+        "x": 44079,
+        "y": 69181
+      },
+      "aspectRatio": "0.55"
+    },
+    {
+      "nodeId": "4681:134351",
+      "name": "iPhone 15 Pro Max",
+      "category": "TEXT",
+      "parent": "Frame 1321316585",
+      "characters": "iPhone 15 Pro Max",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 12,
+      "lineHeightPx": 18,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 104,
+        "height": 18,
+        "x": 44041,
+        "y": 69298
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134360",
+      "name": "(1,600 reviews)",
+      "category": "TEXT",
+      "parent": "Frame 1321316616",
+      "characters": "(1,600 reviews)",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 67,
+        "height": 16,
+        "x": 44047,
+        "y": 69352
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134363",
+      "name": "Display",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Display",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44041,
+        "y": 69379
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134364",
+      "name": "6.1 inch",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "6.1 inch",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44041,
+        "y": 69400
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134367",
+      "name": "Chip",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Chip",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44041,
+        "y": 69422
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134368",
+      "name": "A17",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "A17",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44041,
+        "y": 69443
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134371",
+      "name": "Finish",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Finish",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44041,
+        "y": 69465
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134372",
+      "name": "Aluminum",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Aluminum",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44041,
+        "y": 69486
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134375",
+      "name": "Dynamic Island",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Dynamic Island",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44041,
+        "y": 69508
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134379",
+      "name": "Camera",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Camera",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44041,
+        "y": 69549
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134380",
+      "name": "48MP",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "48MP",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44041,
+        "y": 69570
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134385",
+      "name": "image 2",
+      "category": "IMAGE",
+      "parent": "Group 104",
+      "dimensions": {
+        "width": 55,
+        "height": 107,
+        "x": 44169,
+        "y": 69181
+      },
+      "aspectRatio": "0.51"
+    },
+    {
+      "nodeId": "4681:134386",
+      "name": "image 3",
+      "category": "IMAGE",
+      "parent": "Group 106",
+      "dimensions": {
+        "width": 59,
+        "height": 107,
+        "x": 44207,
+        "y": 69181
+      },
+      "aspectRatio": "0.55"
+    },
+    {
+      "nodeId": "4681:134387",
+      "name": "iPhone 16 Pro Max",
+      "category": "TEXT",
+      "parent": "Frame 1321316585",
+      "characters": "iPhone 16 Pro Max",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 12,
+      "lineHeightPx": 18,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 104,
+        "height": 18,
+        "x": 44169,
+        "y": 69298
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134396",
+      "name": "(1,600 reviews)",
+      "category": "TEXT",
+      "parent": "Frame 1321316616",
+      "characters": "(1,600 reviews)",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 67,
+        "height": 16,
+        "x": 44175,
+        "y": 69352
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134399",
+      "name": "Display",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Display",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44169,
+        "y": 69379
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134400",
+      "name": "6.1 inch",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "6.1 inch",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44169,
+        "y": 69400
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134403",
+      "name": "Chip",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Chip",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44169,
+        "y": 69422
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134404",
+      "name": "A18",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "A18",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44169,
+        "y": 69443
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134407",
+      "name": "Finish",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Finish",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44169,
+        "y": 69465
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134408",
+      "name": "Aluminum",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Aluminum",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44169,
+        "y": 69486
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134411",
+      "name": "Dynamic Island",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Dynamic Island",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44169,
+        "y": 69508
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134415",
+      "name": "Camera",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Camera",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44169,
+        "y": 69549
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134416",
+      "name": "48MP",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "48MP",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44169,
+        "y": 69570
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134421",
+      "name": "image 2",
+      "category": "IMAGE",
+      "parent": "Group 104",
+      "dimensions": {
+        "width": 55,
+        "height": 107,
+        "x": 44297,
+        "y": 69181
+      },
+      "aspectRatio": "0.51"
+    },
+    {
+      "nodeId": "4681:134422",
+      "name": "image 3",
+      "category": "IMAGE",
+      "parent": "Group 106",
+      "dimensions": {
+        "width": 59,
+        "height": 107,
+        "x": 44335,
+        "y": 69181
+      },
+      "aspectRatio": "0.55"
+    },
+    {
+      "nodeId": "4681:134423",
+      "name": "iPhone 17 Pro Max",
+      "category": "TEXT",
+      "parent": "Frame 1321316585",
+      "characters": "iPhone 17 Pro Max",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 12,
+      "lineHeightPx": 18,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 104,
+        "height": 18,
+        "x": 44297,
+        "y": 69298
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134432",
+      "name": "(1,600 reviews)",
+      "category": "TEXT",
+      "parent": "Frame 1321316616",
+      "characters": "(1,600 reviews)",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 67,
+        "height": 16,
+        "x": 44303,
+        "y": 69352
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134435",
+      "name": "Display",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Display",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44297,
+        "y": 69379
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134436",
+      "name": "6.1 inch",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "6.1 inch",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44297,
+        "y": 69400
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134439",
+      "name": "Chip",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Chip",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44297,
+        "y": 69422
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134440",
+      "name": "A18",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "A18",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44297,
+        "y": 69443
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134443",
+      "name": "Finish",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Finish",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44297,
+        "y": 69465
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134444",
+      "name": "Aluminum",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Aluminum",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44297,
+        "y": 69486
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134447",
+      "name": "Dynamic Island",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Dynamic Island",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44297,
+        "y": 69508
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134451",
+      "name": "Camera",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "Camera",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 11,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "width": 104,
+        "height": 17,
+        "x": 44297,
+        "y": 69549
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134452",
+      "name": "48MP",
+      "category": "TEXT",
+      "parent": "Frame 1597882720",
+      "characters": "48MP",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "width": 104,
+        "height": 14,
+        "x": 44297,
+        "y": 69570
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134453",
+      "name": "View more",
+      "category": "TEXT",
+      "parent": "Frame 1597882729",
+      "characters": "View more",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "width": 67,
+        "height": 11,
+        "x": 44167,
+        "y": 69612
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134454",
+      "name": "Banner",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 32,
+      "backgroundColor": "#000000",
+      "dimensions": {
+        "width": 390,
+        "height": 544,
+        "x": 44005,
+        "y": 69671
+      }
+    },
+    {
+      "nodeId": "4681:134455",
+      "name": "Content",
+      "category": "SECTION",
+      "parent": "Banner",
+      "borderRadius": 0,
+      "backgroundColor": "#FFFFFF",
+      "dimensions": {
+        "width": 390,
+        "height": 544,
+        "x": 44005,
+        "y": 69671
+      }
+    },
+    {
+      "nodeId": "4681:134456",
+      "name": "Title",
+      "category": "TEXT",
+      "parent": "Content",
+      "characters": "Deal of the day",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 32,
+      "lineHeightPx": 38,
+      "letterSpacing": -0.6000000238418579,
+      "textAlign": "LEFT",
+      "color": null,
+      "dimensions": {
+        "width": 209,
+        "height": 38,
+        "x": 44096,
+        "y": 69711
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134461",
+      "name": "Frame 1321316561",
+      "category": "CARD",
+      "parent": "Apple Watch",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 159,
+        "height": 197,
+        "x": 43892,
+        "y": 69837
+      }
+    },
+    {
+      "nodeId": "4681:134462",
+      "name": "image-removebg-preview (8) 1",
+      "category": "IMAGE",
+      "parent": "Frame 1321316561",
+      "dimensions": {
+        "width": 159,
+        "height": 197,
+        "x": 43892,
+        "y": 69837
+      },
+      "aspectRatio": "0.81"
+    },
+    {
+      "nodeId": "4681:134465",
+      "name": "iPhone 15 pro max",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "iPhone 15 pro max",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 16.4095516204834,
+      "letterSpacing": -0.19535182416439056,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 102,
+        "height": 16,
+        "x": 43892,
+        "y": 70047
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134470",
+      "name": "₹1,10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,10,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 15.465353965759277,
+      "letterSpacing": -0.19535182416439056,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 57,
+        "height": 16,
+        "x": 43892,
+        "y": 70073
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134471",
+      "name": "1,16,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "1,16,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 13.023453712463379,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 50,
+        "height": 13,
+        "x": 43954,
+        "y": 70074
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134480",
+      "name": "image-removebg-preview (10) 1",
+      "category": "IMAGE",
+      "parent": "Apple Watch",
+      "dimensions": {
+        "width": 200,
+        "height": 250,
+        "x": 44100,
+        "y": 69789
+      },
+      "aspectRatio": "0.80"
+    },
+    {
+      "nodeId": "4681:134482",
+      "name": "Oneplus 11R",
+      "category": "TEXT",
+      "parent": "Frame 6",
+      "characters": "Oneplus 11R",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 18,
+      "lineHeightPx": 22.68000030517578,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 91,
+        "height": 23,
+        "x": 44100,
+        "y": 70055
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134486",
+      "name": "Starting from",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "Starting from",
+      "fontFamily": "Poppins",
+      "fontWeight": "400",
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 103,
+        "height": 24,
+        "x": 44100,
+        "y": 70086
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134487",
+      "name": "₹1,10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,10,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 69,
+        "height": 24,
+        "x": 44209,
+        "y": 70086
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134491",
+      "name": "Inclusive of offers",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "Inclusive of offers",
+      "fontFamily": "Poppins",
+      "fontWeight": "400",
+      "fontSize": 12,
+      "lineHeightPx": 18,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 100,
+        "height": 18,
+        "x": 44100,
+        "y": 70118
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134500",
+      "name": "Frame 1321316561",
+      "category": "CARD",
+      "parent": "Apple Watch",
+      "borderRadius": 16,
+      "dimensions": {
+        "width": 159,
+        "height": 197,
+        "x": 44349,
+        "y": 69837
+      }
+    },
+    {
+      "nodeId": "4681:134501",
+      "name": "image-removebg-preview (8) 1",
+      "category": "IMAGE",
+      "parent": "Frame 1321316561",
+      "dimensions": {
+        "width": 159,
+        "height": 197,
+        "x": 44349,
+        "y": 69837
+      },
+      "aspectRatio": "0.81"
+    },
+    {
+      "nodeId": "4681:134504",
+      "name": "iPhone 15 pro max",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "iPhone 15 pro max",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 16.4095516204834,
+      "letterSpacing": -0.19535182416439056,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 102,
+        "height": 16,
+        "x": 44349,
+        "y": 70047
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134509",
+      "name": "₹1,10,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,10,500",
+      "fontFamily": "Poppins",
+      "fontWeight": "600",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 15.465353965759277,
+      "letterSpacing": -0.19535182416439056,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 57,
+        "height": 16,
+        "x": 44349,
+        "y": 70073
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134510",
+      "name": "1,16,500",
+      "category": "TEXT",
+      "parent": "Frame 1321316532",
+      "characters": "1,16,500",
+      "fontFamily": "Inter",
+      "fontWeight": "400",
+      "fontSize": 13.023453712463379,
+      "lineHeightPx": 13.023453712463379,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 50,
+        "height": 13,
+        "x": 44411,
+        "y": 70074
+      },
+      "isDynamic": true
+    },
+    {
+      "nodeId": "4681:134524",
+      "name": "Frame 1597882805",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": "#FF4E00",
+      "dimensions": {
+        "width": 390,
+        "height": 250,
+        "x": 44005,
+        "y": 70239
+      }
+    },
+    {
+      "nodeId": "4681:134526",
+      "name": "DOWNLOAD APP",
+      "category": "TEXT",
+      "parent": "Frame 5",
+      "characters": "DOWNLOAD APP",
+      "fontFamily": "Inter",
+      "fontWeight": "600",
+      "fontSize": 10,
+      "lineHeightPx": 12.102272033691406,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "width": 83,
+        "height": 12,
+        "x": 44159,
+        "y": 70749
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134527",
+      "name": "Rectangle 4",
+      "category": "IMAGE",
+      "parent": "Frame 1597882805",
+      "dimensions": {
+        "width": 390,
+        "height": 471,
+        "x": 44005,
+        "y": 70166
+      },
+      "aspectRatio": "0.83"
+    },
+    {
+      "nodeId": "4681:134528",
+      "name": "Frame 1597882817",
+      "category": "SECTION",
+      "parent": "Frame 1597882805",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 250,
+        "x": 44005,
+        "y": 70239
+      }
+    },
+    {
+      "nodeId": "4681:134533",
+      "name": "Why Fit In When You Were Born to Stand Out?",
+      "category": "TEXT",
+      "parent": "Frame 17",
+      "characters": "Why Fit In When You Were Born to Stand Out?",
+      "fontFamily": "Khand",
+      "fontWeight": "700",
+      "fontSize": 24,
+      "lineHeightPx": 26.496002197265625,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 302,
+        "height": 52,
+        "x": 44049,
+        "y": 70364
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134534",
+      "name": "Dare to be different and embrace your individuality with our one-of-a-kind offering",
+      "category": "TEXT",
+      "parent": "Frame 17",
+      "characters": "Dare to be different and embrace your individuality with our one-of-a-kind offering",
+      "fontFamily": "Average Sans",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 18.354001998901367,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 302,
+        "height": 36,
+        "x": 44049,
+        "y": 70424
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134535",
+      "name": "Frame 1321316478",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": "#021725",
+      "dimensions": {
+        "width": 390,
+        "height": 354,
+        "x": 44005,
+        "y": 70513
+      }
+    },
+    {
+      "nodeId": "4681:134536",
+      "name": "Frame 1321316473",
+      "category": "SECTION",
+      "parent": "Frame 1321316478",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 342,
+        "height": 99,
+        "x": 44029,
+        "y": 70553
+      }
+    },
+    {
+      "nodeId": "4681:134537",
+      "name": "Get updates from us",
+      "category": "TEXT",
+      "parent": "Frame 1321316473",
+      "characters": "Get updates from us",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 24,
+      "lineHeightPx": 31.19999885559082,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 225,
+        "height": 31,
+        "x": 44029,
+        "y": 70553
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134541",
+      "name": "Enter your mail id",
+      "category": "TEXT",
+      "parent": "Frame 36905",
+      "characters": "Enter your mail id",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 109,
+        "height": 20,
+        "x": 44073,
+        "y": 70616
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134579",
+      "name": "Frame 1321316477",
+      "category": "SECTION",
+      "parent": "Frame 1321316478",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 342,
+        "height": 88,
+        "x": 44029,
+        "y": 70739
+      }
+    },
+    {
+      "nodeId": "4681:134581",
+      "name": "Useful Links",
+      "category": "TEXT",
+      "parent": "Frame 1321316474",
+      "characters": "Useful Links",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 19.600000381469727,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 225,
+        "height": 20,
+        "x": 44029,
+        "y": 70745
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134585",
+      "name": "Product Categories",
+      "category": "TEXT",
+      "parent": "Frame 1321316475",
+      "characters": "Product Categories",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 19.600000381469727,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "width": 225,
+        "height": 20,
+        "x": 44029,
+        "y": 70801
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134587",
+      "name": "Frame 110713",
+      "category": "SECTION",
+      "parent": "Frame 1597882752",
+      "borderRadius": 0,
+      "backgroundColor": null,
+      "dimensions": {
+        "width": 390,
+        "height": 192,
+        "x": 44005,
+        "y": 70891
+      }
+    },
+    {
+      "nodeId": "4681:134589",
+      "name": "Download the Sangeetha App",
+      "category": "TEXT",
+      "parent": "Frame 1321316570",
+      "characters": "Download the Sangeetha App",
+      "fontFamily": "Outfit",
+      "fontWeight": "500",
+      "fontSize": 16,
+      "lineHeightPx": 20.799999237060547,
+      "letterSpacing": -0.16,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "width": 209,
+        "height": 21,
+        "x": 44029,
+        "y": 70958
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134590",
+      "name": "Find our on exclusive launches & amazing deals",
+      "category": "TEXT",
+      "parent": "Frame 1321316570",
+      "characters": "Find our on exclusive launches & amazing deals",
+      "fontFamily": "Outfit",
+      "fontWeight": "400",
+      "fontSize": 14,
+      "lineHeightPx": 18.19999885559082,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "width": 233,
+        "height": 36,
+        "x": 44029,
+        "y": 70983
+      },
+      "isDynamic": false
+    },
+    {
+      "nodeId": "4681:134592",
+      "name": "pngegg 3",
+      "category": "IMAGE",
+      "parent": "Frame 1321316571",
+      "dimensions": {
+        "width": 80,
+        "height": 24,
+        "x": 44029,
+        "y": 71035
+      },
+      "aspectRatio": "3.33"
+    },
+    {
+      "nodeId": "4681:134593",
+      "name": "pngegg 1",
+      "category": "IMAGE",
+      "parent": "Frame 1321316571",
+      "dimensions": {
+        "width": 80,
+        "height": 24,
+        "x": 44113,
+        "y": 71035
+      },
+      "aspectRatio": "3.33"
+    },
+    {
+      "nodeId": "4681:134611",
+      "name": "16",
+      "category": "CARD",
+      "parent": "Group 33",
+      "borderRadius": 8.930133819580078,
+      "dimensions": {
+        "width": 109,
+        "height": 236,
+        "x": 44259,
+        "y": 70926
+      }
+    },
+    {
+      "nodeId": "4681:134612",
+      "name": "iPhone 15 - Blue - Portrait",
+      "category": "IMAGE",
+      "parent": "Group 33",
+      "dimensions": {
+        "width": 130,
+        "height": 256,
+        "x": 44249,
+        "y": 70915
+      },
+      "aspectRatio": "0.51"
+    }
+  ]
+}

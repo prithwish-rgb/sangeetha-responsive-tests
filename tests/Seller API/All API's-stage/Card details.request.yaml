@@ -1,0 +1,27 @@
+$kind: http-request
+url: https://apigateway-stage.sangeethamobiles.in/v4/pinelabs-custom/card-details
+method: POST
+headers:
+  accept: application/json
+  accept-language: en-US,en;q=0.9
+  authorization: UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl
+  clientid: sangeethamobiles
+  content-type: application/json
+  number1: 4qy$#4ep5b4cwE5X*4NU4MZ$GZ8mZzrx9LUeGG0bTy0bRMAA7Sa$7SbpqP1X@f2ycOLW
+  number2: 6VBI(f9FQ@n9Q7cW0xw*K7kl^4GwX2)1(s5AAyB(Y2uN8r6&D^5$ye3AT4yB$&tcdIm
+  origin: https://smpl-new.bangalore2.com
+  priority: u=1, i
+  referer: https://smpl-new.bangalore2.com/
+  sec-ch-ua: '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"'
+  sec-ch-ua-mobile: ?1
+  sec-ch-ua-platform: '"iOS"'
+  sec-fetch-dest: empty
+  sec-fetch-mode: cors
+  sec-fetch-site: cross-site
+  sourceid: "1"
+  token: "{{json_web_token_1ajj}}"
+  user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+body:
+  type: json
+  content: '{"user_id":"65074214","card_no":"4375467100366475","amount":70999,"jwt_token":"","client_id":"SangeethaMobilesSA","type":"pwa"}'
+order: 23000

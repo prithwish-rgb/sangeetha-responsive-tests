@@ -1,0 +1,5201 @@
+{
+  "rootNodeId": "4681:102340",
+  "rootNodeName": "PDP (full)",
+  "figmaFile": "Sangeetha-Des (Q7vjg9zvLUDvEQ5ZEh2Dki)",
+  "viewport": {
+    "width": 390,
+    "height": 4660
+  },
+  "sections": [
+    "Root",
+    "Header / Nav Bar",
+    "Product Gallery & Info",
+    "Offers Section",
+    "Delivery, Availability & Purchase CTAs",
+    "Product Specifications",
+    "Product Highlights",
+    "Comparison & Offers",
+    "Customer Questions",
+    "App Download & Similar",
+    "Footer",
+    "Purchase CTAs"
+  ],
+  "totalNodes": 224,
+  "byCategory": {
+    "CONTAINER": 52,
+    "TEXT": 154,
+    "BUTTON": 1,
+    "IMAGE": 17
+  },
+  "inventory": [
+    {
+      "id": 1,
+      "nodeId": "4681:102340",
+      "name": "PDP (full)",
+      "category": "CONTAINER",
+      "section": "Root",
+      "parent": "Root",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 4660,
+        "X": 35092,
+        "Y": 61334
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 2,
+      "nodeId": "4681:102349",
+      "name": "Frame 1597882859",
+      "category": "CONTAINER",
+      "section": "Header / Nav Bar",
+      "parent": "PDP (full)",
+      "backgroundColor": "gradient",
+      "borderRadius": [
+        0,
+        0,
+        20,
+        20
+      ],
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 100,
+        "X": 35092,
+        "Y": 61334
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": null
+    },
+    {
+      "id": 3,
+      "nodeId": "4681:102350",
+      "name": "Status Bar",
+      "category": "CONTAINER",
+      "section": "Header / Nav Bar",
+      "parent": "Frame 1597882859",
+      "backgroundColor": "#000000",
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 44,
+        "X": 35092,
+        "Y": 61334
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": null
+    },
+    {
+      "id": 4,
+      "nodeId": "4681:102352",
+      "name": "↳ Time",
+      "category": "TEXT",
+      "section": "Header / Nav Bar",
+      "parent": "Action",
+      "characters": "9:41",
+      "isDynamic": true,
+      "fontFamily": "Urbanist",
+      "fontWeight": 700,
+      "fontSize": 15,
+      "lineHeightPx": 18,
+      "letterSpacing": -0.16500000655651093,
+      "textAlign": "CENTER",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 54,
+        "H": 18,
+        "X": 35119,
+        "Y": 61348
+      }
+    },
+    {
+      "id": 5,
+      "nodeId": "4681:102370",
+      "name": "Frame 1597882672",
+      "category": "CONTAINER",
+      "section": "Header / Nav Bar",
+      "parent": "Frame 1597882859",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 56,
+        "X": 35092,
+        "Y": 61378
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 24,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 6,
+      "nodeId": "4681:102371",
+      "name": "header",
+      "category": "CONTAINER",
+      "section": "Header / Nav Bar",
+      "parent": "Frame 1597882672",
+      "backgroundColor": "#000000",
+      "borderRadius": [
+        0,
+        0,
+        20,
+        20
+      ],
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 56,
+        "X": 35092,
+        "Y": 61378
+      },
+      "padding": {
+        "top": 0,
+        "right": 16,
+        "bottom": 16,
+        "left": 16
+      },
+      "gap": 16,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 7,
+      "nodeId": "4681:102372",
+      "name": "Frame 36900",
+      "category": "CONTAINER",
+      "section": "Header / Nav Bar",
+      "parent": "header",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 358,
+        "H": 40,
+        "X": 35108,
+        "Y": 61378
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 8,
+      "layoutMode": "HORIZONTAL"
+    },
+    {
+      "id": 8,
+      "nodeId": "4681:102390",
+      "name": "Search or Ask",
+      "category": "TEXT",
+      "section": "Header / Nav Bar",
+      "parent": "Frame 36905",
+      "characters": "Search or Ask",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#9AA0B4",
+      "dimensions": {
+        "W": 86,
+        "H": 20,
+        "X": 35204,
+        "Y": 61388
+      }
+    },
+    {
+      "id": 9,
+      "nodeId": "4681:102395",
+      "name": "vuesax/broken/shopping-cart",
+      "category": "BUTTON",
+      "section": "Header / Nav Bar",
+      "parent": "Frame 36906",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 0,
+      "dimensions": {
+        "W": 20,
+        "H": 20,
+        "X": 35436,
+        "Y": 61388
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      }
+    },
+    {
+      "id": 10,
+      "nodeId": "4681:102408",
+      "name": "Frame 1597882860",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "PDP (full)",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 1430,
+        "X": 35092,
+        "Y": 61434
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 24,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 11,
+      "nodeId": "4681:102647",
+      "name": "Frame 1597882667",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882860",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 1329,
+        "X": 35092,
+        "Y": 61434
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 24,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 12,
+      "nodeId": "4681:102648",
+      "name": "Frame 1597883129",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882667",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 442,
+        "X": 35092,
+        "Y": 61434
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 12,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 13,
+      "nodeId": "4681:102649",
+      "name": "Frame 1597882672",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597883129",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 55,
+        "X": 35092,
+        "Y": 61434
+      },
+      "padding": {
+        "top": 16,
+        "right": 24,
+        "bottom": 0,
+        "left": 24
+      },
+      "gap": 32,
+      "layoutMode": "HORIZONTAL"
+    },
+    {
+      "id": 14,
+      "nodeId": "4681:102651",
+      "name": "Apple iPhone 15 Pro Max Midnight Black, 256GB",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316615",
+      "characters": "Apple iPhone 15 Pro Max Midnight Black, 256GB",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 16,
+      "lineHeightPx": 18,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 232,
+        "H": 36,
+        "X": 35116,
+        "Y": 61450
+      }
+    },
+    {
+      "id": 15,
+      "nodeId": "4681:102660",
+      "name": "(1,600 reviews)",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316616",
+      "characters": "(1,600 reviews)",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 67,
+        "H": 16,
+        "X": 35386,
+        "Y": 61470
+      }
+    },
+    {
+      "id": 16,
+      "nodeId": "4681:102661",
+      "name": "prod img and dot nav",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597883129",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 375,
+        "X": 35092,
+        "Y": 61501
+      },
+      "padding": {
+        "top": 0,
+        "right": 24,
+        "bottom": 0,
+        "left": 24
+      },
+      "gap": 12,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 17,
+      "nodeId": "4681:102666",
+      "name": "image 2",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "Group 104",
+      "dimensions": {
+        "W": 149,
+        "H": 292,
+        "X": 35156,
+        "Y": 61556
+      },
+      "aspectRatio": "0.51"
+    },
+    {
+      "id": 18,
+      "nodeId": "4681:102667",
+      "name": "image 3",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "Group 106",
+      "dimensions": {
+        "W": 160,
+        "H": 292,
+        "X": 35259,
+        "Y": 61556
+      },
+      "aspectRatio": "0.55"
+    },
+    {
+      "id": 19,
+      "nodeId": "4681:102670",
+      "name": "coming soon",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Mobile/ Labels",
+      "characters": "Exciting Coupon @Checkout",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 126,
+        "H": 16,
+        "X": 35136,
+        "Y": 61521
+      }
+    },
+    {
+      "id": 20,
+      "nodeId": "4681:102677",
+      "name": "Frame 1597883130",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882667",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 99,
+        "X": 35092,
+        "Y": 61900
+      },
+      "padding": {
+        "top": 0,
+        "right": 24,
+        "bottom": 0,
+        "left": 24
+      },
+      "gap": 16,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 21,
+      "nodeId": "4681:102678",
+      "name": "Frame 1597882849",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597883130",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 74,
+        "X": 35116,
+        "Y": 61900
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 8,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 22,
+      "nodeId": "4681:102682",
+      "name": "Save ₹19,005",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹19,005",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 71,
+        "H": 20,
+        "X": 35122,
+        "Y": 61901
+      }
+    },
+    {
+      "id": 23,
+      "nodeId": "4681:102683",
+      "name": "₹52,995",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316615",
+      "characters": "₹52,995",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 16,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 57,
+        "H": 20,
+        "X": 35203,
+        "Y": 61901
+      }
+    },
+    {
+      "id": 24,
+      "nodeId": "4681:102684",
+      "name": "with Bank Offers",
+      "category": "TEXT",
+      "section": "Offers Section",
+      "parent": "Frame 1321316615",
+      "characters": "with Bank Offers",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 194,
+        "H": 20,
+        "X": 35264,
+        "Y": 61901
+      }
+    },
+    {
+      "id": 25,
+      "nodeId": "4681:102687",
+      "name": "₹60,995",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316615",
+      "characters": "₹60,995",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 16,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#121415",
+      "dimensions": {
+        "W": 60,
+        "H": 20,
+        "X": 35116,
+        "Y": 61926
+      }
+    },
+    {
+      "id": 26,
+      "nodeId": "4681:102688",
+      "name": "₹80,000",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316615",
+      "characters": "₹80,000",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 48,
+        "H": 20,
+        "X": 35180,
+        "Y": 61926
+      }
+    },
+    {
+      "id": 27,
+      "nodeId": "4681:102692",
+      "name": "EMI starting at ₹6,025/month",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316587",
+      "characters": "EMI starting at ₹6,025/month",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 197,
+        "H": 20,
+        "X": 35116,
+        "Y": 61954
+      }
+    },
+    {
+      "id": 28,
+      "nodeId": "4681:102693",
+      "name": "View EMI plans",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316587",
+      "characters": "View EMI plans",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 80,
+        "H": 20,
+        "X": 35321,
+        "Y": 61954
+      }
+    },
+    {
+      "id": 29,
+      "nodeId": "4681:102702",
+      "name": "Hurry! Only 6 left in stock.",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597883130",
+      "characters": "Hurry! Only 6 left in stock.",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 15.119999885559082,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#DE4545",
+      "dimensions": {
+        "W": 174,
+        "H": 9,
+        "X": 35116,
+        "Y": 61990
+      }
+    },
+    {
+      "id": 30,
+      "nodeId": "4681:102703",
+      "name": "Frame 1597882806",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882667",
+      "backgroundColor": "#000000",
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 50,
+        "X": 35092,
+        "Y": 62023
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": null
+    },
+    {
+      "id": 31,
+      "nodeId": "4681:102704",
+      "name": "image 621",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882806",
+      "dimensions": {
+        "W": 200,
+        "H": 32,
+        "X": 35100,
+        "Y": 62032
+      },
+      "aspectRatio": "6.25"
+    },
+    {
+      "id": 32,
+      "nodeId": "4681:102705",
+      "name": "image 622",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882806",
+      "dimensions": {
+        "W": 183,
+        "H": 50,
+        "X": 35319,
+        "Y": 62023
+      },
+      "aspectRatio": "3.66"
+    },
+    {
+      "id": 33,
+      "nodeId": "4681:102706",
+      "name": "Frame 1597883041",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882667",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 416,
+        "X": 35116,
+        "Y": 62097
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 16,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 34,
+      "nodeId": "4681:102707",
+      "name": "Quick Link",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597883041",
+      "backgroundColor": "gradient",
+      "borderRadius": 12,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 272,
+        "X": 35116,
+        "Y": 62097
+      },
+      "padding": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "gap": 10,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 35,
+      "nodeId": "4681:102723",
+      "name": "woohoo !",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882711",
+      "characters": "woohoo !",
+      "isDynamic": false,
+      "fontFamily": "Oi",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 15.59999942779541,
+      "letterSpacing": 0.12,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 71,
+        "H": 22,
+        "X": 35179,
+        "Y": 62111
+      }
+    },
+    {
+      "id": 36,
+      "nodeId": "4681:102724",
+      "name": "woohoo !",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882711",
+      "characters": "woohoo !",
+      "isDynamic": false,
+      "fontFamily": "Oi",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 15.59999942779541,
+      "letterSpacing": 0.12,
+      "textAlign": "LEFT",
+      "color": "#246BFD",
+      "dimensions": {
+        "W": 71,
+        "H": 22,
+        "X": 35178,
+        "Y": 62110
+      }
+    },
+    {
+      "id": 37,
+      "nodeId": "4681:102725",
+      "name": "Offers",
+      "category": "TEXT",
+      "section": "Offers Section",
+      "parent": "Frame 1597882356",
+      "characters": "Offers",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 41,
+        "H": 18,
+        "X": 35230,
+        "Y": 62113
+      }
+    },
+    {
+      "id": 38,
+      "nodeId": "4681:102726",
+      "name": "Apply for maximum savings",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882819",
+      "characters": "Apply for maximum savings",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 10,
+      "lineHeightPx": 12.600000381469727,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 123,
+        "H": 13,
+        "X": 35178,
+        "Y": 62133
+      }
+    },
+    {
+      "id": 39,
+      "nodeId": "4681:102737",
+      "name": "Bank Offers (5)",
+      "category": "TEXT",
+      "section": "Offers Section",
+      "parent": "Frame 1321316727",
+      "characters": "Bank Offers (5)",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 93,
+        "H": 20,
+        "X": 35161,
+        "Y": 62177
+      }
+    },
+    {
+      "id": 40,
+      "nodeId": "4681:102739",
+      "name": "EMI Plans (6)",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316728",
+      "characters": "EMI Plans (6)",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 80,
+        "H": 20,
+        "X": 35327,
+        "Y": 62177
+      }
+    },
+    {
+      "id": 41,
+      "nodeId": "4681:102758",
+      "name": "Credit Card",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "Credit Card",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 63,
+        "H": 16,
+        "X": 35188,
+        "Y": 62237
+      }
+    },
+    {
+      "id": 42,
+      "nodeId": "4681:102759",
+      "name": "₹52,995",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "₹52,995",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 51,
+        "H": 20,
+        "X": 35188,
+        "Y": 62253
+      }
+    },
+    {
+      "id": 43,
+      "nodeId": "4681:102772",
+      "name": "Vector",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "hdfc-bank-apps-circle",
+      "dimensions": {
+        "W": 30,
+        "H": 30,
+        "X": 35278,
+        "Y": 62240
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "id": 44,
+      "nodeId": "4681:102774",
+      "name": "Debit Card",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "Debit Card",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 59,
+        "H": 16,
+        "X": 35319,
+        "Y": 62237
+      }
+    },
+    {
+      "id": 45,
+      "nodeId": "4681:102775",
+      "name": "₹54,995",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "₹54,995",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 51,
+        "H": 20,
+        "X": 35319,
+        "Y": 62253
+      }
+    },
+    {
+      "id": 46,
+      "nodeId": "4681:102778",
+      "name": "IMG_8179",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882358",
+      "dimensions": {
+        "W": 36,
+        "H": 36,
+        "X": 35402,
+        "Y": 62237
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "id": 47,
+      "nodeId": "4681:102780",
+      "name": "Debit Card",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "Debit Card",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 59,
+        "H": 16,
+        "X": 35446,
+        "Y": 62235
+      }
+    },
+    {
+      "id": 48,
+      "nodeId": "4681:102781",
+      "name": "₹6000",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "₹6000",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 44,
+        "H": 20,
+        "X": 35446,
+        "Y": 62255
+      }
+    },
+    {
+      "id": 49,
+      "nodeId": "4681:102795",
+      "name": "YESBANK.NS-a31ff15a 1",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "hdfc-bank-apps-circle",
+      "dimensions": {
+        "W": 30,
+        "H": 25,
+        "X": 35147,
+        "Y": 62311
+      },
+      "aspectRatio": "1.20"
+    },
+    {
+      "id": 50,
+      "nodeId": "4681:102797",
+      "name": "Credit Card",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "Credit Card",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 63,
+        "H": 16,
+        "X": 35188,
+        "Y": 62305
+      }
+    },
+    {
+      "id": 51,
+      "nodeId": "4681:102798",
+      "name": "₹52,995",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "₹52,995",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 51,
+        "H": 20,
+        "X": 35188,
+        "Y": 62321
+      }
+    },
+    {
+      "id": 52,
+      "nodeId": "4681:102811",
+      "name": "SBIN.NS-6f0574a4 1",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "hdfc-bank-apps-circle",
+      "dimensions": {
+        "W": 30,
+        "H": 30,
+        "X": 35278,
+        "Y": 62308
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "id": 53,
+      "nodeId": "4681:102813",
+      "name": "Debit Card",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "Debit Card",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 59,
+        "H": 16,
+        "X": 35319,
+        "Y": 62305
+      }
+    },
+    {
+      "id": 54,
+      "nodeId": "4681:102814",
+      "name": "₹54,995",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "₹54,995",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 51,
+        "H": 20,
+        "X": 35319,
+        "Y": 62321
+      }
+    },
+    {
+      "id": 55,
+      "nodeId": "4681:102821",
+      "name": "Quick Link",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597883041",
+      "backgroundColor": "gradient",
+      "borderRadius": 12,
+      "border": null,
+      "dimensions": {
+        "W": 341,
+        "H": 128,
+        "X": 35116,
+        "Y": 62385
+      },
+      "padding": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "gap": 10,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 56,
+      "nodeId": "4681:103348",
+      "name": "Finance this Phone",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882356",
+      "characters": "Finance this Phone",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 119,
+        "H": 18,
+        "X": 35178,
+        "Y": 62401
+      }
+    },
+    {
+      "id": 57,
+      "nodeId": "4681:103349",
+      "name": "0% interest · Instant approval · No paperwork",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882819",
+      "characters": "0% interest  ·  Instant approval  ·  No paperwork",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 10,
+      "lineHeightPx": 12.600000381469727,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 280,
+        "H": 13,
+        "X": 35178,
+        "Y": 62421
+      }
+    },
+    {
+      "id": 58,
+      "nodeId": "4681:103367",
+      "name": "JusPay",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "JusPay",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 38,
+        "H": 16,
+        "X": 35176,
+        "Y": 62457
+      }
+    },
+    {
+      "id": 59,
+      "nodeId": "4681:103368",
+      "name": "₹2,995/m",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "₹2,995/m",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 60,
+        "H": 20,
+        "X": 35176,
+        "Y": 62473
+      }
+    },
+    {
+      "id": 60,
+      "nodeId": "4681:103370",
+      "name": "Zest-Logo-square 1",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882358",
+      "dimensions": {
+        "W": 32,
+        "H": 32,
+        "X": 35260,
+        "Y": 62459
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "id": 61,
+      "nodeId": "4681:103372",
+      "name": "ZestMoney",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "ZestMoney",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 59,
+        "H": 16,
+        "X": 35300,
+        "Y": 62457
+      }
+    },
+    {
+      "id": 62,
+      "nodeId": "4681:103373",
+      "name": "₹3,995/m",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "₹3,995/m",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 60,
+        "H": 20,
+        "X": 35300,
+        "Y": 62473
+      }
+    },
+    {
+      "id": 63,
+      "nodeId": "4681:103380",
+      "name": "Bajaj",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "Bajaj",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 27,
+        "H": 16,
+        "X": 35426,
+        "Y": 62455
+      }
+    },
+    {
+      "id": 64,
+      "nodeId": "4681:103381",
+      "name": "₹6,000",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882359",
+      "characters": "₹6,000",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 48,
+        "H": 20,
+        "X": 35426,
+        "Y": 62475
+      }
+    },
+    {
+      "id": 65,
+      "nodeId": "4681:103397",
+      "name": "Frame 1597882595",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882667",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 154,
+        "X": 35116,
+        "Y": 62537
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 12,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 66,
+      "nodeId": "4681:103399",
+      "name": "Frame 1597882863",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882595",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 327,
+        "H": 154,
+        "X": 35116,
+        "Y": 62537
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 20,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 67,
+      "nodeId": "4681:103402",
+      "name": "Colour: Midnight black",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316592",
+      "characters": "Colour: Midnight black",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#1C1C28",
+      "dimensions": {
+        "W": 140,
+        "H": 20,
+        "X": 35116,
+        "Y": 62537
+      }
+    },
+    {
+      "id": 68,
+      "nodeId": "4681:103406",
+      "name": "Purple",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316719",
+      "characters": "Purple",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 41,
+        "H": 20,
+        "X": 35156,
+        "Y": 62573
+      }
+    },
+    {
+      "id": 69,
+      "nodeId": "4681:103409",
+      "name": "Midnight black",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316721",
+      "characters": "Midnight black",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 92,
+        "H": 20,
+        "X": 35257,
+        "Y": 62573
+      }
+    },
+    {
+      "id": 70,
+      "nodeId": "4681:103412",
+      "name": "Blue",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316722",
+      "characters": "Blue",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 27,
+        "H": 20,
+        "X": 35409,
+        "Y": 62573
+      }
+    },
+    {
+      "id": 71,
+      "nodeId": "4681:103415",
+      "name": "Purple",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316723",
+      "characters": "Purple",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 41,
+        "H": 20,
+        "X": 35496,
+        "Y": 62573
+      }
+    },
+    {
+      "id": 72,
+      "nodeId": "4681:103417",
+      "name": "RAM + Storage: 8GB + 128GB",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316594",
+      "characters": "RAM + Storage: 8GB + 128GB",
+      "isDynamic": false,
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 181,
+        "H": 20,
+        "X": 35116,
+        "Y": 62615
+      }
+    },
+    {
+      "id": 73,
+      "nodeId": "4681:103421",
+      "name": "8GB",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882714",
+      "characters": "8GB",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 24,
+        "H": 16,
+        "X": 35132,
+        "Y": 62647
+      }
+    },
+    {
+      "id": 74,
+      "nodeId": "4681:103422",
+      "name": "+",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882714",
+      "characters": "+",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 7,
+        "H": 16,
+        "X": 35160,
+        "Y": 62647
+      }
+    },
+    {
+      "id": 75,
+      "nodeId": "4681:103423",
+      "name": "128GB",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882714",
+      "characters": "128GB",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 35,
+        "H": 16,
+        "X": 35171,
+        "Y": 62647
+      }
+    },
+    {
+      "id": 76,
+      "nodeId": "4681:103425",
+      "name": "₹60,995",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882715",
+      "characters": "₹60,995",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 300,
+      "fontSize": 13,
+      "lineHeightPx": 18,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 48,
+        "H": 18,
+        "X": 35132,
+        "Y": 62667
+      }
+    },
+    {
+      "id": 77,
+      "nodeId": "4681:103426",
+      "name": "₹80,000",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882715",
+      "characters": "₹80,000",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 300,
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 40,
+        "H": 14,
+        "X": 35184,
+        "Y": 62671
+      }
+    },
+    {
+      "id": 78,
+      "nodeId": "4681:103429",
+      "name": "8GB",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882716",
+      "characters": "8GB",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 24,
+        "H": 16,
+        "X": 35264,
+        "Y": 62647
+      }
+    },
+    {
+      "id": 79,
+      "nodeId": "4681:103430",
+      "name": "+",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882716",
+      "characters": "+",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 7,
+        "H": 16,
+        "X": 35292,
+        "Y": 62647
+      }
+    },
+    {
+      "id": 80,
+      "nodeId": "4681:103431",
+      "name": "256GB",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882716",
+      "characters": "256GB",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 37,
+        "H": 16,
+        "X": 35303,
+        "Y": 62647
+      }
+    },
+    {
+      "id": 81,
+      "nodeId": "4681:103433",
+      "name": "₹80,995",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882715",
+      "characters": "₹80,995",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 300,
+      "fontSize": 13,
+      "lineHeightPx": 18,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 48,
+        "H": 18,
+        "X": 35264,
+        "Y": 62667
+      }
+    },
+    {
+      "id": 82,
+      "nodeId": "4681:103434",
+      "name": "₹1,00,000",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882715",
+      "characters": "₹1,00,000",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 300,
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 47,
+        "H": 14,
+        "X": 35316,
+        "Y": 62671
+      }
+    },
+    {
+      "id": 83,
+      "nodeId": "4681:103437",
+      "name": "8GB",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882716",
+      "characters": "8GB",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 24,
+        "H": 16,
+        "X": 35403,
+        "Y": 62647
+      }
+    },
+    {
+      "id": 84,
+      "nodeId": "4681:103438",
+      "name": "+",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882716",
+      "characters": "+",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 7,
+        "H": 16,
+        "X": 35431,
+        "Y": 62647
+      }
+    },
+    {
+      "id": 85,
+      "nodeId": "4681:103439",
+      "name": "512GB",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882716",
+      "characters": "512GB",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 34,
+        "H": 16,
+        "X": 35442,
+        "Y": 62647
+      }
+    },
+    {
+      "id": 86,
+      "nodeId": "4681:103441",
+      "name": "Currently Unavailable",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882715",
+      "characters": "Currently Unavailable",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 300,
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#DE4545",
+      "dimensions": {
+        "W": 96,
+        "H": 14,
+        "X": 35403,
+        "Y": 62671
+      }
+    },
+    {
+      "id": 87,
+      "nodeId": "4681:103451",
+      "name": "Frame 1597883046",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882667",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 50,
+        "X": 35092,
+        "Y": 62715
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 88,
+      "nodeId": "4681:103453",
+      "name": "Frame 1597882807",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597883046",
+      "backgroundColor": "#000000",
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 50,
+        "X": 35092,
+        "Y": 62715
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": null
+    },
+    {
+      "id": 89,
+      "nodeId": "4681:103454",
+      "name": "image 621",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882807",
+      "dimensions": {
+        "W": 200,
+        "H": 32,
+        "X": 35100,
+        "Y": 62724
+      },
+      "aspectRatio": "6.25"
+    },
+    {
+      "id": 90,
+      "nodeId": "4681:103455",
+      "name": "image 622",
+      "category": "IMAGE",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882807",
+      "dimensions": {
+        "W": 183,
+        "H": 50,
+        "X": 35319,
+        "Y": 62715
+      },
+      "aspectRatio": "3.66"
+    },
+    {
+      "id": 91,
+      "nodeId": "4681:103509",
+      "name": "Frame 1597883048",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597882860",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 77,
+        "X": 35116,
+        "Y": 62787
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 20,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 92,
+      "nodeId": "4681:103510",
+      "name": "Product Details",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597883048",
+      "characters": "Product Details",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 20,
+      "lineHeightPx": 32,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 342,
+        "H": 17,
+        "X": 35116,
+        "Y": 62787
+      }
+    },
+    {
+      "id": 93,
+      "nodeId": "4681:103511",
+      "name": "Frame 1321316722",
+      "category": "CONTAINER",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1597883048",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 40,
+        "X": 35116,
+        "Y": 62824
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 8,
+      "layoutMode": "HORIZONTAL"
+    },
+    {
+      "id": 94,
+      "nodeId": "4681:103513",
+      "name": "Specs",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316721",
+      "characters": "Specs",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 37,
+        "H": 20,
+        "X": 35181,
+        "Y": 62834
+      }
+    },
+    {
+      "id": 95,
+      "nodeId": "4681:103515",
+      "name": "Highlights",
+      "category": "TEXT",
+      "section": "Product Gallery & Info",
+      "parent": "Frame 1321316719",
+      "characters": "Highlights",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 62,
+        "H": 20,
+        "X": 35344,
+        "Y": 62834
+      }
+    },
+    {
+      "id": 96,
+      "nodeId": "4681:103516",
+      "name": "Frame 1321316650",
+      "category": "CONTAINER",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "PDP (full)",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 860,
+        "X": 35092,
+        "Y": 62864
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 23,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 97,
+      "nodeId": "4681:103755",
+      "name": "Frame 1597882667",
+      "category": "CONTAINER",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316650",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 836,
+        "X": 35092,
+        "Y": 62864
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 24,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 98,
+      "nodeId": "4681:103757",
+      "name": "Frame 1597882885",
+      "category": "CONTAINER",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1597882667",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 836,
+        "X": 35092,
+        "Y": 62864
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 99,
+      "nodeId": "4681:103758",
+      "name": "SPEC",
+      "category": "CONTAINER",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1597882885",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 835,
+        "X": 35092,
+        "Y": 62864
+      },
+      "padding": {
+        "top": 16,
+        "right": 24,
+        "bottom": 24,
+        "left": 24
+      },
+      "gap": 12,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 100,
+      "nodeId": "4681:103766",
+      "name": "Whats inside the box",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "Whats inside the box",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 129,
+        "H": 20,
+        "X": 35172,
+        "Y": 62896
+      }
+    },
+    {
+      "id": 101,
+      "nodeId": "4681:103767",
+      "name": "Phone Charging adpater Manuals",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "Phone\nCharging adpater\nManuals",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 270,
+        "H": 60,
+        "X": 35172,
+        "Y": 62920
+      }
+    },
+    {
+      "id": 102,
+      "nodeId": "4681:103786",
+      "name": "Network",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "Network",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 54,
+        "H": 20,
+        "X": 35172,
+        "Y": 63012
+      }
+    },
+    {
+      "id": 103,
+      "nodeId": "4681:103787",
+      "name": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "GSM / CDMA / HSPA / EVDO / LTE / 5G",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 270,
+        "H": 20,
+        "X": 35172,
+        "Y": 63036
+      }
+    },
+    {
+      "id": 104,
+      "nodeId": "4681:103797",
+      "name": "Display",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316662",
+      "characters": "Display",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 47,
+        "H": 20,
+        "X": 35172,
+        "Y": 63088
+      }
+    },
+    {
+      "id": 105,
+      "nodeId": "4681:103798",
+      "name": "6.1-inch Super Retina XDR display",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "6.1-inch Super Retina XDR display",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 270,
+        "H": 20,
+        "X": 35172,
+        "Y": 63112
+      }
+    },
+    {
+      "id": 106,
+      "nodeId": "4681:103802",
+      "name": "Capacity",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "Capacity",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 57,
+        "H": 20,
+        "X": 35172,
+        "Y": 63164
+      }
+    },
+    {
+      "id": 107,
+      "nodeId": "4681:103803",
+      "name": "128GB, 256GB, 512GB",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "128GB, 256GB, 512GB",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 270,
+        "H": 20,
+        "X": 35172,
+        "Y": 63188
+      }
+    },
+    {
+      "id": 108,
+      "nodeId": "4681:103811",
+      "name": "Splash, Water, and Dust Resistant",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "Splash, Water, and Dust Resistant",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 208,
+        "H": 20,
+        "X": 35172,
+        "Y": 63240
+      }
+    },
+    {
+      "id": 109,
+      "nodeId": "4681:103812",
+      "name": "Ceramic Shield front Glass back and aluminum design Water and dust resistant (rated IP68 - maximum depth of 6 meters up to 30 minutes)",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "Ceramic Shield front\nGlass back and aluminum design\nWater and dust resistant (rated IP68 - maximum depth of 6 meters up to 30 minutes)",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 270,
+        "H": 100,
+        "X": 35172,
+        "Y": 63264
+      }
+    },
+    {
+      "id": 110,
+      "nodeId": "4681:103823",
+      "name": "Camera and Video",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "Camera and Video",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 117,
+        "H": 20,
+        "X": 35172,
+        "Y": 63396
+      }
+    },
+    {
+      "id": 111,
+      "nodeId": "4681:103824",
+      "name": "Dual-camera system: 12MP Main, 12MP Ultrawide with Portrait mode Depth Control, Portrait Lighting, Smart HDR 4, and 4K Dolby Vision HDR video",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "Dual-camera system: 12MP Main,\n12MP Ultrawide with Portrait mode\nDepth Control, Portrait Lighting,\nSmart HDR 4, and 4K Dolby Vision HDR video",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 270,
+        "H": 100,
+        "X": 35172,
+        "Y": 63420
+      }
+    },
+    {
+      "id": 112,
+      "nodeId": "4681:103833",
+      "name": "Front Camera",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "Front Camera",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 88,
+        "H": 20,
+        "X": 35172,
+        "Y": 63552
+      }
+    },
+    {
+      "id": 113,
+      "nodeId": "4681:103834",
+      "name": "12MP TrueDepth front camera with Portrait mode, Depth Control,Portrait Lighting, and Smart HDR 4",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "Frame 1321316662",
+      "characters": "12MP TrueDepth front camera with Portrait mode, Depth Control,Portrait Lighting, and Smart HDR 4",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 270,
+        "H": 60,
+        "X": 35172,
+        "Y": 63576
+      }
+    },
+    {
+      "id": 114,
+      "nodeId": "4681:103835",
+      "name": "View more",
+      "category": "TEXT",
+      "section": "Delivery, Availability & Purchase CTAs",
+      "parent": "SPEC",
+      "characters": "View more",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 67,
+        "H": 11,
+        "X": 35254,
+        "Y": 63664
+      }
+    },
+    {
+      "id": 115,
+      "nodeId": "4681:103837",
+      "name": "Frame 1597882594",
+      "category": "CONTAINER",
+      "section": "Product Highlights",
+      "parent": "PDP (full)",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 255,
+        "X": 35092,
+        "Y": 63724
+      },
+      "padding": {
+        "top": 0,
+        "right": 24,
+        "bottom": 24,
+        "left": 24
+      },
+      "gap": 10,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 116,
+      "nodeId": "4681:103838",
+      "name": "Frame 1597882552",
+      "category": "CONTAINER",
+      "section": "Product Highlights",
+      "parent": "Frame 1597882594",
+      "backgroundColor": "gradient",
+      "borderRadius": 24,
+      "border": {
+        "color": {
+          "hex": "#000000",
+          "rgba": "rgba(0,0,0,1.00)"
+        },
+        "width": 1
+      },
+      "dimensions": {
+        "W": 342,
+        "H": 231,
+        "X": 35116,
+        "Y": 63724
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": null
+    },
+    {
+      "id": 117,
+      "nodeId": "4681:103840",
+      "name": "Frame 1597883049",
+      "category": "CONTAINER",
+      "section": "Product Specifications",
+      "parent": "PDP (full)",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 492,
+        "X": 35092,
+        "Y": 63979
+      },
+      "padding": {
+        "top": 0,
+        "right": 24,
+        "bottom": 0,
+        "left": 24
+      },
+      "gap": 10,
+      "layoutMode": "HORIZONTAL"
+    },
+    {
+      "id": 118,
+      "nodeId": "4681:103841",
+      "name": "Frame 1321316550",
+      "category": "CONTAINER",
+      "section": "Product Specifications",
+      "parent": "Frame 1597883049",
+      "backgroundColor": "#000000",
+      "borderRadius": 24,
+      "border": {
+        "color": {
+          "hex": "#000000",
+          "rgba": "rgba(0,0,0,0.06)"
+        },
+        "width": 1
+      },
+      "dimensions": {
+        "W": 342,
+        "H": 468,
+        "X": 35116,
+        "Y": 63979
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": null
+    },
+    {
+      "id": 119,
+      "nodeId": "4681:103842",
+      "name": "image 560",
+      "category": "IMAGE",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316550",
+      "dimensions": {
+        "W": 342,
+        "H": 262,
+        "X": 35116,
+        "Y": 63979
+      },
+      "aspectRatio": "1.31"
+    },
+    {
+      "id": 120,
+      "nodeId": "4681:103844",
+      "name": "Frequently Bought Together",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316550",
+      "characters": "Frequently Bought Together",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 20,
+      "lineHeightPx": 26,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 249,
+        "H": 15,
+        "X": 35136,
+        "Y": 64003
+      }
+    },
+    {
+      "id": 121,
+      "nodeId": "4681:103846",
+      "name": "Frame 1597882724",
+      "category": "CONTAINER",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316550",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 325,
+        "X": 35136,
+        "Y": 64034
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 12,
+      "layoutMode": "HORIZONTAL"
+    },
+    {
+      "id": 122,
+      "nodeId": "4681:103850",
+      "name": "image 650",
+      "category": "IMAGE",
+      "section": "Product Specifications",
+      "parent": "Frame 4",
+      "dimensions": {
+        "W": 141,
+        "H": 141,
+        "X": 35144,
+        "Y": 64045
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "id": 123,
+      "nodeId": "4681:103853",
+      "name": "Apple USB-C to Lightning Cable (1m)",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1597882743",
+      "characters": "Apple USB-C to Lightning Cable (1m)",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "W": 134,
+        "H": 36,
+        "X": 35148,
+        "Y": 64198
+      }
+    },
+    {
+      "id": 124,
+      "nodeId": "4681:103857",
+      "name": "₹1,499",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,499",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 46,
+        "H": 19,
+        "X": 35148,
+        "Y": 64238
+      }
+    },
+    {
+      "id": 125,
+      "nodeId": "4681:103858",
+      "name": "₹1,900",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316532",
+      "characters": "₹1,900",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "W": 37,
+        "H": 12,
+        "X": 35196,
+        "Y": 64242
+      }
+    },
+    {
+      "id": 126,
+      "nodeId": "4681:103862",
+      "name": "Save ₹401",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹401",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 55,
+        "H": 20,
+        "X": 35154,
+        "Y": 64266
+      }
+    },
+    {
+      "id": 127,
+      "nodeId": "4681:103865",
+      "name": "4.1",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 12,
+        "H": 16,
+        "X": 35270,
+        "Y": 64268
+      }
+    },
+    {
+      "id": 128,
+      "nodeId": "4681:103875",
+      "name": "Add",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316619",
+      "characters": "Add",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#121415",
+      "dimensions": {
+        "W": 23,
+        "H": 20,
+        "X": 35215,
+        "Y": 64317
+      }
+    },
+    {
+      "id": 129,
+      "nodeId": "4681:103879",
+      "name": "image 651",
+      "category": "IMAGE",
+      "section": "Product Specifications",
+      "parent": "Frame 4",
+      "dimensions": {
+        "W": 140,
+        "H": 140,
+        "X": 35314,
+        "Y": 64046
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "id": 130,
+      "nodeId": "4681:103882",
+      "name": "Apple iPhone Air MagSafe Battery",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1597882743",
+      "characters": "Apple iPhone Air MagSafe Battery",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "W": 134,
+        "H": 36,
+        "X": 35318,
+        "Y": 64198
+      }
+    },
+    {
+      "id": 131,
+      "nodeId": "4681:103886",
+      "name": "₹8,899",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316532",
+      "characters": "₹8,899",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 49,
+        "H": 19,
+        "X": 35318,
+        "Y": 64238
+      }
+    },
+    {
+      "id": 132,
+      "nodeId": "4681:103887",
+      "name": "₹11,900",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316532",
+      "characters": "₹11,900",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "W": 41,
+        "H": 12,
+        "X": 35369,
+        "Y": 64242
+      }
+    },
+    {
+      "id": 133,
+      "nodeId": "4681:103891",
+      "name": "Save ₹301",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹301",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 54,
+        "H": 20,
+        "X": 35324,
+        "Y": 64266
+      }
+    },
+    {
+      "id": 134,
+      "nodeId": "4681:103894",
+      "name": "4.1",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 12,
+        "H": 16,
+        "X": 35440,
+        "Y": 64268
+      }
+    },
+    {
+      "id": 135,
+      "nodeId": "4681:103904",
+      "name": "Add",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316619",
+      "characters": "Add",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#121415",
+      "dimensions": {
+        "W": 23,
+        "H": 20,
+        "X": 35385,
+        "Y": 64317
+      }
+    },
+    {
+      "id": 136,
+      "nodeId": "4681:103908",
+      "name": "image 651",
+      "category": "IMAGE",
+      "section": "Product Specifications",
+      "parent": "Frame 4",
+      "dimensions": {
+        "W": 140,
+        "H": 140,
+        "X": 35484,
+        "Y": 64046
+      },
+      "aspectRatio": "1.00"
+    },
+    {
+      "id": 137,
+      "nodeId": "4681:103911",
+      "name": "Apple iPhone Air MagSafe Battery",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1597882743",
+      "characters": "Apple iPhone Air MagSafe Battery",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 17.639999389648438,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#1B153D",
+      "dimensions": {
+        "W": 134,
+        "H": 36,
+        "X": 35488,
+        "Y": 64198
+      }
+    },
+    {
+      "id": 138,
+      "nodeId": "4681:103915",
+      "name": "₹8,899",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316532",
+      "characters": "₹8,899",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 16,
+      "lineHeightPx": 19,
+      "letterSpacing": -0.23999999463558197,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 49,
+        "H": 19,
+        "X": 35488,
+        "Y": 64238
+      }
+    },
+    {
+      "id": 139,
+      "nodeId": "4681:103916",
+      "name": "₹11,900",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316532",
+      "characters": "₹11,900",
+      "isDynamic": true,
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#000000",
+      "dimensions": {
+        "W": 58,
+        "H": 16,
+        "X": 35539,
+        "Y": 64240
+      }
+    },
+    {
+      "id": 140,
+      "nodeId": "4681:103920",
+      "name": "Save ₹301",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1597882355",
+      "characters": "Save ₹301",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 54,
+        "H": 20,
+        "X": 35494,
+        "Y": 64266
+      }
+    },
+    {
+      "id": 141,
+      "nodeId": "4681:103923",
+      "name": "4.1",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1597882744",
+      "characters": "4.1",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 12,
+        "H": 16,
+        "X": 35610,
+        "Y": 64268
+      }
+    },
+    {
+      "id": 142,
+      "nodeId": "4681:103933",
+      "name": "Add",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316619",
+      "characters": "Add",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#121415",
+      "dimensions": {
+        "W": 23,
+        "H": 20,
+        "X": 35555,
+        "Y": 64317
+      }
+    },
+    {
+      "id": 143,
+      "nodeId": "4681:103935",
+      "name": "Phosfluorescently en",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316535",
+      "characters": "Add All 3 to cart for ₹12,999",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 172,
+        "H": 20,
+        "X": 35201,
+        "Y": 64391
+      }
+    },
+    {
+      "id": 144,
+      "nodeId": "4681:103938",
+      "name": "Frame 1597883051",
+      "category": "CONTAINER",
+      "section": "Comparison & Offers",
+      "parent": "PDP (full)",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 631,
+        "X": 35092,
+        "Y": 64471
+      },
+      "padding": {
+        "top": 0,
+        "right": 24,
+        "bottom": 0,
+        "left": 24
+      },
+      "gap": 12,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 145,
+      "nodeId": "4681:103940",
+      "name": "Ratings & Reviews",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1597883117",
+      "characters": "Ratings & Reviews",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 24,
+      "lineHeightPx": 32,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 191,
+        "H": 18,
+        "X": 35116,
+        "Y": 64471
+      }
+    },
+    {
+      "id": 146,
+      "nodeId": "4681:103947",
+      "name": "Frame 1321316709",
+      "category": "CONTAINER",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1597883051",
+      "backgroundColor": "#F7F9F9",
+      "borderRadius": 8,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 591,
+        "X": 35116,
+        "Y": 64501
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 147,
+      "nodeId": "4681:103948",
+      "name": "Frame 1321316708",
+      "category": "CONTAINER",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316709",
+      "backgroundColor": "#F9F9F9",
+      "borderRadius": 16,
+      "border": null,
+      "dimensions": {
+        "W": 326,
+        "H": 205,
+        "X": 35116,
+        "Y": 64501
+      },
+      "padding": {
+        "top": 11,
+        "right": 16,
+        "bottom": 7,
+        "left": 16
+      },
+      "gap": 16,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 148,
+      "nodeId": "4681:103952",
+      "name": "4.5",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316669",
+      "characters": "4.5",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 600,
+      "fontSize": 20,
+      "lineHeightPx": 30,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 29,
+        "H": 30,
+        "X": 35132,
+        "Y": 64512
+      }
+    },
+    {
+      "id": 149,
+      "nodeId": "4681:103960",
+      "name": "1,600 Ratings",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316671",
+      "characters": "1,600 Ratings",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 73,
+        "H": 20,
+        "X": 35132,
+        "Y": 64541
+      }
+    },
+    {
+      "id": 150,
+      "nodeId": "4681:103962",
+      "name": "200 Reviews",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316671",
+      "characters": "200 Reviews",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 68,
+        "H": 20,
+        "X": 35221,
+        "Y": 64541
+      }
+    },
+    {
+      "id": 151,
+      "nodeId": "4681:103965",
+      "name": "Frame 1321316701",
+      "category": "CONTAINER",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316708",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 326,
+        "H": 112,
+        "X": 35132,
+        "Y": 64587
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 24,
+      "layoutMode": "HORIZONTAL"
+    },
+    {
+      "id": 152,
+      "nodeId": "4681:103970",
+      "name": "4.5",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316683",
+      "characters": "4.5",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#010C12",
+      "dimensions": {
+        "W": 26,
+        "H": 24,
+        "X": 35155,
+        "Y": 64612
+      }
+    },
+    {
+      "id": 153,
+      "nodeId": "4681:103971",
+      "name": "Value for money",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316687",
+      "characters": "Value for money",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 58,
+        "H": 32,
+        "X": 35139,
+        "Y": 64667
+      }
+    },
+    {
+      "id": 154,
+      "nodeId": "4681:103976",
+      "name": "4.5",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316683",
+      "characters": "4.5",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#010C12",
+      "dimensions": {
+        "W": 26,
+        "H": 24,
+        "X": 35251,
+        "Y": 64612
+      }
+    },
+    {
+      "id": 155,
+      "nodeId": "4681:103977",
+      "name": "Value for money",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316688",
+      "characters": "Value for money",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 58,
+        "H": 32,
+        "X": 35235,
+        "Y": 64667
+      }
+    },
+    {
+      "id": 156,
+      "nodeId": "4681:103982",
+      "name": "4.5",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316683",
+      "characters": "4.5",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#010C12",
+      "dimensions": {
+        "W": 26,
+        "H": 24,
+        "X": 35347,
+        "Y": 64612
+      }
+    },
+    {
+      "id": 157,
+      "nodeId": "4681:103983",
+      "name": "Value for money",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316689",
+      "characters": "Value for money",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 58,
+        "H": 32,
+        "X": 35331,
+        "Y": 64667
+      }
+    },
+    {
+      "id": 158,
+      "nodeId": "4681:103988",
+      "name": "4.5",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316683",
+      "characters": "4.5",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#010C12",
+      "dimensions": {
+        "W": 26,
+        "H": 24,
+        "X": 35443,
+        "Y": 64612
+      }
+    },
+    {
+      "id": 159,
+      "nodeId": "4681:103989",
+      "name": "Value for money",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316690",
+      "characters": "Value for money",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 58,
+        "H": 32,
+        "X": 35427,
+        "Y": 64667
+      }
+    },
+    {
+      "id": 160,
+      "nodeId": "4681:103994",
+      "name": "4.5",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316683",
+      "characters": "4.5",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#010C12",
+      "dimensions": {
+        "W": 26,
+        "H": 24,
+        "X": 35539,
+        "Y": 64612
+      }
+    },
+    {
+      "id": 161,
+      "nodeId": "4681:103995",
+      "name": "Value for money",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316691",
+      "characters": "Value for money",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 58,
+        "H": 32,
+        "X": 35523,
+        "Y": 64667
+      }
+    },
+    {
+      "id": 162,
+      "nodeId": "4681:103996",
+      "name": "Frame 1321316709",
+      "category": "CONTAINER",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316709",
+      "backgroundColor": "#F9F9F9",
+      "borderRadius": 16,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 386,
+        "X": 35116,
+        "Y": 64706
+      },
+      "padding": {
+        "top": 13,
+        "right": 16,
+        "bottom": 16,
+        "left": 16
+      },
+      "gap": 16,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 163,
+      "nodeId": "4681:103997",
+      "name": "Frame 1321316703",
+      "category": "CONTAINER",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316709",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 310,
+        "H": 60,
+        "X": 35132,
+        "Y": 64719
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 14,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 164,
+      "nodeId": "4681:103998",
+      "name": "Read reviews that mention",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316703",
+      "characters": "Read reviews that mention",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 213,
+        "H": 14,
+        "X": 35132,
+        "Y": 64719
+      }
+    },
+    {
+      "id": 165,
+      "nodeId": "4681:104002",
+      "name": "Quality",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316693",
+      "characters": "Quality",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#095D93",
+      "dimensions": {
+        "W": 39,
+        "H": 16,
+        "X": 35148,
+        "Y": 64755
+      }
+    },
+    {
+      "id": 166,
+      "nodeId": "4681:104004",
+      "name": "Performance",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316694",
+      "characters": "Performance",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 71,
+        "H": 16,
+        "X": 35227,
+        "Y": 64755
+      }
+    },
+    {
+      "id": 167,
+      "nodeId": "4681:104006",
+      "name": "Display",
+      "category": "TEXT",
+      "section": "Product Specifications",
+      "parent": "Frame 1321316695",
+      "characters": "Display",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 40,
+        "H": 16,
+        "X": 35338,
+        "Y": 64755
+      }
+    },
+    {
+      "id": 168,
+      "nodeId": "4681:104008",
+      "name": "Camera",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316696",
+      "characters": "Camera",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 44,
+        "H": 16,
+        "X": 35418,
+        "Y": 64755
+      }
+    },
+    {
+      "id": 169,
+      "nodeId": "4681:104009",
+      "name": "Frame 1597882669",
+      "category": "CONTAINER",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316709",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 310,
+        "H": 281,
+        "X": 35132,
+        "Y": 64795
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 16,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 170,
+      "nodeId": "4681:104017",
+      "name": "4.2",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1171280391",
+      "characters": "4.2",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 700,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#2F3043",
+      "dimensions": {
+        "W": 18,
+        "H": 16,
+        "X": 35148,
+        "Y": 64797
+      }
+    },
+    {
+      "id": 171,
+      "nodeId": "4681:104018",
+      "name": "Good product.",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1597883119",
+      "characters": "Good product.",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#1C1C28",
+      "dimensions": {
+        "W": 103,
+        "H": 20,
+        "X": 35178,
+        "Y": 64795
+      }
+    },
+    {
+      "id": 172,
+      "nodeId": "4681:104020",
+      "name": "2 months ago",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 30603",
+      "characters": "2 months ago",
+      "isDynamic": true,
+      "fontFamily": "Montserrat",
+      "fontWeight": 400,
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 70,
+        "H": 16,
+        "X": 35372,
+        "Y": 64797
+      }
+    },
+    {
+      "id": 173,
+      "nodeId": "4681:104024",
+      "name": "Name",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 30629",
+      "characters": "Rajiv Singh",
+      "isDynamic": false,
+      "fontFamily": "Montserrat",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 21,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#1C1C28",
+      "dimensions": {
+        "W": 67,
+        "H": 21,
+        "X": 35132,
+        "Y": 64824
+      }
+    },
+    {
+      "id": 174,
+      "nodeId": "4681:104032",
+      "name": "4.2",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1171280391",
+      "characters": "4.2",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 700,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#2F3043",
+      "dimensions": {
+        "W": 18,
+        "H": 16,
+        "X": 35148,
+        "Y": 64871
+      }
+    },
+    {
+      "id": 175,
+      "nodeId": "4681:104033",
+      "name": "Good product.",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1597883119",
+      "characters": "Good product.",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#1C1C28",
+      "dimensions": {
+        "W": 103,
+        "H": 20,
+        "X": 35178,
+        "Y": 64869
+      }
+    },
+    {
+      "id": 176,
+      "nodeId": "4681:104035",
+      "name": "2 months ago",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 30603",
+      "characters": "2 months ago",
+      "isDynamic": true,
+      "fontFamily": "Montserrat",
+      "fontWeight": 400,
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 70,
+        "H": 16,
+        "X": 35372,
+        "Y": 64871
+      }
+    },
+    {
+      "id": 177,
+      "nodeId": "4681:104039",
+      "name": "Name",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 30629",
+      "characters": "Rajiv Singh",
+      "isDynamic": false,
+      "fontFamily": "Montserrat",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 21,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#1C1C28",
+      "dimensions": {
+        "W": 67,
+        "H": 21,
+        "X": 35132,
+        "Y": 64898
+      }
+    },
+    {
+      "id": 178,
+      "nodeId": "4681:104047",
+      "name": "4.2",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1171280391",
+      "characters": "4.2",
+      "isDynamic": true,
+      "fontFamily": "Outfit",
+      "fontWeight": 700,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#2F3043",
+      "dimensions": {
+        "W": 18,
+        "H": 16,
+        "X": 35148,
+        "Y": 64945
+      }
+    },
+    {
+      "id": 179,
+      "nodeId": "4681:104048",
+      "name": "Good product.",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1597883119",
+      "characters": "Good product.",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#1C1C28",
+      "dimensions": {
+        "W": 103,
+        "H": 20,
+        "X": 35178,
+        "Y": 64943
+      }
+    },
+    {
+      "id": 180,
+      "nodeId": "4681:104050",
+      "name": "2 months ago",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 30603",
+      "characters": "2 months ago",
+      "isDynamic": true,
+      "fontFamily": "Montserrat",
+      "fontWeight": 400,
+      "fontSize": 10,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#5C6779",
+      "dimensions": {
+        "W": 70,
+        "H": 16,
+        "X": 35372,
+        "Y": 64945
+      }
+    },
+    {
+      "id": 181,
+      "nodeId": "4681:104054",
+      "name": "Name",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 30629",
+      "characters": "Rajiv Singh",
+      "isDynamic": false,
+      "fontFamily": "Montserrat",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 21,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#1C1C28",
+      "dimensions": {
+        "W": 67,
+        "H": 21,
+        "X": 35132,
+        "Y": 64972
+      }
+    },
+    {
+      "id": 182,
+      "nodeId": "4681:104057",
+      "name": "Phosfluorescently en",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1597882298",
+      "characters": "View more",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 67,
+        "H": 11,
+        "X": 35254,
+        "Y": 65005
+      }
+    },
+    {
+      "id": 183,
+      "nodeId": "4681:104060",
+      "name": "Phosfluorescently en",
+      "category": "TEXT",
+      "section": "Comparison & Offers",
+      "parent": "Frame 1321316707",
+      "characters": "Write a Review",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 93,
+        "H": 20,
+        "X": 35255,
+        "Y": 65044
+      }
+    },
+    {
+      "id": 184,
+      "nodeId": "4681:104061",
+      "name": "Customer Questions",
+      "category": "CONTAINER",
+      "section": "Customer Questions",
+      "parent": "PDP (full)",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 587,
+        "X": 35092,
+        "Y": 65102
+      },
+      "padding": {
+        "top": 24,
+        "right": 24,
+        "bottom": 0,
+        "left": 24
+      },
+      "gap": 12,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 185,
+      "nodeId": "4681:104063",
+      "name": "FAQ’s",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 1321316654",
+      "characters": "FAQ’s",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 24,
+      "lineHeightPx": 32,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 302,
+        "H": 16,
+        "X": 35116,
+        "Y": 65134
+      }
+    },
+    {
+      "id": 186,
+      "nodeId": "4681:104066",
+      "name": "Frame 1597882668",
+      "category": "CONTAINER",
+      "section": "Customer Questions",
+      "parent": "Customer Questions",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 495,
+        "X": 35116,
+        "Y": 65170
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 20,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 187,
+      "nodeId": "4681:104067",
+      "name": "Frame 1597883051",
+      "category": "CONTAINER",
+      "section": "Customer Questions",
+      "parent": "Frame 1597882668",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 431,
+        "X": 35116,
+        "Y": 65170
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 12,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 188,
+      "nodeId": "4681:104068",
+      "name": "Frame 1321316659",
+      "category": "CONTAINER",
+      "section": "Customer Questions",
+      "parent": "Frame 1597883051",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 408,
+        "X": 35116,
+        "Y": 65170
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 12,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 189,
+      "nodeId": "4681:104071",
+      "name": "Q :",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30633",
+      "characters": "Q :",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 20,
+        "H": 20,
+        "X": 35116,
+        "Y": 65170
+      }
+    },
+    {
+      "id": 190,
+      "nodeId": "4681:104072",
+      "name": "Which item is best, 14plus or 15 ??",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30633",
+      "characters": "Which item is best, 14plus or 15 ??",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 314,
+        "H": 20,
+        "X": 35144,
+        "Y": 65170
+      }
+    },
+    {
+      "id": 191,
+      "nodeId": "4681:104074",
+      "name": "A :",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30634",
+      "characters": "A :",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 20,
+        "H": 20,
+        "X": 35116,
+        "Y": 65194
+      }
+    },
+    {
+      "id": 192,
+      "nodeId": "4681:104075",
+      "name": "f you are looking for a big battery and better multimedia experience then go for 14plus if you want a better processor,camera and type C port go for iPhone 15.",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30634",
+      "characters": "f you are looking for a big battery and better multimedia experience then go for 14plus if you want a better processor,camera and type C port go for iPhone 15.",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 314,
+        "H": 60,
+        "X": 35144,
+        "Y": 65194
+      }
+    },
+    {
+      "id": 193,
+      "nodeId": "4681:104079",
+      "name": "Q :",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30633",
+      "characters": "Q :",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 20,
+        "H": 20,
+        "X": 35116,
+        "Y": 65278
+      }
+    },
+    {
+      "id": 194,
+      "nodeId": "4681:104080",
+      "name": "Which item is best, 14plus or 15 ??",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30633",
+      "characters": "Which item is best, 14plus or 15 ??",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 314,
+        "H": 20,
+        "X": 35144,
+        "Y": 65278
+      }
+    },
+    {
+      "id": 195,
+      "nodeId": "4681:104082",
+      "name": "A :",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30634",
+      "characters": "A :",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 20,
+        "H": 20,
+        "X": 35116,
+        "Y": 65302
+      }
+    },
+    {
+      "id": 196,
+      "nodeId": "4681:104083",
+      "name": "f you are looking for a big battery and better multimedia experience then go for 14plus if you want a better processor,camera and type C port go for iPhone 15.",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30634",
+      "characters": "f you are looking for a big battery and better multimedia experience then go for 14plus if you want a better processor,camera and type C port go for iPhone 15.",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 314,
+        "H": 60,
+        "X": 35144,
+        "Y": 65302
+      }
+    },
+    {
+      "id": 197,
+      "nodeId": "4681:104087",
+      "name": "Q :",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30633",
+      "characters": "Q :",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 20,
+        "H": 20,
+        "X": 35116,
+        "Y": 65386
+      }
+    },
+    {
+      "id": 198,
+      "nodeId": "4681:104088",
+      "name": "Which item is best, 14plus or 15 ??",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30633",
+      "characters": "Which item is best, 14plus or 15 ??",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 314,
+        "H": 20,
+        "X": 35144,
+        "Y": 65386
+      }
+    },
+    {
+      "id": 199,
+      "nodeId": "4681:104090",
+      "name": "A :",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30634",
+      "characters": "A :",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 20,
+        "H": 20,
+        "X": 35116,
+        "Y": 65410
+      }
+    },
+    {
+      "id": 200,
+      "nodeId": "4681:104091",
+      "name": "f you are looking for a big battery and better multimedia experience then go for 14plus if you want a better processor,camera and type C port go for iPhone 15.",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30634",
+      "characters": "f you are looking for a big battery and better multimedia experience then go for 14plus if you want a better processor,camera and type C port go for iPhone 15.",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 314,
+        "H": 60,
+        "X": 35144,
+        "Y": 65410
+      }
+    },
+    {
+      "id": 201,
+      "nodeId": "4681:104095",
+      "name": "Q :",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30633",
+      "characters": "Q :",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 20,
+        "H": 20,
+        "X": 35116,
+        "Y": 65494
+      }
+    },
+    {
+      "id": 202,
+      "nodeId": "4681:104096",
+      "name": "Which item is best, 14plus or 15 ??",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30633",
+      "characters": "Which item is best, 14plus or 15 ??",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#030B1A",
+      "dimensions": {
+        "W": 314,
+        "H": 20,
+        "X": 35144,
+        "Y": 65494
+      }
+    },
+    {
+      "id": 203,
+      "nodeId": "4681:104098",
+      "name": "A :",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30634",
+      "characters": "A :",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 20,
+        "H": 20,
+        "X": 35116,
+        "Y": 65518
+      }
+    },
+    {
+      "id": 204,
+      "nodeId": "4681:104099",
+      "name": "f you are looking for a big battery and better multimedia experience then go for 14plus if you want a better processor,camera and type C port go for iPhone 15.",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 30634",
+      "characters": "f you are looking for a big battery and better multimedia experience then go for 14plus if you want a better processor,camera and type C port go for iPhone 15.",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#4F5A6E",
+      "dimensions": {
+        "W": 314,
+        "H": 60,
+        "X": 35144,
+        "Y": 65518
+      }
+    },
+    {
+      "id": 205,
+      "nodeId": "4681:104101",
+      "name": "Phosfluorescently en",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 1597882298",
+      "characters": "View more",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 67,
+        "H": 11,
+        "X": 35254,
+        "Y": 65590
+      }
+    },
+    {
+      "id": 206,
+      "nodeId": "4681:104102",
+      "name": "Frame 1321316707",
+      "category": "CONTAINER",
+      "section": "Customer Questions",
+      "parent": "Frame 1597882668",
+      "backgroundColor": "#F5A150",
+      "borderRadius": 80,
+      "border": {
+        "color": {
+          "hex": "#0B74B8",
+          "rgba": "rgba(11,116,184,1.00)"
+        },
+        "width": 1
+      },
+      "dimensions": {
+        "W": 342,
+        "H": 44,
+        "X": 35116,
+        "Y": 65621
+      },
+      "padding": {
+        "top": 12,
+        "right": 115,
+        "bottom": 12,
+        "left": 115
+      },
+      "gap": 8,
+      "layoutMode": "HORIZONTAL"
+    },
+    {
+      "id": 207,
+      "nodeId": "4681:104104",
+      "name": "Phosfluorescently en",
+      "category": "TEXT",
+      "section": "Customer Questions",
+      "parent": "Frame 1321316707",
+      "characters": "Post your Question",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "CENTER",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 118,
+        "H": 20,
+        "X": 35242,
+        "Y": 65633
+      }
+    },
+    {
+      "id": 208,
+      "nodeId": "4681:104105",
+      "name": "Frame 1597882805",
+      "category": "CONTAINER",
+      "section": "App Download & Similar",
+      "parent": "PDP (full)",
+      "backgroundColor": "#FF4E00",
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 250,
+        "X": 35092,
+        "Y": 65689
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": null,
+      "layoutMode": null
+    },
+    {
+      "id": 209,
+      "nodeId": "4681:104107",
+      "name": "DOWNLOAD APP",
+      "category": "TEXT",
+      "section": "App Download & Similar",
+      "parent": "Frame 5",
+      "characters": "DOWNLOAD APP",
+      "isDynamic": false,
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 10,
+      "lineHeightPx": 12.102272033691406,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 83,
+        "H": 12,
+        "X": 35246,
+        "Y": 66199
+      }
+    },
+    {
+      "id": 210,
+      "nodeId": "4681:104108",
+      "name": "Rectangle 4",
+      "category": "IMAGE",
+      "section": "App Download & Similar",
+      "parent": "Frame 1597882805",
+      "dimensions": {
+        "W": 390,
+        "H": 471,
+        "X": 35092,
+        "Y": 65616
+      },
+      "aspectRatio": "0.83"
+    },
+    {
+      "id": 211,
+      "nodeId": "4681:104109",
+      "name": "Frame 1597882817",
+      "category": "CONTAINER",
+      "section": "App Download & Similar",
+      "parent": "Frame 1597882805",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 375,
+        "H": 250,
+        "X": 35092,
+        "Y": 65689
+      },
+      "padding": {
+        "top": 24,
+        "right": 24,
+        "bottom": 24,
+        "left": 24
+      },
+      "gap": 51,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 212,
+      "nodeId": "4681:104112",
+      "name": "Frame 19",
+      "category": "CONTAINER",
+      "section": "App Download & Similar",
+      "parent": "Frame 1597882817",
+      "backgroundColor": "#F80441",
+      "borderRadius": [
+        8,
+        8,
+        0,
+        0
+      ],
+      "border": null,
+      "dimensions": {
+        "W": 327,
+        "H": 153,
+        "X": 35116,
+        "Y": 65793
+      },
+      "padding": {
+        "top": 10,
+        "right": 10,
+        "bottom": 10,
+        "left": 10
+      },
+      "gap": 10,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 213,
+      "nodeId": "4681:104113",
+      "name": "Frame 17",
+      "category": "CONTAINER",
+      "section": "App Download & Similar",
+      "parent": "Frame 19",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 307,
+        "H": 116,
+        "X": 35126,
+        "Y": 65803
+      },
+      "padding": {
+        "top": 10,
+        "right": 10,
+        "bottom": 10,
+        "left": 10
+      },
+      "gap": 8,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 214,
+      "nodeId": "4681:104114",
+      "name": "Why Fit In When You Were Born to Stand Out?",
+      "category": "TEXT",
+      "section": "App Download & Similar",
+      "parent": "Frame 17",
+      "characters": "Why Fit In When You Were Born to Stand Out?",
+      "isDynamic": false,
+      "fontFamily": "Khand",
+      "fontWeight": 700,
+      "fontSize": 24,
+      "lineHeightPx": 26.496002197265625,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 287,
+        "H": 52,
+        "X": 35136,
+        "Y": 65813
+      }
+    },
+    {
+      "id": 215,
+      "nodeId": "4681:104115",
+      "name": "Dare to be different and embrace your individuality with our one-of-a-kind offering",
+      "category": "TEXT",
+      "section": "Offers Section",
+      "parent": "Frame 17",
+      "characters": "Dare to be different and embrace your individuality with our one-of-a-kind offering",
+      "isDynamic": true,
+      "fontFamily": "Average Sans",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 18.354001998901367,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 287,
+        "H": 36,
+        "X": 35136,
+        "Y": 65873
+      }
+    },
+    {
+      "id": 216,
+      "nodeId": "4681:104121",
+      "name": "Frame 1597882372",
+      "category": "CONTAINER",
+      "section": "Footer",
+      "parent": "PDP (full)",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 390,
+        "H": 123,
+        "X": 35092,
+        "Y": 65871
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": -1,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 217,
+      "nodeId": "4681:104122",
+      "name": "exchange",
+      "category": "CONTAINER",
+      "section": "Footer",
+      "parent": "Frame 1597882372",
+      "backgroundColor": "#E7F1F8",
+      "borderRadius": [
+        12,
+        12,
+        0,
+        0
+      ],
+      "border": {
+        "color": {
+          "hex": "#0B74B8",
+          "rgba": "rgba(11,116,184,0.10)"
+        },
+        "width": 0.5
+      },
+      "dimensions": {
+        "W": 390,
+        "H": 56,
+        "X": 35092,
+        "Y": 65871
+      },
+      "padding": {
+        "top": 12,
+        "right": 24,
+        "bottom": 12,
+        "left": 24
+      },
+      "gap": null,
+      "layoutMode": "HORIZONTAL"
+    },
+    {
+      "id": 218,
+      "nodeId": "4681:104126",
+      "name": "Deliver to",
+      "category": "TEXT",
+      "section": "Footer",
+      "parent": "Frame 1597882851",
+      "characters": "Deliver to",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 400,
+      "fontSize": 10,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#000000",
+      "dimensions": {
+        "W": 43,
+        "H": 14,
+        "X": 35144,
+        "Y": 65892
+      }
+    },
+    {
+      "id": 219,
+      "nodeId": "4681:104127",
+      "name": "Bangalore, 560078",
+      "category": "TEXT",
+      "section": "Footer",
+      "parent": "Frame 1597882851",
+      "characters": "Bangalore, 560078",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#0B74B8",
+      "dimensions": {
+        "W": 103,
+        "H": 16,
+        "X": 35191,
+        "Y": 65891
+      }
+    },
+    {
+      "id": 220,
+      "nodeId": "4681:104130",
+      "name": "Vector",
+      "category": "IMAGE",
+      "section": "Footer",
+      "parent": "Frame 1597882827 1",
+      "dimensions": {
+        "W": 29,
+        "H": 26,
+        "X": 35359,
+        "Y": 65886
+      },
+      "aspectRatio": "1.12"
+    },
+    {
+      "id": 221,
+      "nodeId": "4681:104133",
+      "name": "Frame 1321316654",
+      "category": "CONTAINER",
+      "section": "Footer",
+      "parent": "Frame 1597882372",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": 0,
+      "border": {
+        "color": {
+          "hex": "#D9DFE9",
+          "rgba": "rgba(217,223,233,1.00)"
+        },
+        "width": 1
+      },
+      "dimensions": {
+        "W": 390,
+        "H": 68,
+        "X": 35092,
+        "Y": 65926
+      },
+      "padding": {
+        "top": 12,
+        "right": 24,
+        "bottom": 12,
+        "left": 24
+      },
+      "gap": 8,
+      "layoutMode": "VERTICAL"
+    },
+    {
+      "id": 222,
+      "nodeId": "4681:104134",
+      "name": "Frame 1321316621",
+      "category": "CONTAINER",
+      "section": "Footer",
+      "parent": "Frame 1321316654",
+      "backgroundColor": null,
+      "borderRadius": 0,
+      "border": null,
+      "dimensions": {
+        "W": 342,
+        "H": 44,
+        "X": 35116,
+        "Y": 65938
+      },
+      "padding": {
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "gap": 8,
+      "layoutMode": "HORIZONTAL"
+    },
+    {
+      "id": 223,
+      "nodeId": "4681:104138",
+      "name": "Add to Cart",
+      "category": "TEXT",
+      "section": "Purchase CTAs",
+      "parent": "Frame 1321316619",
+      "characters": "Add to Cart",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#121415",
+      "dimensions": {
+        "W": 63,
+        "H": 20,
+        "X": 35168,
+        "Y": 65950
+      }
+    },
+    {
+      "id": 224,
+      "nodeId": "4681:104140",
+      "name": "Buy Now",
+      "category": "TEXT",
+      "section": "Purchase CTAs",
+      "parent": "Frame 1321316617",
+      "characters": "Buy Now",
+      "isDynamic": false,
+      "fontFamily": "Outfit",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "textAlign": "LEFT",
+      "color": "#FFFFFF",
+      "dimensions": {
+        "W": 47,
+        "H": 20,
+        "X": 35351,
+        "Y": 65950
+      }
+    }
+  ]
+}

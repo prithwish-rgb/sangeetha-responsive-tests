@@ -1,0 +1,13 @@
+{
+  "default": {
+    "require": ["features/**/*.ts"],
+    "requireModule": ["tsx"],
+    "format": [
+      "progress-bar",
+      "summary",
+      "json:reports/cucumber-report.json",
+      "html:reports/cucumber-report.html"
+    ],
+    "parallel": 1
+  }
+}

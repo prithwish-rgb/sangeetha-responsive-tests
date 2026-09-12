@@ -1,0 +1,2054 @@
+[
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "className": "flex h-10 w-10 items-center justify-center rounded-[14px] border border-[#1F82B6] bg-[#0A4C78]/30 shadow-[inset_0_1px_0_rgba(255,255,255,0.12)]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "lab(30.369 -6.20361 -31.0866 / 0.3)",
+    "borderRadius": "14px",
+    "box": {
+      "x": 16,
+      "y": 28,
+      "width": 40,
+      "height": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Search or Ask",
+    "className": "flex h-10 flex-1 items-center gap-3 rounded-[14px] bg-white px-4 shadow-[0_10px_24px_rgba(8,60,97,0.16)]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "14px",
+    "box": {
+      "x": 68,
+      "y": 28,
+      "width": 254,
+      "height": 40
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "",
+    "className": "flex items-center justify-center text-[#7A83A1]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(122, 131, 161)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 84,
+      "y": 38,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Search or Ask",
+    "className": "flex-1 text-left text-[14px] font-medium text-[#9B9FB3]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(155, 159, 179)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 116,
+      "y": 38,
+      "width": 126,
+      "height": 21
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "className": "flex h-10 w-10 items-center justify-center rounded-[14px] border border-[#1F82B6] bg-[#0A4C78]/30 shadow-[inset_0_1px_0_rgba(255,255,255,0.12)]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "lab(30.369 -6.20361 -31.0866 / 0.3)",
+    "borderRadius": "14px",
+    "box": {
+      "x": 334,
+      "y": 28,
+      "width": 40,
+      "height": 40
+    }
+  },
+  {
+    "tag": "H2",
+    "text": "Google Pixel 10 12GB 256GB Obsidian",
+    "className": "text-[17px] font-bold text-[#0f1111] leading-snug",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "17px",
+    "lineHeight": "23.375px",
+    "letterSpacing": "normal",
+    "color": "rgb(15, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 12,
+      "y": 92,
+      "width": 366,
+      "height": 23
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "className": "flex h-8 w-8 items-center justify-center rounded-full bg-white/80 shadow-[0_3px_10px_rgba(15,23,42,0.06)]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "oklab(0.999994 0.0000455677 0.0000200868 / 0.8)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 326,
+      "y": 139,
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "className": "h-1 rounded-full transition-[width,background-color] w-3 bg-[#161616]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(22, 22, 22)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 173,
+      "y": 497,
+      "width": 12,
+      "height": 4
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "className": "h-1 rounded-full transition-[width,background-color] w-1 bg-[#A4A4A4]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(164, 164, 164)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 189,
+      "y": 497,
+      "width": 4,
+      "height": 4
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "className": "h-1 rounded-full transition-[width,background-color] w-1 bg-[#A4A4A4]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(164, 164, 164)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 197,
+      "y": 497,
+      "width": 4,
+      "height": 4
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "className": "h-1 rounded-full transition-[width,background-color] w-1 bg-[#A4A4A4]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(164, 164, 164)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 205,
+      "y": 497,
+      "width": 4,
+      "height": 4
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "className": "h-1 rounded-full transition-[width,background-color] w-1 bg-[#A4A4A4]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(164, 164, 164)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 213,
+      "y": 497,
+      "width": 4,
+      "height": 4
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹78,649",
+    "className": "text-[#0B70B2] font-semibold text-[15px]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "15px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(11, 112, 178)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 505,
+      "width": 53,
+      "height": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "with",
+    "className": "text-[#0B70B2]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(11, 112, 178)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 85,
+      "y": 505,
+      "width": 24,
+      "height": 21
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Bank Offers",
+    "className": "text-[#0B70B2] underline underline-offset-2",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(11, 112, 178)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 114,
+      "y": 505,
+      "width": 68,
+      "height": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹79,999",
+    "className": "text-[17px] font-bold text-[#0f1111]",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "17px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(15, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 534,
+      "width": 59,
+      "height": 21
+    }
+  },
+  {
+    "tag": "DIV",
+    "text": "EMI starting at ₹3,843/monthView EMI plans",
+    "className": "flex items-center gap-2 text-[#565959] text-[13px] mb-4",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(86, 89, 89)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 567,
+      "width": 334,
+      "height": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹3,843/month",
+    "className": "font-bold text-[#0f1111]",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(15, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 121,
+      "y": 567,
+      "width": 83,
+      "height": 21
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "View EMI plans",
+    "className": "text-[#0B70B2] underline underline-offset-2",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(11, 112, 178)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 212,
+      "y": 567,
+      "width": 87,
+      "height": 21
+    }
+  },
+  {
+    "tag": "P",
+    "text": "SWIPE TO UNLOCK",
+    "className": "m-0 whitespace-nowrap text-[14px] font-semibold leading-5 text-[#111111]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "14px",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 110,
+      "y": 616,
+      "width": 125,
+      "height": 20
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Special Deal",
+    "className": "whitespace-nowrap text-[16px] font-medium leading-5 text-white",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "16px",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 110,
+      "y": 636,
+      "width": 88,
+      "height": 20
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "",
+    "className": "absolute top-[3px] flex h-[56px] w-[56px] items-center justify-center rounded-full disabled:opacity-70 bg-white",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 33,
+      "y": 608,
+      "width": 56,
+      "height": 56
+    }
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "className": "relative block aspect-[1248/128] w-full overflow-hidden",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 3,
+      "y": 680,
+      "width": 384,
+      "height": 39
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "OffersApply for maximum savings",
+    "className": "flex w-full items-center justify-between rounded-[14px] bg-white px-3 py-3 text-left shadow-[0_1px_0_rgba(0,0,0,0.06)]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "14px",
+    "box": {
+      "x": 24,
+      "y": 740,
+      "width": 342,
+      "height": 64
+    }
+  },
+  {
+    "tag": "H3",
+    "text": "Offers",
+    "className": "text-[16px] font-semibold leading-none text-[#111111]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "16px",
+    "lineHeight": "16px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 156,
+      "y": 756,
+      "width": 46,
+      "height": 16
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Apply for maximum savings",
+    "className": "mt-1 text-[12px] leading-none text-[#6B7280]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "12px",
+    "lineHeight": "12px",
+    "letterSpacing": "normal",
+    "color": "rgb(107, 114, 128)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 88,
+      "y": 777,
+      "width": 147,
+      "height": 12
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Bank Offers (1)",
+    "className": "border-b px-3 py-4 text-center text-[14px] font-medium border-[#1180DB] bg-white text-[#1175D6]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 117, 214)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 24,
+      "y": 812,
+      "width": 171,
+      "height": 54
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "EMI Plans (8)",
+    "className": "border-b px-3 py-4 text-center text-[14px] font-medium border-transparent text-[#5B6270]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(91, 98, 112)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 195,
+      "y": 812,
+      "width": 171,
+      "height": 54
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "HDFC Bank Credit Card₹78,649",
+    "className": "relative w-full bg-white text-left shadow-[0_1px_0_rgba(255,255,255,0.9)] mt-[8px] rounded-[10px] border border-[#CDD3DD] px-3 py-2",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "10px",
+    "box": {
+      "x": 36,
+      "y": 887,
+      "width": 134,
+      "height": 58
+    }
+  },
+  {
+    "tag": "P",
+    "text": "HDFC Bank Credit Card",
+    "className": "truncate font-medium leading-[1.1] text-[#5E6470] text-[12px]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "12px",
+    "lineHeight": "13.2px",
+    "letterSpacing": "normal",
+    "color": "rgb(94, 100, 112)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 101,
+      "y": 900,
+      "width": 56,
+      "height": 13
+    }
+  },
+  {
+    "tag": "P",
+    "text": "₹78,649",
+    "className": "font-semibold leading-none text-[#171717] mt-1 text-[14px]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "14px",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 101,
+      "y": 917,
+      "width": 56,
+      "height": 14
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Ram + Storage: 12GB + 256GB",
+    "className": "text-[14px] text-[#596173]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(89, 97, 115)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 993,
+      "width": 334,
+      "height": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "12GB + 256GB",
+    "className": "font-semibold text-[#1175D6]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 117, 214)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 126,
+      "y": 994,
+      "width": 89,
+      "height": 18
+    }
+  },
+  {
+    "tag": "A",
+    "text": "12GB + 256GB₹79,999₹79,999",
+    "className": "w-[138px] shrink-0",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 1026,
+      "width": 138,
+      "height": 74
+    }
+  },
+  {
+    "tag": "P",
+    "text": "12GB + 256GB",
+    "className": "text-[12px] font-medium leading-[1.2] text-[#303848]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "12px",
+    "lineHeight": "14.4px",
+    "letterSpacing": "normal",
+    "color": "rgb(48, 56, 72)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 41,
+      "y": 1035,
+      "width": 112,
+      "height": 14
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹79,999",
+    "className": "text-[11px] font-semibold leading-none text-[#111111]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "11px",
+    "lineHeight": "11px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 41,
+      "y": 1053,
+      "width": 38,
+      "height": 11
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹79,999",
+    "className": "text-[10px] leading-none text-[#9AA1B1] line-through",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "10px",
+    "lineHeight": "10px",
+    "letterSpacing": "normal",
+    "color": "rgb(154, 161, 177)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 83,
+      "y": 1054,
+      "width": 34,
+      "height": 10
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Color: Obsidian",
+    "className": "text-[14px] text-[#596173]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(89, 97, 115)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 1137,
+      "width": 334,
+      "height": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Obsidian",
+    "className": "font-semibold text-[#1175D6]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 117, 214)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 69,
+      "y": 1138,
+      "width": 57,
+      "height": 18
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Obsidian",
+    "className": "min-w-[132px] shrink-0",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 1170,
+      "width": 132,
+      "height": 42
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Obsidian",
+    "className": "flex items-center justify-center gap-2",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 52,
+      "y": 1179,
+      "width": 84,
+      "height": 24
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "",
+    "className": "h-6 w-6 rounded-full border border-[#D7DDE8]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 17, 17)",
+    "backgroundColor": "rgb(15, 15, 15)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 52,
+      "y": 1179,
+      "width": 24,
+      "height": 24
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Obsidian",
+    "className": "whitespace-nowrap",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 84,
+      "y": 1180,
+      "width": 52,
+      "height": 21
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Frost",
+    "className": "min-w-[132px] shrink-0",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 168,
+      "y": 1170,
+      "width": 132,
+      "height": 42
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Frost",
+    "className": "flex items-center justify-center gap-2",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(92, 100, 117)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 203,
+      "y": 1179,
+      "width": 62,
+      "height": 24
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "",
+    "className": "h-6 w-6 rounded-full border border-[#D7DDE8]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(92, 100, 117)",
+    "backgroundColor": "rgb(219, 234, 240)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 203,
+      "y": 1179,
+      "width": 24,
+      "height": 24
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Frost",
+    "className": "whitespace-nowrap",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(92, 100, 117)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 235,
+      "y": 1180,
+      "width": 30,
+      "height": 21
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Lemongrass",
+    "className": "min-w-[132px] shrink-0",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 308,
+      "y": 1170,
+      "width": 132,
+      "height": 42
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Lemongrass",
+    "className": "flex items-center justify-center gap-2",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(92, 100, 117)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 323,
+      "y": 1179,
+      "width": 103,
+      "height": 24
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "",
+    "className": "h-6 w-6 rounded-full border border-[#D7DDE8]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(92, 100, 117)",
+    "backgroundColor": "rgb(235, 236, 177)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 323,
+      "y": 1179,
+      "width": 24,
+      "height": 24
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Lemongrass",
+    "className": "whitespace-nowrap",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(92, 100, 117)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 355,
+      "y": 1180,
+      "width": 71,
+      "height": 21
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Indigo",
+    "className": "min-w-[132px] shrink-0",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 448,
+      "y": 1170,
+      "width": 132,
+      "height": 42
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Indigo",
+    "className": "flex items-center justify-center gap-2",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(92, 100, 117)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 480,
+      "y": 1179,
+      "width": 68,
+      "height": 24
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "",
+    "className": "h-6 w-6 rounded-full border border-[#D7DDE8]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(92, 100, 117)",
+    "backgroundColor": "rgb(86, 93, 200)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 480,
+      "y": 1179,
+      "width": 24,
+      "height": 24
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Indigo",
+    "className": "whitespace-nowrap",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(92, 100, 117)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 512,
+      "y": 1180,
+      "width": 36,
+      "height": 21
+    }
+  },
+  {
+    "tag": "H2",
+    "text": "Frequently Bought Together",
+    "className": "relative z-10 mb-10 px-6 text-[24px] font-semibold leading-none tracking-[-0.04em] text-[rgba(255,255,255,0.92)]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "24px",
+    "lineHeight": "24px",
+    "letterSpacing": "-0.96px",
+    "color": "rgba(255, 255, 255, 0.92)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 1538,
+      "width": 334,
+      "height": 24
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "✓",
+    "className": "absolute right-3 top-3 z-20 flex h-5 w-5 items-center justify-center rounded-[4px] border text-[14px] font-bold leading-none border-[#F28A24] bg-white text-transparent",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "14px",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "color": "rgba(0, 0, 0, 0)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "4px",
+    "box": {
+      "x": 220,
+      "y": 1615,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "className": "flex h-full w-full items-center justify-center",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 59,
+      "y": 1609,
+      "width": 187,
+      "height": 150
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Boat EnergyShroom PB300 Lite Powerbank with 10000mAh battery",
+    "className": "",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 67,
+      "y": 1767,
+      "width": 171,
+      "height": 67
+    }
+  },
+  {
+    "tag": "H3",
+    "text": "Boat EnergyShroom PB300 Lite Powerbank with 10000mAh battery",
+    "className": "line-clamp-2 min-h-[38px] text-[13px] font-normal leading-[1.4] text-[#272548]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "13px",
+    "lineHeight": "18.2px",
+    "letterSpacing": "normal",
+    "color": "rgb(39, 37, 72)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 67,
+      "y": 1767,
+      "width": 171,
+      "height": 38
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Boat",
+    "className": "font-bold",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "13px",
+    "lineHeight": "18.2px",
+    "letterSpacing": "normal",
+    "color": "rgb(39, 37, 72)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 67,
+      "y": 1768,
+      "width": 29,
+      "height": 16
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹499",
+    "className": "text-[15px] font-bold text-[#087AC1]",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "15px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(8, 122, 193)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 67,
+      "y": 1813,
+      "width": 34,
+      "height": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹999",
+    "className": "pb-0.5 text-[10px] text-[#A8ADB5] line-through",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "10px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(168, 173, 181)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 105,
+      "y": 1811,
+      "width": 22,
+      "height": 23
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Save ₹500",
+    "className": "rounded-[4px] bg-[#36A36F] px-2 py-1 text-[10px] font-medium text-white",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "10px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(54, 163, 111)",
+    "borderRadius": "4px",
+    "box": {
+      "x": 67,
+      "y": 1842,
+      "width": 63,
+      "height": 29
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "✓",
+    "className": "absolute right-3 top-3 z-20 flex h-5 w-5 items-center justify-center rounded-[4px] border text-[14px] font-bold leading-none border-[#F28A24] bg-white text-transparent",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "14px",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "color": "rgba(0, 0, 0, 0)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "4px",
+    "box": {
+      "x": 433,
+      "y": 1615,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "className": "flex h-full w-full items-center justify-center",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 272,
+      "y": 1609,
+      "width": 187,
+      "height": 150
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Just Corseca Strider, Wireless SmartTouch Earbuds, ANC+ENC N",
+    "className": "",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 280,
+      "y": 1767,
+      "width": 171,
+      "height": 67
+    }
+  },
+  {
+    "tag": "H3",
+    "text": "Just Corseca Strider, Wireless SmartTouch Earbuds, ANC+ENC N",
+    "className": "line-clamp-2 min-h-[38px] text-[13px] font-normal leading-[1.4] text-[#272548]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "13px",
+    "lineHeight": "18.2px",
+    "letterSpacing": "normal",
+    "color": "rgb(39, 37, 72)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 280,
+      "y": 1767,
+      "width": 171,
+      "height": 38
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Just",
+    "className": "font-bold",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "13px",
+    "lineHeight": "18.2px",
+    "letterSpacing": "normal",
+    "color": "rgb(39, 37, 72)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 280,
+      "y": 1768,
+      "width": 25,
+      "height": 16
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹1,000",
+    "className": "text-[15px] font-bold text-[#087AC1]",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "15px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(8, 122, 193)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 280,
+      "y": 1813,
+      "width": 47,
+      "height": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹1,999",
+    "className": "pb-0.5 text-[10px] text-[#A8ADB5] line-through",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "10px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(168, 173, 181)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 331,
+      "y": 1811,
+      "width": 28,
+      "height": 23
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Save ₹1,000",
+    "className": "rounded-[4px] bg-[#36A36F] px-2 py-1 text-[10px] font-medium text-white",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "10px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(54, 163, 111)",
+    "borderRadius": "4px",
+    "box": {
+      "x": 280,
+      "y": 1842,
+      "width": 70,
+      "height": 29
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "✓",
+    "className": "absolute right-3 top-3 z-20 flex h-5 w-5 items-center justify-center rounded-[4px] border text-[14px] font-bold leading-none border-[#F28A24] bg-white text-transparent",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "14px",
+    "lineHeight": "14px",
+    "letterSpacing": "normal",
+    "color": "rgba(0, 0, 0, 0)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "4px",
+    "box": {
+      "x": 646,
+      "y": 1615,
+      "width": 20,
+      "height": 20
+    }
+  },
+  {
+    "tag": "A",
+    "text": "",
+    "className": "flex h-full w-full items-center justify-center",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 485,
+      "y": 1609,
+      "width": 187,
+      "height": 150
+    }
+  },
+  {
+    "tag": "A",
+    "text": "Xiaomi Garment Steamer₹1,499₹1,999",
+    "className": "",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 493,
+      "y": 1767,
+      "width": 171,
+      "height": 67
+    }
+  },
+  {
+    "tag": "H3",
+    "text": "Xiaomi Garment Steamer",
+    "className": "line-clamp-2 min-h-[38px] text-[13px] font-normal leading-[1.4] text-[#272548]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "13px",
+    "lineHeight": "18.2px",
+    "letterSpacing": "normal",
+    "color": "rgb(39, 37, 72)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 493,
+      "y": 1767,
+      "width": 171,
+      "height": 38
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Xiaomi",
+    "className": "font-bold",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "13px",
+    "lineHeight": "18.2px",
+    "letterSpacing": "normal",
+    "color": "rgb(39, 37, 72)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 493,
+      "y": 1768,
+      "width": 43,
+      "height": 16
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹1,499",
+    "className": "text-[15px] font-bold text-[#087AC1]",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "15px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(8, 122, 193)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 493,
+      "y": 1813,
+      "width": 43,
+      "height": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "₹1,999",
+    "className": "pb-0.5 text-[10px] text-[#A8ADB5] line-through",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "10px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(168, 173, 181)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 540,
+      "y": 1811,
+      "width": 28,
+      "height": 23
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Save ₹500",
+    "className": "rounded-[4px] bg-[#36A36F] px-2 py-1 text-[10px] font-medium text-white",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "10px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(54, 163, 111)",
+    "borderRadius": "4px",
+    "box": {
+      "x": 493,
+      "y": 1842,
+      "width": 63,
+      "height": 29
+    }
+  },
+  {
+    "tag": "H2",
+    "text": "Product Details",
+    "className": "text-[20px] font-bold text-gray-900 mb-5",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "20px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "lab(8.11897 0.811279 -12.254)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 1902,
+      "width": 334,
+      "height": 21
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Specs",
+    "className": "flex-1 flex h-10 items-center justify-center rounded-[6px] text-[14px] font-medium transition-all bg-white text-[#6B7280] border border-[#E5E7EB]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(107, 114, 128)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "6px",
+    "box": {
+      "x": 28,
+      "y": 1943,
+      "width": 161,
+      "height": 40
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Highlights",
+    "className": "flex-1 flex h-10 items-center justify-center rounded-[6px] text-[14px] font-medium transition-all bg-[#3B82F6] text-white shadow-sm border border-[#3B82F6]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(59, 130, 246)",
+    "borderRadius": "6px",
+    "box": {
+      "x": 201,
+      "y": 1943,
+      "width": 161,
+      "height": 40
+    }
+  },
+  {
+    "tag": "H3",
+    "text": "Product Highlights",
+    "className": "text-[17px] font-semibold text-[#111827]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "17px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 24, 39)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 2007,
+      "width": 334,
+      "height": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "",
+    "className": "mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-[#1175D6]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(17, 117, 214)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 28,
+      "y": 2044,
+      "width": 10,
+      "height": 10
+    }
+  },
+  {
+    "tag": "P",
+    "text": "12GB",
+    "className": "text-[14px] leading-[1.45] text-[#334155]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "20.3px",
+    "letterSpacing": "normal",
+    "color": "rgb(51, 65, 85)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 50,
+      "y": 2040,
+      "width": 32,
+      "height": 20
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "",
+    "className": "mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-[#1175D6]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(17, 117, 214)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 28,
+      "y": 2077,
+      "width": 10,
+      "height": 10
+    }
+  },
+  {
+    "tag": "P",
+    "text": "4970mAh",
+    "className": "text-[14px] leading-[1.45] text-[#334155]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "20.3px",
+    "letterSpacing": "normal",
+    "color": "rgb(51, 65, 85)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 50,
+      "y": 2073,
+      "width": 61,
+      "height": 20
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "",
+    "className": "mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-[#1175D6]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(17, 117, 214)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 28,
+      "y": 2109,
+      "width": 10,
+      "height": 10
+    }
+  },
+  {
+    "tag": "P",
+    "text": "256GB",
+    "className": "text-[14px] leading-[1.45] text-[#334155]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "20.3px",
+    "letterSpacing": "normal",
+    "color": "rgb(51, 65, 85)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 50,
+      "y": 2105,
+      "width": 43,
+      "height": 20
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "",
+    "className": "mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-[#1175D6]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(17, 117, 214)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 28,
+      "y": 2141,
+      "width": 10,
+      "height": 10
+    }
+  },
+  {
+    "tag": "P",
+    "text": "48 MP + 13 MP + 10.8 MP | 10.5 MP",
+    "className": "text-[14px] leading-[1.45] text-[#334155]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "20.3px",
+    "letterSpacing": "normal",
+    "color": "rgb(51, 65, 85)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 50,
+      "y": 2137,
+      "width": 208,
+      "height": 20
+    }
+  },
+  {
+    "tag": "H3",
+    "text": "Got an old phone to Exchange?",
+    "className": "text-[13px] font-medium leading-5 text-[#111111]",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "20px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 61,
+      "y": 2195,
+      "width": 179,
+      "height": 20
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "",
+    "className": "absolute left-[6px] z-10 flex transition-transform duration-200 ease-out",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 34,
+      "y": 2230,
+      "width": 40,
+      "height": 40
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "Swipe to unlock your savings",
+    "className": "w-full px-12 text-center text-[14px] font-semibold text-[#087fbd]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(8, 127, 189)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 34,
+      "y": 2239,
+      "width": 322,
+      "height": 21
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Takes 10 seconds, no commitment",
+    "className": "mt-[8px] pl-[1px] text-[10px] font-normal leading-[13px] text-[#777777]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "10px",
+    "lineHeight": "13px",
+    "letterSpacing": "normal",
+    "color": "rgb(119, 119, 119)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 2281,
+      "width": 334,
+      "height": 13
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Write a Review",
+    "className": "",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "15px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 117, 214)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "999px",
+    "box": {
+      "x": 28,
+      "y": 2326,
+      "width": 334,
+      "height": 49
+    }
+  },
+  {
+    "tag": "H2",
+    "text": "FAQ's",
+    "className": "",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "20px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 24, 39)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 28,
+      "y": 2415,
+      "width": 54,
+      "height": 21
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Post your Question",
+    "className": "",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "15px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 117, 214)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "999px",
+    "box": {
+      "x": 28,
+      "y": 2452,
+      "width": 334,
+      "height": 49
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Deliver to 560078",
+    "className": "flex w-full items-center justify-between gap-3 bg-[#EFF7FB] px-4 py-2.5",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "backgroundColor": "rgb(239, 247, 251)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 1,
+      "y": 721,
+      "width": 388,
+      "height": 52
+    }
+  },
+  {
+    "tag": "P",
+    "text": "Deliver to 560078",
+    "className": "truncate text-[13px] text-[#7A83A1]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(122, 131, 161)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 45,
+      "y": 737,
+      "width": 103,
+      "height": 21
+    }
+  },
+  {
+    "tag": "SPAN",
+    "text": "560078",
+    "className": "font-medium text-[#0B70B2] underline underline-offset-2",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(11, 112, 178)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 104,
+      "y": 739,
+      "width": 45,
+      "height": 16
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Add to Cart",
+    "className": "flex h-[46px] items-center justify-center rounded-full border border-[#7A83A1] bg-white px-4 text-[14px] font-bold text-[#111111]",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 17, 17)",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 17,
+      "y": 785,
+      "width": 172,
+      "height": 46
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Buy Now",
+    "className": "flex h-[46px] items-center justify-center rounded-full bg-[#F28A24] px-4 text-[14px] font-bold text-white",
+    "fontFamily": "Outfit",
+    "fontWeight": "700",
+    "fontSize": "14px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(242, 138, 36)",
+    "borderRadius": "3.35544e+07px",
+    "box": {
+      "x": 201,
+      "y": 785,
+      "width": 172,
+      "height": 46
+    }
+  },
+  {
+    "tag": "H3",
+    "text": "Enter Your Location",
+    "className": "text-[20px] font-semibold text-[#111111]",
+    "fontFamily": "Outfit",
+    "fontWeight": "600",
+    "fontSize": "20px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 68,
+      "y": 634,
+      "width": 209,
+      "height": 21
+    }
+  },
+  {
+    "tag": "P",
+    "text": "We'll use this to deliver fastest to you",
+    "className": "mt-1 text-[13px] text-[#5B6B86]",
+    "fontFamily": "Outfit",
+    "fontWeight": "400",
+    "fontSize": "13px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(91, 107, 134)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "box": {
+      "x": 68,
+      "y": 659,
+      "width": 209,
+      "height": 21
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Type Manually",
+    "className": "flex h-[48px] w-full items-center justify-center rounded-[24px] border border-[#111111] bg-transparent text-[15px] font-medium text-[#111111] transition-colors",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "15px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(17, 17, 17)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "24px",
+    "box": {
+      "x": 24,
+      "y": 704,
+      "width": 342,
+      "height": 48
+    }
+  },
+  {
+    "tag": "BUTTON",
+    "text": "Use Current Location",
+    "className": "flex h-[48px] w-full items-center justify-center rounded-[24px] bg-[#111111] text-[15px] font-medium text-white transition-colors",
+    "fontFamily": "Outfit",
+    "fontWeight": "500",
+    "fontSize": "15px",
+    "lineHeight": "21px",
+    "letterSpacing": "normal",
+    "color": "rgb(255, 255, 255)",
+    "backgroundColor": "rgb(17, 17, 17)",
+    "borderRadius": "24px",
+    "box": {
+      "x": 24,
+      "y": 764,
+      "width": 342,
+      "height": 48
+    }
+  }
+]

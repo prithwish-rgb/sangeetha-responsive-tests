@@ -1,0 +1,382 @@
+[
+  {
+    "bannerIndex": 0,
+    "bannerNumber": 1,
+    "altText": "Iphone 18",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789032035_828.jpg",
+    "isClickable": true,
+    "href": "/product-list/iphone-18-828",
+    "destinationUrl": "https://www.sangeetha.com/product-list/iphone-18-828",
+    "httpStatus": 200,
+    "pageTitle": "Iphone 18 | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_1_hero_view.png",
+    "destScreenshot": "banner_1_destination.png"
+  },
+  {
+    "bannerIndex": 1,
+    "bannerNumber": 2,
+    "altText": "Iphone Duo",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789032164_829.jpg",
+    "isClickable": true,
+    "href": "/product-list/iphone-duo-829",
+    "destinationUrl": "https://www.sangeetha.com/product-list/iphone-duo-829",
+    "httpStatus": 200,
+    "pageTitle": "Iphone Duo | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_2_hero_view.png",
+    "destScreenshot": "banner_2_destination.png"
+  },
+  {
+    "bannerIndex": 2,
+    "bannerNumber": 3,
+    "altText": "Google  Pixel 11 Series",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787377155_805.jpg",
+    "isClickable": true,
+    "href": "/product-list/google-pixel-11-series-805",
+    "destinationUrl": "https://www.sangeetha.com/product-list/google-pixel-11-series-805",
+    "httpStatus": 200,
+    "pageTitle": "Google Pixel 11 Series | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_3_hero_view.png",
+    "destScreenshot": "banner_3_destination.png"
+  },
+  {
+    "bannerIndex": 3,
+    "bannerNumber": 4,
+    "altText": "Damage protection",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787051022_820.jpg",
+    "isClickable": true,
+    "href": "/product-list/damage-protection-820",
+    "destinationUrl": "https://www.sangeetha.com/product-list/damage-protection-820",
+    "httpStatus": 200,
+    "pageTitle": "Damage Protection | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_4_hero_view.png",
+    "destScreenshot": "banner_4_destination.png"
+  },
+  {
+    "bannerIndex": 4,
+    "bannerNumber": 5,
+    "altText": "Samsung S26 FE",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787896414_824.jpg",
+    "isClickable": true,
+    "href": "/product-list/samsung-s26-fe-824",
+    "destinationUrl": "https://www.sangeetha.com/product-list/samsung-s26-fe-824",
+    "httpStatus": 200,
+    "pageTitle": "Samsung S26 Fe | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_5_hero_view.png",
+    "destScreenshot": "banner_5_destination.png"
+  },
+  {
+    "bannerIndex": 5,
+    "bannerNumber": 6,
+    "altText": "Bundle products",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787225218_816.jpg",
+    "isClickable": true,
+    "href": "/product-list/bundle-products-816",
+    "destinationUrl": "https://www.sangeetha.com/product-list/bundle-products-816",
+    "httpStatus": 200,
+    "pageTitle": "Bundle Products | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_6_hero_view.png",
+    "destScreenshot": "banner_6_destination.png"
+  },
+  {
+    "bannerIndex": 6,
+    "bannerNumber": 7,
+    "altText": "Redmi 17 5G",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789017044_826.jpg",
+    "isClickable": true,
+    "href": "/product-list/redmi-17-5g-826",
+    "destinationUrl": "https://www.sangeetha.com/product-list/redmi-17-5g-826",
+    "httpStatus": 200,
+    "pageTitle": "Redmi 17 5g | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_7_hero_view.png",
+    "destScreenshot": "banner_7_destination.png"
+  },
+  {
+    "bannerIndex": 7,
+    "bannerNumber": 8,
+    "altText": "Samsung Galaxy Z Fold 8 Ultra & Fold 8",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1785669265_803.jpg",
+    "isClickable": true,
+    "href": "/product-list/samsung-galaxy-z-fold-8-ultra-and-fold-8-803",
+    "destinationUrl": "https://www.sangeetha.com/product-list/samsung-galaxy-z-fold-8-ultra-and-fold-8-803",
+    "httpStatus": 200,
+    "pageTitle": "Samsung Galaxy Z Fold 8 Ultra And Fold 8 | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_8_hero_view.png",
+    "destScreenshot": "banner_8_destination.png"
+  },
+  {
+    "bannerIndex": 8,
+    "bannerNumber": 9,
+    "altText": "Nothing phone 4B",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1784219474_799.jpg",
+    "isClickable": true,
+    "href": "/product-list/nothing-phone-4b-799",
+    "destinationUrl": "https://www.sangeetha.com/product-list/nothing-phone-4b-799",
+    "httpStatus": 200,
+    "pageTitle": "Nothing Phone 4b | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_9_hero_view.png",
+    "destScreenshot": "banner_9_destination.png"
+  },
+  {
+    "bannerIndex": 9,
+    "bannerNumber": 10,
+    "altText": "Redmi note 17",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1786529666_804.jpg",
+    "isClickable": true,
+    "href": "/product-list/redmi-note-17-804",
+    "destinationUrl": "https://www.sangeetha.com/product-list/redmi-note-17-804",
+    "httpStatus": 200,
+    "pageTitle": "Redmi Note 17 | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_10_hero_view.png",
+    "destScreenshot": "banner_10_destination.png"
+  },
+  {
+    "bannerIndex": 10,
+    "bannerNumber": 11,
+    "altText": "Vivo S2",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1786365019_814.jpg",
+    "isClickable": true,
+    "href": "/product-list/vivo-s2-814",
+    "destinationUrl": "https://www.sangeetha.com/product-list/vivo-s2-814",
+    "httpStatus": 200,
+    "pageTitle": "Vivo S2 | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_11_hero_view.png",
+    "destScreenshot": "banner_11_destination.png"
+  },
+  {
+    "bannerIndex": 11,
+    "bannerNumber": 12,
+    "altText": "Oppo Find X9 Ultra",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779862915_784.jpg",
+    "isClickable": true,
+    "href": "/product-list/oppo-find-x9-ultra-784",
+    "destinationUrl": "https://www.sangeetha.com/product-list/oppo-find-x9-ultra-784",
+    "httpStatus": 200,
+    "pageTitle": "Oppo Find X9 Ultra | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_12_hero_view.png",
+    "destScreenshot": "banner_12_destination.png"
+  },
+  {
+    "bannerIndex": 12,
+    "bannerNumber": 13,
+    "altText": "Oppo Reno 16",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1783670071_794.jpg",
+    "isClickable": true,
+    "href": "/product-list/oppo-reno-16-794",
+    "destinationUrl": "https://www.sangeetha.com/product-list/oppo-reno-16-794",
+    "httpStatus": 200,
+    "pageTitle": "Oppo Reno 16 | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_13_hero_view.png",
+    "destScreenshot": "banner_13_destination.png"
+  },
+  {
+    "bannerIndex": 13,
+    "bannerNumber": 14,
+    "altText": "Vivo X300 FE",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779097927_781.jpg",
+    "isClickable": true,
+    "href": "/product-list/vivo-x300-fe-781",
+    "destinationUrl": "https://www.sangeetha.com/product-list/vivo-x300-fe-781",
+    "httpStatus": 200,
+    "pageTitle": "Vivo X300 Fe | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_14_hero_view.png",
+    "destScreenshot": "banner_14_destination.png"
+  },
+  {
+    "bannerIndex": 14,
+    "bannerNumber": 15,
+    "altText": "Xiaomi 17T",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1781078113_790.jpg",
+    "isClickable": true,
+    "href": "/product-list/xiaomi-17t-790",
+    "destinationUrl": "https://www.sangeetha.com/product-list/xiaomi-17t-790",
+    "httpStatus": 200,
+    "pageTitle": "Xiaomi 17t | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_15_hero_view.png",
+    "destScreenshot": "banner_15_destination.png"
+  },
+  {
+    "bannerIndex": 15,
+    "bannerNumber": 16,
+    "altText": "Realme 16T",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779878954_782.jpg",
+    "isClickable": true,
+    "href": "/product-list/realme-16t-782",
+    "destinationUrl": "https://www.sangeetha.com/product-list/realme-16t-782",
+    "httpStatus": 200,
+    "pageTitle": "Realme 16t | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_16_hero_view.png",
+    "destScreenshot": "banner_16_destination.png"
+  },
+  {
+    "bannerIndex": 16,
+    "bannerNumber": 17,
+    "altText": "Samsung S26 series",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1773310885_754.jpg",
+    "isClickable": true,
+    "href": "/store-deal/S26series_pre-reserve",
+    "destinationUrl": "https://www.sangeetha.com/store-deal/S26series_pre-reserve",
+    "httpStatus": 404,
+    "pageTitle": "Buy Mobile Phones & Accessories Online | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "Page Not Found",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": false
+    },
+    "bannerScreenshot": "banner_17_hero_view.png",
+    "destScreenshot": "banner_17_destination.png"
+  },
+  {
+    "bannerIndex": 17,
+    "bannerNumber": 18,
+    "altText": "Vivo X300 ultra",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779177514_778.jpg",
+    "isClickable": true,
+    "href": "/product-list/vivo-x300-ultra-778",
+    "destinationUrl": "https://www.sangeetha.com/product-list/vivo-x300-ultra-778",
+    "httpStatus": 200,
+    "pageTitle": "Vivo X300 Ultra | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_18_hero_view.png",
+    "destScreenshot": "banner_18_destination.png"
+  },
+  {
+    "bannerIndex": 18,
+    "bannerNumber": 19,
+    "altText": "Samsung Galaxy A37 & A57",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1775541545_766.jpg",
+    "isClickable": true,
+    "href": "/product-list/samsung-galaxy-a37-and-a57-766",
+    "destinationUrl": "https://www.sangeetha.com/product-list/samsung-galaxy-a37-and-a57-766",
+    "httpStatus": 200,
+    "pageTitle": "Samsung Galaxy A37 And A57 | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_19_hero_view.png",
+    "destScreenshot": "banner_19_destination.png"
+  },
+  {
+    "bannerIndex": 19,
+    "bannerNumber": 20,
+    "altText": "Oppo Find X9S",
+    "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779862885_785.jpg",
+    "isClickable": true,
+    "href": "/product-list/oppo-find-x9s-785",
+    "destinationUrl": "https://www.sangeetha.com/product-list/oppo-find-x9s-785",
+    "httpStatus": 200,
+    "pageTitle": "Oppo Find X9s | Sangeetha Mobiles",
+    "productData": {
+      "pageH1": "",
+      "uniqueProductsCount": 0,
+      "products": [],
+      "hasEmptyNotice": true
+    },
+    "bannerScreenshot": "banner_20_hero_view.png",
+    "destScreenshot": "banner_20_destination.png"
+  }
+]

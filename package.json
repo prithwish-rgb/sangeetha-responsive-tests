@@ -1,0 +1,36 @@
+{
+  "name": "sangeetha-responsive-tests",
+  "version": "1.0.0",
+  "description": "Sangeetha Responsive Mobile Feature-Level Regression Suite",
+  "main": "index.js",
+  "scripts": {
+    "test:auth:setup": "npx tsx scripts/setup-auth-session.ts",
+    "test:health": "npx tsx scripts/verify-session-health.ts",
+    "cart:reset": "npx tsx scripts/reset-cart.ts",
+    "test:summary": "npx tsx scripts/generate-ci-summary.ts",
+    "test:cucumber": "npx cucumber-js",
+    "test:smoke": "npx cucumber-js --tags \"@smoke\"",
+    "test:discovery": "npx cucumber-js features/homepage-validation.feature features/search-validation.feature features/plp-validation.feature features/pdp-validation.feature",
+    "test:transactional": "npm run test:health && npm run cart:reset && npx cucumber-js features/shopping-cart-validation.feature features/checkout-validation.feature features/card-payment-validation.feature features/production-customer-journey.feature",
+    "test:regression:daily": "npm run test:health && npm run cart:reset && npx cucumber-js",
+    "test:regression:extended": "npm run test:health && npm run cart:reset && npx cucumber-js",
+    "test:postman": "npx postman app test --verbose --no-report-events",
+    "demo": "npx tsx scripts/run-demo.ts"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2",
+    "docx": "^9.7.1",
+    "postman-cli": "^1.54.1",
+    "postman-playwright": "^1.1.2",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "exceljs": "^4.4.0"
+  }
+}

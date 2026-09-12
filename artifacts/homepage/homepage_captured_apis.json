@@ -1,0 +1,169 @@
+[
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":600,\"name\":\"block_1\",\"position_type\":\"categories\",\"page_type\":\"Home\",\"layout\":\"Hero banner\",\"layout_type\":1,\"type\":\"Slide\",\"title\":\"Categories\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\",\"si"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/api/footer?type=pwa",
+    "method": "GET",
+    "status": 200,
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Fetch Footer Link\",\"data\":{\"block1\":{\"title\":\"Sangeetha\",\"type\":\"static_page\",\"content\":[{\"text\":\"Assure\",\"page_name\":\"why_sangeetha\",\"link\":\"https://sangeetha.bangalore2.com/why-sangeetha\",\"type\":\"\",\"slug\":\"assure\"},{\"text\":\"Terms and Conditions\",\"page_name\":\"terms_condi"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":604,\"name\":\"block_5\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":5,\"type\":\"Slide\",\"title\":\"Hurry Up! Get Up to 50% Off\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\""
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":615,\"name\":\"block_16\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":16,\"type\":\"Carousel\",\"title\":\"Deal of the day\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\",\"size\""
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":606,\"name\":\"block_7\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":7,\"type\":\"Slide\",\"title\":\"Best Selling Phones\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\",\"size\":"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":613,\"name\":\"block_14\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":14,\"type\":\"Carousel\",\"title\":\"Top-Rated for Performance\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":610,\"name\":\"block_11\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":11,\"type\":\"Carousel\",\"title\":\"Newly Launched and Trending\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"999999\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":600,\"name\":\"block_1\",\"position_type\":\"categories\",\"page_type\":\"Home\",\"layout\":\"Hero banner\",\"layout_type\":1,\"type\":\"Slide\",\"title\":\"Categories\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\",\"si"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"999999\",\"block\":\"block_11\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":610,\"name\":\"block_11\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":11,\"type\":\"Carousel\",\"title\":\"Newly Launched and Trending\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/pims/data-model/pincode-eta-check",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"pinCode\":\"999999\",\"user_id\":\"\"}",
+    "responseSnippet": "{\"http_code\":400,\"message\":\"Something went wrong. Please try again (Ref: 5EF20FFA)\",\"data\":\"\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"999999\",\"block\":\"block_16\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":615,\"name\":\"block_16\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":16,\"type\":\"Carousel\",\"title\":\"Deal of the day\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\",\"size\""
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"999999\",\"block\":\"block_5\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":604,\"name\":\"block_5\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":5,\"type\":\"Slide\",\"title\":\"Hurry Up! Get Up to 50% Off\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\""
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"999999\",\"block\":\"block_7\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":606,\"name\":\"block_7\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":7,\"type\":\"Slide\",\"title\":\"Best Selling Phones\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\",\"size\":"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"999999\",\"block\":\"block_14\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":613,\"name\":\"block_14\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":14,\"type\":\"Carousel\",\"title\":\"Top-Rated for Performance\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"999999\",\"block\":\"block_11\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":610,\"name\":\"block_11\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":11,\"type\":\"Carousel\",\"title\":\"Newly Launched and Trending\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"999999\",\"block\":\"block_16\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":615,\"name\":\"block_16\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":16,\"type\":\"Carousel\",\"title\":\"Deal of the day\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\",\"size\""
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":600,\"name\":\"block_1\",\"position_type\":\"categories\",\"page_type\":\"Home\",\"layout\":\"Hero banner\",\"layout_type\":1,\"type\":\"Slide\",\"title\":\"Categories\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\",\"si"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\",\"block\":\"block_14\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":613,\"name\":\"block_14\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":14,\"type\":\"Carousel\",\"title\":\"Top-Rated for Performance\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\",\"block\":\"block_7\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":606,\"name\":\"block_7\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":7,\"type\":\"Slide\",\"title\":\"Best Selling Phones\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\",\"size\":"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/pims/data-model/pincode-eta-check",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"pinCode\":\"560078\",\"user_id\":\"\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Pincode ETA Retrieved Successfully\",\"data\":{\"header_eta\":\"30 Minutes\",\"delivery_location\":\"Bengaluru\",\"delivery_icon\":\"https://smpl-prod-app-v2.gumlet.io/general_settings/35_min_dlvry_icon/17327027506746f21eec788.png\",\"message\":\"Pincode ETA Retrieved Successfully\"}}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\",\"block\":\"block_16\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":615,\"name\":\"block_16\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":16,\"type\":\"Carousel\",\"title\":\"Deal of the day\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\",\"size\""
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\",\"block\":\"block_5\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":604,\"name\":\"block_5\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":5,\"type\":\"Slide\",\"title\":\"Hurry Up! Get Up to 50% Off\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type\":\"0\""
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\",\"block\":\"block_11\"}",
+    "responseSnippet": "{\"http_code\":200,\"message\":\"Home Page Placeholder list fetched successfully\",\"data\":[{\"position_id\":610,\"name\":\"block_11\",\"position_type\":\"products\",\"page_type\":\"Home\",\"layout\":\"\",\"layout_type\":11,\"type\":\"Carousel\",\"title\":\"Newly Launched and Trending\",\"sub_title\":\"\",\"vas_mop\":\"0.00\",\"check_job_type"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/news-email/store",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"email\":\"qa.regression@sangeethatest.com\",\"user_id\":\"\"}",
+    "responseSnippet": "{\"http_code\":400,\"message\":\"The user id field is required.\",\"status\":\"\",\"data\":\"\"}"
+  }
+]

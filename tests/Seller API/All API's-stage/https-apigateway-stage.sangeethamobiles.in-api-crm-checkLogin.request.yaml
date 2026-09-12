@@ -1,0 +1,32 @@
+$kind: http-request
+name: https://apigateway-stage.sangeethamobiles.in/api/crm/checkLogin
+url: https://apigateway-stage.sangeethamobiles.in/api/crm/checkLogin
+method: POST
+headers:
+  accept: application/json
+  accept-language: en-US,en;q=0.9
+  authorization: UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl
+  clientid: sangeethamobiles
+  content-type: application/x-www-form-urlencoded
+  number1: 1qc7xATG7p5&p96x**zqYNw#2B*edYW0$A#2RVt*y7QXXY3YL#M6QWp(4Bs7CB2h*gt4H
+  number2: 3SgbId3nC#G8eay)8(dO7Ej5)KO9(ceZS14oDX2sZJV4I6qnH0t06QmtZ
+  origin: https://smpl-new.bangalore2.com
+  priority: u=1, i
+  referer: https://smpl-new.bangalore2.com/
+  sec-ch-ua: '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"'
+  sec-ch-ua-mobile: ?1
+  sec-ch-ua-platform: '"iOS"'
+  sec-fetch-dest: empty
+  sec-fetch-mode: cors
+  sec-fetch-site: cross-site
+  sourceid: "1"
+  token: "{{json_web_token_03yl}}"
+  user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+body:
+  type: urlencoded
+  content:
+    method: checkLogin
+    data: '{"customerMobile":"9966668295","jwToken":"{{json_web_token_11vh}}"}'
+auth:
+  type: noauth
+order: 29000

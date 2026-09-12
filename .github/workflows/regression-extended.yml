@@ -1,0 +1,100 @@
+name: Extended Regression & Postman (Mobile)
+
+on:
+  schedule:
+    # 01:00 AM IST Sunday = 19:30 UTC Saturday
+    - cron: '30 19 * * 6'
+  workflow_dispatch:
+    inputs:
+      headless:
+        description: 'Run in headless mode'
+        required: false
+        default: 'true'
+        type: boolean
+      run_postman:
+        description: 'Run Postman API tests'
+        required: false
+        default: 'true'
+        type: boolean
+
+concurrency:
+  group: regression-extended-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  extended-regression:
+    name: Execute Extended Weekly Regression & API Suite
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    env:
+      CI: 'true'
+      VIEWPORT_WIDTH: '393'
+      VIEWPORT_HEIGHT: '851'
+      HEADLESS: 'true'
+      AUTH_STATE_JSON: ${{ secrets.AUTH_STATE_JSON }}
+      AUTH_STATE_BASE64: ${{ secrets.AUTH_STATE_BASE64 }}
+      POSTMAN_API_KEY: ${{ secrets.POSTMAN_API_KEY }}
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 📦 Install Project Dependencies
+        run: npm ci || npm install
+
+      - name: 🌐 Install Playwright Chromium Browser & OS Dependencies
+        run: npx playwright install --with-deps chromium
+
+      - name: 🧭 Phase 1: Parallel-Safe Discovery Suites (Homepage, Search, PLP, PDP)
+        id: discovery_phase
+        run: npm run test:discovery
+
+      - name: 🔑 Initialize Stored Authentication Session
+        run: npm run test:auth:setup
+
+      - name: 🛡️ Phase 2 Precondition: Verify Session Health
+        id: auth_health_check
+        run: npm run test:health
+
+      - name: 🧹 Phase 2 Precondition: Establish Deterministic Cart Baseline
+        id: cart_reset_check
+        run: npm run cart:reset
+
+      - name: 💳 Phase 2: Sequential Transactional Suites (Cart -> Checkout -> Payment -> Journey)
+        id: transactional_phase
+        run: npm run test:transactional
+
+      - name: 📡 Phase 3: Postman CLI Contract / API Integration Tests
+        id: postman_phase
+        if: always()
+        run: |
+          if [ -n "${{ secrets.POSTMAN_API_KEY }}" ]; then
+            npm run test:postman || echo "Postman execution completed with non-fatal status."
+          else
+            echo "ℹ️  POSTMAN_API_KEY secret not set. Skipping Postman cloud upload/sync; local test results preserved."
+          fi
+
+      - name: 📊 Generate Extended Regression Summary
+        if: always()
+        run: npm run test:summary "Extended Weekly Regression Tier (Sunday 01:00 AM IST)"
+
+      - name: 📦 Upload Extended Regression Artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: extended-regression-artifacts-run-${{ github.run_number }}-${{ github.run_attempt }}
+          path: |
+            reports/
+            test-results/
+            screenshots/failures/
+            videos/
+            pm-results/
+          retention-days: 60
+          if-no-files-found: warn

@@ -1,0 +1,687 @@
+{
+  "totalDomSlides": 20,
+  "allSlides": [
+    {
+      "domIndex": 0,
+      "dataSwiperSlideIndex": 0,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789032035_828.jpg",
+      "imgAlt": "Iphone 18",
+      "anchorTag": {
+        "href": "/product-list/iphone-18-828",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/iphone-18-828\"><img alt=\"Iphone 18\" loading=\"eager\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789032035_828.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 1,
+      "dataSwiperSlideIndex": 1,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789032164_829.jpg",
+      "imgAlt": "Iphone Duo",
+      "anchorTag": {
+        "href": "/product-list/iphone-duo-829",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/iphone-duo-829\"><img alt=\"Iphone Duo\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789032164_829.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 2,
+      "dataSwiperSlideIndex": 2,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787377155_805.jpg",
+      "imgAlt": "Google  Pixel 11 Series",
+      "anchorTag": {
+        "href": "/product-list/google-pixel-11-series-805",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/google-pixel-11-series-805\"><img alt=\"Google  Pixel 11 Series\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787377155_805.jpg\" style=\"co"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 3,
+      "dataSwiperSlideIndex": 3,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787051022_820.jpg",
+      "imgAlt": "Damage protection",
+      "anchorTag": {
+        "href": "/product-list/damage-protection-820",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/damage-protection-820\"><img alt=\"Damage protection\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787051022_820.jpg\" style=\"color: transp"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 4,
+      "dataSwiperSlideIndex": 4,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787896414_824.jpg",
+      "imgAlt": "Samsung S26 FE",
+      "anchorTag": {
+        "href": "/product-list/samsung-s26-fe-824",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/samsung-s26-fe-824\"><img alt=\"Samsung S26 FE\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787896414_824.jpg\" style=\"color: transparent;"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 5,
+      "dataSwiperSlideIndex": 5,
+      "isDuplicate": false,
+      "className": "swiper-slide swiper-slide-prev",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787225218_816.jpg",
+      "imgAlt": "Bundle products",
+      "anchorTag": {
+        "href": "/product-list/bundle-products-816",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/bundle-products-816\"><img alt=\"Bundle products\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787225218_816.jpg\" style=\"color: transparen"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 6,
+      "dataSwiperSlideIndex": 6,
+      "isDuplicate": false,
+      "className": "swiper-slide swiper-slide-active",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789017044_826.jpg",
+      "imgAlt": "Redmi 17 5G",
+      "anchorTag": {
+        "href": "/product-list/redmi-17-5g-826",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/redmi-17-5g-826\"><img alt=\"Redmi 17 5G\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789017044_826.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 7,
+      "dataSwiperSlideIndex": 7,
+      "isDuplicate": false,
+      "className": "swiper-slide swiper-slide-next",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1785669265_803.jpg",
+      "imgAlt": "Samsung Galaxy Z Fold 8 Ultra & Fold 8",
+      "anchorTag": {
+        "href": "/product-list/samsung-galaxy-z-fold-8-ultra-and-fold-8-803",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/samsung-galaxy-z-fold-8-ultra-and-fold-8-803\"><img alt=\"Samsung Galaxy Z Fold 8 Ultra &amp; Fold 8\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholde"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 8,
+      "dataSwiperSlideIndex": 8,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1784219474_799.jpg",
+      "imgAlt": "Nothing phone 4B",
+      "anchorTag": {
+        "href": "/product-list/nothing-phone-4b-799",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/nothing-phone-4b-799\"><img alt=\"Nothing phone 4B\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1784219474_799.jpg\" style=\"color: transpar"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 9,
+      "dataSwiperSlideIndex": 9,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1786529666_804.jpg",
+      "imgAlt": "Redmi note 17",
+      "anchorTag": {
+        "href": "/product-list/redmi-note-17-804",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/redmi-note-17-804\"><img alt=\"Redmi note 17\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1786529666_804.jpg\" style=\"color: transparent;\">"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 10,
+      "dataSwiperSlideIndex": 10,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1786365019_814.jpg",
+      "imgAlt": "Vivo S2",
+      "anchorTag": {
+        "href": "/product-list/vivo-s2-814",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/vivo-s2-814\"><img alt=\"Vivo S2\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1786365019_814.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 11,
+      "dataSwiperSlideIndex": 11,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779862915_784.jpg",
+      "imgAlt": "Oppo Find X9 Ultra",
+      "anchorTag": {
+        "href": "/product-list/oppo-find-x9-ultra-784",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/oppo-find-x9-ultra-784\"><img alt=\"Oppo Find X9 Ultra\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779862915_784.jpg\" style=\"color: tran"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 12,
+      "dataSwiperSlideIndex": 12,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1783670071_794.jpg",
+      "imgAlt": "Oppo Reno 16",
+      "anchorTag": {
+        "href": "/product-list/oppo-reno-16-794",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/oppo-reno-16-794\"><img alt=\"Oppo Reno 16\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1783670071_794.jpg\" style=\"color: transparent;\"></"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 13,
+      "dataSwiperSlideIndex": 13,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779097927_781.jpg",
+      "imgAlt": "Vivo X300 FE",
+      "anchorTag": {
+        "href": "/product-list/vivo-x300-fe-781",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/vivo-x300-fe-781\"><img alt=\"Vivo X300 FE\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779097927_781.jpg\" style=\"color: transparent;\"></"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 14,
+      "dataSwiperSlideIndex": 14,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1781078113_790.jpg",
+      "imgAlt": "Xiaomi 17T",
+      "anchorTag": {
+        "href": "/product-list/xiaomi-17t-790",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/xiaomi-17t-790\"><img alt=\"Xiaomi 17T\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1781078113_790.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 15,
+      "dataSwiperSlideIndex": 15,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779878954_782.jpg",
+      "imgAlt": "Realme 16T",
+      "anchorTag": {
+        "href": "/product-list/realme-16t-782",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/realme-16t-782\"><img alt=\"Realme 16T\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779878954_782.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 16,
+      "dataSwiperSlideIndex": 16,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1773310885_754.jpg",
+      "imgAlt": "Samsung S26 series",
+      "anchorTag": {
+        "href": "/store-deal/S26series_pre-reserve",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/store-deal/S26series_pre-reserve\"><img alt=\"Samsung S26 series\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1773310885_754.jpg\" style=\"color: transpa"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 17,
+      "dataSwiperSlideIndex": 17,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779177514_778.jpg",
+      "imgAlt": "Vivo X300 ultra",
+      "anchorTag": {
+        "href": "/product-list/vivo-x300-ultra-778",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/vivo-x300-ultra-778\"><img alt=\"Vivo X300 ultra\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779177514_778.jpg\" style=\"color: transparen"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 18,
+      "dataSwiperSlideIndex": 18,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1775541545_766.jpg",
+      "imgAlt": "Samsung Galaxy A37 & A57",
+      "anchorTag": {
+        "href": "/product-list/samsung-galaxy-a37-and-a57-766",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/samsung-galaxy-a37-and-a57-766\"><img alt=\"Samsung Galaxy A37 &amp; A57\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1775541545_766.jpg\" "
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 19,
+      "dataSwiperSlideIndex": 19,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779862885_785.jpg",
+      "imgAlt": "Oppo Find X9S",
+      "anchorTag": {
+        "href": "/product-list/oppo-find-x9s-785",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/oppo-find-x9s-785\"><img alt=\"Oppo Find X9S\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779862885_785.jpg\" style=\"color: transparent;\">"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    }
+  ],
+  "uniqueSlides": [
+    {
+      "domIndex": 0,
+      "dataSwiperSlideIndex": 0,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789032035_828.jpg",
+      "imgAlt": "Iphone 18",
+      "anchorTag": {
+        "href": "/product-list/iphone-18-828",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/iphone-18-828\"><img alt=\"Iphone 18\" loading=\"eager\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789032035_828.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 1,
+      "dataSwiperSlideIndex": 1,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789032164_829.jpg",
+      "imgAlt": "Iphone Duo",
+      "anchorTag": {
+        "href": "/product-list/iphone-duo-829",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/iphone-duo-829\"><img alt=\"Iphone Duo\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789032164_829.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 2,
+      "dataSwiperSlideIndex": 2,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787377155_805.jpg",
+      "imgAlt": "Google  Pixel 11 Series",
+      "anchorTag": {
+        "href": "/product-list/google-pixel-11-series-805",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/google-pixel-11-series-805\"><img alt=\"Google  Pixel 11 Series\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787377155_805.jpg\" style=\"co"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 3,
+      "dataSwiperSlideIndex": 3,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787051022_820.jpg",
+      "imgAlt": "Damage protection",
+      "anchorTag": {
+        "href": "/product-list/damage-protection-820",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/damage-protection-820\"><img alt=\"Damage protection\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787051022_820.jpg\" style=\"color: transp"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 4,
+      "dataSwiperSlideIndex": 4,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787896414_824.jpg",
+      "imgAlt": "Samsung S26 FE",
+      "anchorTag": {
+        "href": "/product-list/samsung-s26-fe-824",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/samsung-s26-fe-824\"><img alt=\"Samsung S26 FE\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787896414_824.jpg\" style=\"color: transparent;"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 5,
+      "dataSwiperSlideIndex": 5,
+      "isDuplicate": false,
+      "className": "swiper-slide swiper-slide-prev",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787225218_816.jpg",
+      "imgAlt": "Bundle products",
+      "anchorTag": {
+        "href": "/product-list/bundle-products-816",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/bundle-products-816\"><img alt=\"Bundle products\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1787225218_816.jpg\" style=\"color: transparen"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 6,
+      "dataSwiperSlideIndex": 6,
+      "isDuplicate": false,
+      "className": "swiper-slide swiper-slide-active",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789017044_826.jpg",
+      "imgAlt": "Redmi 17 5G",
+      "anchorTag": {
+        "href": "/product-list/redmi-17-5g-826",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/redmi-17-5g-826\"><img alt=\"Redmi 17 5G\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1789017044_826.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 7,
+      "dataSwiperSlideIndex": 7,
+      "isDuplicate": false,
+      "className": "swiper-slide swiper-slide-next",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1785669265_803.jpg",
+      "imgAlt": "Samsung Galaxy Z Fold 8 Ultra & Fold 8",
+      "anchorTag": {
+        "href": "/product-list/samsung-galaxy-z-fold-8-ultra-and-fold-8-803",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/samsung-galaxy-z-fold-8-ultra-and-fold-8-803\"><img alt=\"Samsung Galaxy Z Fold 8 Ultra &amp; Fold 8\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholde"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 8,
+      "dataSwiperSlideIndex": 8,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1784219474_799.jpg",
+      "imgAlt": "Nothing phone 4B",
+      "anchorTag": {
+        "href": "/product-list/nothing-phone-4b-799",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/nothing-phone-4b-799\"><img alt=\"Nothing phone 4B\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1784219474_799.jpg\" style=\"color: transpar"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 9,
+      "dataSwiperSlideIndex": 9,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1786529666_804.jpg",
+      "imgAlt": "Redmi note 17",
+      "anchorTag": {
+        "href": "/product-list/redmi-note-17-804",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/redmi-note-17-804\"><img alt=\"Redmi note 17\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1786529666_804.jpg\" style=\"color: transparent;\">"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 10,
+      "dataSwiperSlideIndex": 10,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1786365019_814.jpg",
+      "imgAlt": "Vivo S2",
+      "anchorTag": {
+        "href": "/product-list/vivo-s2-814",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/vivo-s2-814\"><img alt=\"Vivo S2\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1786365019_814.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 11,
+      "dataSwiperSlideIndex": 11,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779862915_784.jpg",
+      "imgAlt": "Oppo Find X9 Ultra",
+      "anchorTag": {
+        "href": "/product-list/oppo-find-x9-ultra-784",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/oppo-find-x9-ultra-784\"><img alt=\"Oppo Find X9 Ultra\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779862915_784.jpg\" style=\"color: tran"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 12,
+      "dataSwiperSlideIndex": 12,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1783670071_794.jpg",
+      "imgAlt": "Oppo Reno 16",
+      "anchorTag": {
+        "href": "/product-list/oppo-reno-16-794",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/oppo-reno-16-794\"><img alt=\"Oppo Reno 16\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1783670071_794.jpg\" style=\"color: transparent;\"></"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 13,
+      "dataSwiperSlideIndex": 13,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779097927_781.jpg",
+      "imgAlt": "Vivo X300 FE",
+      "anchorTag": {
+        "href": "/product-list/vivo-x300-fe-781",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/vivo-x300-fe-781\"><img alt=\"Vivo X300 FE\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779097927_781.jpg\" style=\"color: transparent;\"></"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 14,
+      "dataSwiperSlideIndex": 14,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1781078113_790.jpg",
+      "imgAlt": "Xiaomi 17T",
+      "anchorTag": {
+        "href": "/product-list/xiaomi-17t-790",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/xiaomi-17t-790\"><img alt=\"Xiaomi 17T\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1781078113_790.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 15,
+      "dataSwiperSlideIndex": 15,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779878954_782.jpg",
+      "imgAlt": "Realme 16T",
+      "anchorTag": {
+        "href": "/product-list/realme-16t-782",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/realme-16t-782\"><img alt=\"Realme 16T\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779878954_782.jpg\" style=\"color: transparent;\"></a>"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 16,
+      "dataSwiperSlideIndex": 16,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1773310885_754.jpg",
+      "imgAlt": "Samsung S26 series",
+      "anchorTag": {
+        "href": "/store-deal/S26series_pre-reserve",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/store-deal/S26series_pre-reserve\"><img alt=\"Samsung S26 series\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1773310885_754.jpg\" style=\"color: transpa"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 17,
+      "dataSwiperSlideIndex": 17,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779177514_778.jpg",
+      "imgAlt": "Vivo X300 ultra",
+      "anchorTag": {
+        "href": "/product-list/vivo-x300-ultra-778",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/vivo-x300-ultra-778\"><img alt=\"Vivo X300 ultra\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779177514_778.jpg\" style=\"color: transparen"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 18,
+      "dataSwiperSlideIndex": 18,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1775541545_766.jpg",
+      "imgAlt": "Samsung Galaxy A37 & A57",
+      "anchorTag": {
+        "href": "/product-list/samsung-galaxy-a37-and-a57-766",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/samsung-galaxy-a37-and-a57-766\"><img alt=\"Samsung Galaxy A37 &amp; A57\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1775541545_766.jpg\" "
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    },
+    {
+      "domIndex": 19,
+      "dataSwiperSlideIndex": 19,
+      "isDuplicate": false,
+      "className": "swiper-slide",
+      "imgSrc": "https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779862885_785.jpg",
+      "imgAlt": "Oppo Find X9S",
+      "anchorTag": {
+        "href": "/product-list/oppo-find-x9s-785",
+        "target": null,
+        "outerHTML": "<a class=\"block\" href=\"/product-list/oppo-find-x9s-785\"><img alt=\"Oppo Find X9S\" loading=\"lazy\" width=\"1200\" height=\"675\" decoding=\"async\" data-nimg=\"1\" class=\"h-auto w-full\" src=\"https://smpl-prod-app-v2.gumlet.io/placeholder_banner/placeholderBanner_1779862885_785.jpg\" style=\"color: transparent;\">"
+      },
+      "pointerEvents": "auto",
+      "cursor": "auto",
+      "anchorPointerEvents": "auto",
+      "anchorCursor": "pointer"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+[
+  {
+    "url": "https://www.sangeetha.com/assets/SvgImages/search-favorite.svg",
+    "method": "GET",
+    "status": 200
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/api/footer?type=pwa",
+    "method": "GET",
+    "status": 200
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/pims/data-model/pincode-eta-check",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"pinCode\":\"560078\",\"user_id\":\"\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"560078\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/assets/SvgImages/search-favorite.svg",
+    "method": "GET",
+    "status": 304
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/assets/SvgImages/search-favorite.svg",
+    "method": "GET",
+    "status": 304
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/assets/SvgImages/search-favorite.svg",
+    "method": "GET",
+    "status": 304
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/assets/SvgImages/search-favorite.svg",
+    "method": "GET",
+    "status": 304
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/assets/SvgImages/search-favorite.svg",
+    "method": "GET",
+    "status": 304
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_7\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_5\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_16\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_11\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/customer/api/position/new/home/5/eta",
+    "method": "POST",
+    "status": 200,
+    "payload": "{\"type\":\"pwa\",\"user_location\":\"\",\"user_id\":\"\",\"offset\":\"0\",\"limit\":\"20\",\"pinCode\":\"\",\"block\":\"block_14\"}"
+  },
+  {
+    "url": "https://www.sangeetha.com/b/api/footer?type=pwa",
+    "method": "GET",
+    "status": 200
+  }
+]

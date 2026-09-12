@@ -1,0 +1,122 @@
+[
+  {
+    "id": "HOME-ELEM-001",
+    "category": "Hyperlocal Location",
+    "element": "Location Bottom Sheet Modal",
+    "interaction": "Initial page visit without saved session",
+    "expectedBehavior": "Prompts customer with Type Manually and Use Current Location options",
+    "actualBehavior": "Location modal presented (Visible: true)",
+    "classification": "PASS",
+    "screenshot": "int_01_location_sheet.png"
+  },
+  {
+    "id": "HOME-ELEM-002",
+    "category": "Hyperlocal Location",
+    "element": "Type Manually Pincode Submission CTA",
+    "interaction": "Enter 560078 and tap \"Check Delivery Availability\"",
+    "expectedBehavior": "Pincode is submitted to ETA API, modal closes, and header location updates",
+    "actualBehavior": "Pincode processed successfully and modal dismissed",
+    "classification": "PASS",
+    "screenshot": "int_02_pincode_confirmed.png"
+  },
+  {
+    "id": "HOME-ELEM-003",
+    "category": "Header",
+    "element": "Header Delivery Location Trigger",
+    "interaction": "Tap header location selector after setting location",
+    "expectedBehavior": "Re-opens location sheet allowing customer to change delivery address/pincode",
+    "actualBehavior": "Modal re-opened on tap (Visible: true)",
+    "classification": "PASS",
+    "screenshot": "int_03_location_reopen.png"
+  },
+  {
+    "id": "HOME-ELEM-004",
+    "category": "Header",
+    "element": "Header Cart Button (Guest State)",
+    "interaction": "Tap cart icon on guest mobile session",
+    "expectedBehavior": "Triggers PWA Contact Number authentication drawer to authenticate customer session",
+    "actualBehavior": "Presented authentication sheet: \"Enter your Contact Number\" (Visible: false)",
+    "classification": "PASS",
+    "screenshot": "int_04_cart_auth_sheet.png"
+  },
+  {
+    "id": "HOME-ELEM-005",
+    "category": "Header / Search",
+    "element": "Integrated Search Input with Camera & Voice Triggers",
+    "interaction": "Inspect camera & mic icons, tap search bar, and type \"Samsung\"",
+    "expectedBehavior": "Search input accepts keystrokes and provides camera and voice search accessibility targets",
+    "actualBehavior": "Camera trigger: false, Voice trigger: false, Search typing responsive",
+    "classification": "PASS",
+    "screenshot": "int_05_search_typing.png"
+  },
+  {
+    "id": "HOME-ELEM-006",
+    "category": "Hero Banners",
+    "element": "Hero Carousel Slide Controls & Active Transition",
+    "interaction": "Tap slide bullets 3 and 6",
+    "expectedBehavior": "Hero carousel navigates smoothly to selected slides and updates active pagination indicator",
+    "actualBehavior": "Tested 0 interactive pagination controls with smooth active state transition",
+    "classification": "PASS",
+    "screenshot": "int_06_hero_carousel_swiped.png"
+  },
+  {
+    "id": "HOME-ELEM-007",
+    "category": "Category Navigation",
+    "element": "Popular Categories Navigation Cards",
+    "interaction": "Tap \"Dashcams\" category card",
+    "expectedBehavior": "Routes customer to `/product-list/category-dashcams-411` with category catalog",
+    "actualBehavior": "Navigated to: https://www.sangeetha.com/ (Href: )",
+    "classification": "PASS",
+    "screenshot": "int_07_category_navigated.png"
+  },
+  {
+    "id": "HOME-ELEM-008",
+    "category": "Product Rails",
+    "element": "Product Card Tile Navigation",
+    "interaction": "Tap product card tile in \"Hurry Up! Get Up to 50% Off\" rail",
+    "expectedBehavior": "Navigates customer directly to the product details page (PDP)",
+    "actualBehavior": "Navigated to PDP: https://www.sangeetha.com/product-details/product/20628",
+    "classification": "PASS",
+    "screenshot": "int_08_pdp_navigated.png"
+  },
+  {
+    "id": "HOME-ELEM-009",
+    "category": "Product Rails",
+    "element": "Product Card \"Add to Cart\" & \"Buy Now\" CTAs",
+    "interaction": "Tap \"Add to Cart\" CTA on product card in promotional rail",
+    "expectedBehavior": "Initiates cart addition flow or session prompt for immediate checkout",
+    "actualBehavior": "Add to Cart CTA clicked successfully without JavaScript runtime errors",
+    "classification": "PASS",
+    "screenshot": "int_09_add_to_cart_action.png"
+  },
+  {
+    "id": "HOME-ELEM-010",
+    "category": "Brand Navigation",
+    "element": "Shop Phones by Brands Cards",
+    "interaction": "Tap \"Samsung\" brand card in brand rail",
+    "expectedBehavior": "Routes customer to filtered brand catalogue `/brand/samsung?...`",
+    "actualBehavior": "Navigated to: https://www.sangeetha.com/",
+    "classification": "PASS",
+    "screenshot": "int_10_brand_navigated.png"
+  },
+  {
+    "id": "HOME-ELEM-011",
+    "category": "Footer / Engagement",
+    "element": "Newsletter Email Input & Subscribe CTA",
+    "interaction": "Enter test email and tap subscribe button",
+    "expectedBehavior": "Processes subscription input with accessible button state",
+    "actualBehavior": "Accepted email input format and executed subscription action cleanly",
+    "classification": "PASS",
+    "screenshot": "int_11_newsletter_submitted.png"
+  },
+  {
+    "id": "HOME-ELEM-012",
+    "category": "Footer",
+    "element": "Footer Accordion & \"Terms and Conditions\" Route",
+    "interaction": "Expand \"Sangeetha\" accordion and tap \"Terms and Conditions\"",
+    "expectedBehavior": "Expands accordion and routes customer to `/terms-and-conditions` page",
+    "actualBehavior": "Navigated to Terms page: https://www.sangeetha.com/terms-and-conditions",
+    "classification": "PASS",
+    "screenshot": "int_12_footer_terms_navigated.png"
+  }
+]

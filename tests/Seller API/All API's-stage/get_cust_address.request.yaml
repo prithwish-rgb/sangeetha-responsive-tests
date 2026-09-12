@@ -1,0 +1,30 @@
+$kind: http-request
+url: https://apigateway-stage.sangeethamobiles.in/api/crm/getCustomerAddress
+method: POST
+headers:
+  accept: application/json, text/plain, */*
+  accept-language: en-US,en;q=0.9
+  authorization: UnVEVWZwNnJKrgftd2ZlIrWHBUMDlYdjkl
+  clientid: sangeethamobiles
+  content-type: application/x-www-form-urlencoded
+  number1: 76srzl!rbb7cpS6Mtug8goMi$0jcG32TQd0tYuJN597K1RZe7NV#tJ#0L
+  number2: 1WQ1#oin!l1HPx9PWKe)894nRMXr5(JA*2tx5B48FZTP(0Lbog*Q1AbF2pr8*KsF6CwZn
+  origin: https://stage-web.sangeethamobiles.in
+  priority: u=1, i
+  referer: https://stage-web.sangeethamobiles.in/product-details/google-pixel-10-12gb-256gb-indigo-glsp500052/19531
+  sec-ch-ua: '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"'
+  sec-ch-ua-mobile: ?1
+  sec-ch-ua-platform: '"iOS"'
+  sec-fetch-dest: empty
+  sec-fetch-mode: cors
+  sec-fetch-site: same-origin
+  sourceid: "1"
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbnYiOiJzdGFnZSIsImlzcyI6InNtcGwtand0LXN0YWdlIiwiaWF0IjoxNzg3NzM1MDA1LCJleHAiOjE3ODc3Mzg2MDUsImNsaWVudCI6InNhbmdlZXRoYW1vYmlsZXMiLCJ0eXBlIjoicHdhIiwidG9rZW5fdHlwZSI6ImFjY2Vzc190b2tlbiIsInVzZXJfaWQiOiI2NTA3NDIxNCJ9.WREUmqCCWUPSluIVjUuP4HEdefvs1CCH55gkacR8H7M
+  user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+  Cookie: cookieAllowed=accepted; sanUserCode=cf4fec42-5237-7f58-925c-b4acb09d24e4-1787660059651; _clck=djlf4j%5E2%5Eg8x%5E0%5E2404; _clsk=1h7arf5%5E1787735454581%5E6%5E1%5Ez.clarity.ms%2Fcollect; ph_phc_s2XZLsPKoWEpxVg31ow4SRBRXi60rP5XCI4k33cOgAU_posthog=%7B%22distinct_id%22%3A%2265074214%22%2C%22%24sesid%22%3A%5B1787735559750%2C%2201a03d4f-6fba-7e05-8bc9-ce2c7250e80a%22%2C1787735011257%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22%24direct%22%2C%22u%22%3A%22https%3A%2F%2Fstage-web.sangeethamobiles.in%2Faccount%22%7D%7D
+body:
+  type: urlencoded
+  content:
+    method: getCustomerAddress
+    data: '{"customerMobile":"9966668295","customerId":"65074214","jwToken":"{{json_web_token_0l8l}}"}'
+order: 12000
