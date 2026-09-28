@@ -15,7 +15,14 @@
     "test:regression:daily": "npm run test:health && npm run cart:reset && npx cucumber-js",
     "test:regression:extended": "npm run test:health && npm run cart:reset && npx cucumber-js",
     "test:postman": "npx postman app test --verbose --no-report-events",
-    "demo": "npx tsx scripts/run-demo.ts"
+    "test:iphone": "npx tsx scripts/run-iphone-regression.ts",
+    "test:integration": "npx tsx scripts/run-integration.ts",
+    "report:generate": "python reporting/generate_report.py",
+    "report:build": "python reporting/generate_report.py && mkdocs build --strict",
+    "build": "tsc --noEmit",
+    "test:agent": "npx tsx tests/hyperlocal/agentcore-regression.spec.ts",
+    "demo": "npx tsx scripts/run-demo.ts",
+    "demo:agent": "npx tsx src/demo/run-handoff-demo.ts"
   },
   "keywords": [],
   "type": "commonjs",
@@ -30,6 +37,7 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1140.0",
     "dotenv": "^17.4.2",
     "exceljs": "^4.4.0"
   }
