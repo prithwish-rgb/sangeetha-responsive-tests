@@ -23,7 +23,7 @@ export class AgentCoreRuntimeServer {
   private orchestrator: AmazonShoppingOrchestratorAgent;
   private mcpPort = 8000;
   private a2aPort = 9001;
-  private runtimePort = 9000;
+  private runtimePort = 8080;
   private host = '0.0.0.0';
 
   constructor() {

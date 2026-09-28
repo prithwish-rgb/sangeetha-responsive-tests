@@ -31,7 +31,7 @@ export const config: AppConfig = {
   mcpHost: process.env.MCP_HTTP_HOST || '0.0.0.0',
   mcpPort: parseInt(process.env.MCP_HTTP_PORT || '8000', 10),
   agentCoreRuntimeHost: process.env.AGENTCORE_RUNTIME_HOST || '0.0.0.0',
-  agentCoreRuntimePort: parseInt(process.env.AGENTCORE_RUNTIME_PORT || '9000', 10),
+  agentCoreRuntimePort: parseInt(process.env.AGENTCORE_RUNTIME_PORT || '8080', 10),
   agentCoreArchitecture: 'linux/arm64',
   gatewayHost: process.env.GATEWAY_HOST || '0.0.0.0',
   gatewayPort: parseInt(process.env.GATEWAY_PORT || '8080', 10),
