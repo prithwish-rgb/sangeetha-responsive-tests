@@ -2,8 +2,9 @@ name: Smoke Regression (Mobile)
 
 on:
   schedule:
-    # Every 2 hours
-    - cron: '0 */2 * * *'
+    # Twice daily: 11:30 AM IST and 11:30 PM IST
+    # IST = UTC+05:30, so 06:00 and 18:00 UTC
+    - cron: '0 6,18 * * *'
   workflow_dispatch:
     inputs:
       headless:
@@ -75,7 +76,7 @@ jobs:
 
       - name: 📊 Generate CI Summary & Job Summary
         if: always()
-        run: npm run test:summary "Smoke Tier (Every 2h)"
+        run: npm run test:summary "Smoke Tier (Every 12h)"
 
       - name: 📦 Upload Smoke Test Artifacts
         if: always()
