@@ -19,8 +19,8 @@ concurrency:
 jobs:
   smoke-regression:
     name: Execute Smoke Regression Tier
-    runs-on: ubuntu-latest
-    timeout-minutes: 25
+    runs-on: [self-hosted, windows, x64, sangeetha-qa]
+    timeout-minutes: 45
 
     env:
       CI: 'true'
@@ -43,8 +43,11 @@ jobs:
       - name: 📦 Install Project Dependencies
         run: npm ci || npm install
 
-      - name: 🌐 Install Playwright Chromium Browser & OS Dependencies
-        run: npx playwright install --with-deps chromium
+      - name: 🌐 Install Playwright Chromium Browser
+        run: npx playwright install chromium
+
+      - name: 🌐 Verify Production Reachability From QA Runner
+        run: node -e "fetch('https://www.sangeetha.com/').then(async r => { console.log('Production HTTP status:', r.status); console.log('Production server:', r.headers.get('server') || 'unknown'); if (r.status !== 200) { throw new Error('Production site returned HTTP ' + r.status); } }).catch(e => { console.error(e); process.exit(1); })"
 
       - name: 🔑 Initialize Stored Authentication Session
         run: npm run test:auth:setup
