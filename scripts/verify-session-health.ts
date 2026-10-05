@@ -12,6 +12,7 @@ async function verifySessionHealth(): Promise<void> {
   if (!authStatePath) {
     console.error('❌ [AUTH HEALTH CHECK FAILED] No auth state file found (auth-state-sangeetha.json or auth-state.json).');
     console.error('Precondition Failure: Authenticated test execution requires a valid saved session state.');
+    console.error('💡 GitHub Actions repository secret AUTH_STATE_BASE64/AUTH_STATE_JSON is missing.');
     process.exit(1);
   }
 

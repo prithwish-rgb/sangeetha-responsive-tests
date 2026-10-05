@@ -47,6 +47,7 @@ function setupAuthSession() {
   }
 
   console.warn('⚠️  Neither AUTH_STATE_JSON nor AUTH_STATE_BASE64 secret found, and auth-state-sangeetha.json is not present on disk.');
+  console.warn('   GitHub Actions repository secret AUTH_STATE_BASE64/AUTH_STATE_JSON is missing.');
   console.warn('   Authenticated tests will rely on session-health probe to validate precondition.');
 }
 
