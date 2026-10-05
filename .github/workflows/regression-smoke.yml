@@ -41,7 +41,16 @@ jobs:
           cache: 'npm'
 
       - name: 📦 Install Project Dependencies
-        run: npm ci || npm install
+        shell: powershell
+        run: |
+          npm ci
+          if ($LASTEXITCODE -ne 0) {
+            Write-Host "npm ci failed; falling back to npm install"
+            npm install
+            if ($LASTEXITCODE -ne 0) {
+              exit $LASTEXITCODE
+            }
+          }
 
       - name: 🌐 Install Playwright Chromium Browser
         run: npx playwright install chromium
