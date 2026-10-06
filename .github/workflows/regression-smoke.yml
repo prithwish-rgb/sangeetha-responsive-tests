@@ -42,40 +42,45 @@ jobs:
           cache: 'npm'
 
       - name: 📦 Install Project Dependencies
-        shell: powershell
+        shell: cmd
         run: |
           npm ci
-          if ($LASTEXITCODE -ne 0) {
-            Write-Host "npm ci failed; falling back to npm install"
+          if errorlevel 1 (
+            echo npm ci failed; falling back to npm install
             npm install
-            if ($LASTEXITCODE -ne 0) {
-              exit $LASTEXITCODE
-            }
-          }
+          )
+          if errorlevel 1 exit /b %errorlevel%
 
       - name: 🌐 Install Playwright Chromium Browser
+        shell: cmd
         run: npx playwright install chromium
 
       - name: 🌐 Verify Production Reachability From QA Runner
+        shell: cmd
         run: node -e "fetch('https://www.sangeetha.com/').then(async r => { console.log('Production HTTP status:', r.status); console.log('Production server:', r.headers.get('server') || 'unknown'); if (r.status !== 200) { throw new Error('Production site returned HTTP ' + r.status); } }).catch(e => { console.error(e); process.exit(1); })"
 
       - name: 🔑 Initialize Stored Authentication Session
+        shell: cmd
         run: npm run test:auth:setup
 
       - name: 🛡️ Verify Session Health Precondition
         id: auth_health
+        shell: cmd
         run: npm run test:health
 
       - name: 🧹 Establish Deterministic Cart Baseline
         id: cart_reset
+        shell: cmd
         run: npm run cart:reset
 
       - name: 🚀 Run Smoke Regression Suite (Pixel 5 — 393x851)
         id: smoke_run
+        shell: cmd
         run: npm run test:smoke
 
       - name: 📊 Generate CI Summary & Job Summary
         if: always()
+        shell: cmd
         run: npm run test:summary "Smoke Tier (Every 4h)"
 
       - name: 📦 Upload Smoke Test Artifacts
