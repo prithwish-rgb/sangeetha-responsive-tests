@@ -19,8 +19,8 @@ concurrency:
 jobs:
   daily-regression:
     name: Execute Daily Full Regression
-    runs-on: ubuntu-latest
-    timeout-minutes: 45
+    runs-on: [self-hosted, windows, x64, sangeetha-qa]
+    timeout-minutes: 120
 
     env:
       CI: 'true'
@@ -32,46 +32,64 @@ jobs:
 
     steps:
       - name: 📥 Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: ⚙️ Setup Node.js 22
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: 'npm'
 
       - name: 📦 Install Project Dependencies
-        run: npm ci || npm install
+        shell: cmd
+        run: |
+          npm ci
+          if errorlevel 1 (
+            echo npm ci failed; falling back to npm install
+            npm install
+            if errorlevel 1 exit /b 1
+          )
 
-      - name: 🌐 Install Playwright Chromium Browser & OS Dependencies
-        run: npx playwright install --with-deps chromium
+      - name: 🌐 Install Playwright Chromium Browser
+        shell: cmd
+        run: npx playwright install chromium
+
+      - name: 🌐 Verify Production Reachability From QA Runner
+        shell: cmd
+        run: node -e "fetch('https://www.sangeetha.com/').then(async r => { console.log('Production HTTP status:', r.status); console.log('Production server:', r.headers.get('server') || 'unknown'); if (r.status !== 200) { throw new Error('Production site returned HTTP ' + r.status); } }).catch(e => { console.error(e); process.exit(1); })"
 
       - name: 🧭 Phase 1: Parallel-Safe Discovery Suites (Homepage, Search, PLP, PDP)
         id: discovery_phase
+        shell: cmd
         run: npm run test:discovery
 
       - name: 🔑 Initialize Stored Authentication Session
+        shell: cmd
         run: npm run test:auth:setup
 
       - name: 🛡️ Phase 2 Precondition: Verify Session Health
         id: auth_health_check
+        shell: cmd
         run: npm run test:health
 
       - name: 🧹 Phase 2 Precondition: Establish Deterministic Cart Baseline
         id: cart_reset_check
+        shell: cmd
         run: npm run cart:reset
 
       - name: 💳 Phase 2: Sequential Transactional Suites (Cart -> Checkout -> Payment -> Journey)
         id: transactional_phase
+        shell: cmd
         run: npm run test:transactional
 
       - name: 📊 Generate Daily Regression Summary
         if: always()
+        shell: cmd
         run: npm run test:summary "Daily Regression Tier (03:00 AM IST)"
 
       - name: 📦 Upload Daily Regression Artifacts
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: daily-regression-artifacts-run-${{ github.run_number }}-${{ github.run_attempt }}
           path: |
